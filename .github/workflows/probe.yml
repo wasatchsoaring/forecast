@@ -2,7 +2,7 @@ name: probe
 on:
   push:
     branches: [main]
-    paths: ["scripts/probe.py", "scripts/probe_fcst.py", ".github/workflows/probe.yml"]
+    paths: ["scripts/probe.py", "scripts/probe_fcst.py", "scripts/aspect.py", ".github/workflows/probe.yml"]
   workflow_dispatch:
 permissions:
   contents: write
@@ -17,7 +17,7 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install numpy requests numcodecs
-      - run: python scripts/probe_fcst.py 2>&1 | tee probe/fcst_log.txt
+      - run: python scripts/aspect.py 2>&1 | tee probe/aspect_log.txt
       - name: Save results to the repo
         if: always()
         run: |
