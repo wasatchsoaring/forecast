@@ -6,6 +6,7 @@ which is the direction the launch faces (and the wind it wants).
 import json
 import math
 import os
+import time
 
 import requests
 
@@ -19,10 +20,19 @@ for s in sites:
             dlon = r * math.sin(math.radians(b)) / (111320 * math.cos(math.radians(s["lat"])))
             pts.append((s["lat"] + dlat, s["lon"] + dlon, r, b))
     elev = []
-    for i in range(0, len(pts), 90):
-        chunk = pts[i:i + 90]
+    for i in range(0, len(pts), 40):
+        chunk = pts[i:i + 40]
         q = {"latitude": ",".join(f"{p[0]:.5f}" for p in chunk), "longitude": ",".join(f"{p[1]:.5f}" for p in chunk)}
-        elev += requests.get("https://api.open-meteo.com/v1/elevation", params=q, timeout=60).json()["elevation"]
+        r = requests.get("https://api.open-meteo.com/v1/elevation", params=q, timeout=60)
+        j = r.json()
+        if "elevation" in j:
+            elev += j["elevation"]
+            continue
+        print("open-meteo said", r.status_code, j, "- falling back to USGS")
+        for p in chunk:   # USGS 3DEP point service, one point per call, metres
+            u = requests.get("https://epqs.nationalmap.gov/v1/json", params={"x": p[1], "y": p[0], "units": "Meters", "wkid": 4326}, timeout=60)
+            elev.append(float(u.json()["value"]))
+        time.sleep(1)
     z0 = elev[0]
     out = {"id": s["id"], "elev_ft": round(z0 * 3.28084)}
     for r in (200, 400):
