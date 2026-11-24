@@ -37,6 +37,22 @@ def in_range(deg, rng):
     return (d >= a) & (d <= b) if a <= b else (d >= a) | (d <= b)
 
 
+def sun_elevation(times_utc, lat, lon):
+    """Solar elevation in degrees (NOAA approximation), times as UTC pandas timestamps."""
+    t = pd.to_datetime(times_utc)
+    doy = t.dt.dayofyear.values
+    hour = t.dt.hour.values + t.dt.minute.values / 60
+    g = 2 * np.pi / 365 * (doy - 1 + (hour - 12) / 24)
+    decl = (0.006918 - 0.399912 * np.cos(g) + 0.070257 * np.sin(g) - 0.006758 * np.cos(2 * g)
+            + 0.000907 * np.sin(2 * g) - 0.002697 * np.cos(3 * g) + 0.00148 * np.sin(3 * g))
+    eqt = 229.18 * (0.000075 + 0.001868 * np.cos(g) - 0.032077 * np.sin(g) - 0.014615 * np.cos(2 * g) - 0.040849 * np.sin(2 * g))
+    solar_time = hour * 60 + eqt + 4 * lon
+    ha = np.radians(solar_time / 4 - 180)
+    la = np.radians(lat)
+    cosz = np.sin(la) * np.sin(decl) + np.cos(la) * np.cos(decl) * np.cos(ha)
+    return np.degrees(np.arcsin(np.clip(cosz, -1, 1)))
+
+
 def wind_dir(u, v):
     return (np.degrees(np.arctan2(-u, -v)) + 360) % 360
 
@@ -117,7 +133,8 @@ def hourly(df, site_id):
         best_launch = np.where(ok & (best_launch == ""), L["name"], best_launch)
         ok_any |= ok
     out["launch"] = best_launch
-    out["flyable"] = ok_any & ~out["storm"].values & ~out["rain"].values
+    out["daylight"] = sun_elevation(out["time"], s["lat"], s["lon"]) > 2     # sunrise to sunset, give or take 15 min
+    out["flyable"] = ok_any & ~out["storm"].values & ~out["rain"].values & out["daylight"].values
 
     if s["type"] == "ridge":
         out["soarable"] = out["flyable"]
