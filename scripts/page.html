@@ -103,7 +103,7 @@ function render(D) {
   const run = D.run.newest_run ? new Date(D.run.newest_run.replace(" ", "T") + (D.run.newest_run.includes("+") ? "" : "Z")) : null;
   const built = new Date(D.built);
   document.getElementById("sub").textContent =
-    `HRRR ${run ? run.toISOString().slice(11, 13) + "Z run" : ""} · updated ${built.toLocaleString("en-US", {weekday: "short", hour: "numeric", minute: "2-digit"})}`;
+    `HRRR ${run ? run.toISOString().slice(11, 13) + "Z run" : ""} · updated ${built.toLocaleString("en-US", {weekday: "short", hour: "numeric", minute: "2-digit", timeZone: "America/Denver"})} Utah time`;
   document.getElementById("hist").textContent = D.history.from ? `${D.history.from} to ${D.history.to}` : "(still loading)";
   let html = `<tr><th class="site">Site</th>${dates.map(d => `<th>${esc(dayName(d))}</th>`).join("")}</tr>`;
   const seen = new Set();
