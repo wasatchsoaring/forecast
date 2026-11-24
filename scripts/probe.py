@@ -71,17 +71,26 @@ try:
                 log(f"- {k}: shape={v.get('shape')} chunks={v.get('chunks')} dtype={v.get('dtype')} comp={v.get('compressor')}")
             if k.endswith(".zattrs"):
                 log(f"- {k}: {json.dumps(v)[:300]}")
-    import s3fs
-    import xarray as xr
+    def raw_array(path, shape, chunks, dtype):
+        ny = -(-shape[0] // chunks[0]); nx = -(-shape[1] // chunks[1]) if len(shape) > 1 else 1
+        if len(shape) == 1:
+            r = get(f"{BASE}/{path}/0"); return np.frombuffer(numcodecs.blosc.decompress(r.content), dtype=dtype)[: shape[0]]
+        full = np.full((ny * chunks[0], nx * chunks[1]), np.nan)
+        for i in range(ny):
+            for j in range(nx):
+                r = get(f"{BASE}/{path}/{i}.{j}")
+                full[i * chunks[0]:(i + 1) * chunks[0], j * chunks[1]:(j + 1) * chunks[1]] = np.frombuffer(numcodecs.blosc.decompress(r.content), dtype=dtype).reshape(chunks)
+        return full[: shape[0], : shape[1]]
 
-    fs = s3fs.S3FileSystem(anon=True)
-    ds = xr.open_zarr(s3fs.S3Map("hrrrzarr/grid/HRRR_chunk_index.zarr", s3=fs))
-    log("```\n" + str(ds) + "\n```")
-    lat = ds["latitude"].values
-    lon = ds["longitude"].values
+    G = "grid/HRRR_chunk_index.zarr"
+    lat = raw_array(f"{G}/latitude", (1059, 1799), (133, 450), "<f8")
+    lon = raw_array(f"{G}/longitude", (1059, 1799), (133, 450), "<f8")
+    cx = raw_array(f"{G}/chunk_x", (1799,), (1799,), "<i4"); cy = raw_array(f"{G}/chunk_y", (1059,), (1059,), "<i4")
+    icx = raw_array(f"{G}/in_chunk_x", (1799,), (1799,), "<i4"); icy = raw_array(f"{G}/in_chunk_y", (1059,), (1059,), "<i4")
     if np.nanmax(lon) > 180:
         lon = np.where(lon > 180, lon - 360, lon)
     log(f"lat shape {lat.shape}, range {np.nanmin(lat):.2f}..{np.nanmax(lat):.2f}; lon range {np.nanmin(lon):.2f}..{np.nanmax(lon):.2f}")
+    log(f"chunk_x first/last {cx[:3]}..{cx[-3:]}, in_chunk_x {icx[:3]}..{icx[-3:]}; chunk_y {cy[:3]}..{cy[-3:]}")
     np.save(f"{OUT}/lat.npy", lat.astype("float32"))
     np.save(f"{OUT}/lon.npy", lon.astype("float32"))
 except Exception:
@@ -98,6 +107,8 @@ if lat is not None:
         iy, ix = np.unravel_index(np.nanargmin(d2), d2.shape)
         km = np.sqrt(d2[iy, ix]) * 111.2
         ch = f"{iy // 150}.{ix // 150}"
+        if (cy[iy], cx[ix], icy[iy], icx[ix]) != (iy // 150, ix // 150, iy % 150, ix % 150):
+            log(f"index mismatch for {s['name']}: index says {cy[iy]}.{cx[ix]} [{icy[iy]},{icx[ix]}]")
         pts.append((s["id"], int(iy), int(ix), ch))
         log(f"| {s['name']} | {iy} | {ix} | {ch} | {lat[iy, ix]:.4f} | {lon[iy, ix]:.4f} | {km:.2f} |")
     json.dump([dict(id=a, iy=b, ix=c, chunk=d) for a, b, c, d in pts], open(f"{OUT}/gridpoints.json", "w"), indent=1)
@@ -113,6 +124,7 @@ def read_chunk(url, dtype):
     if r.status_code != 200:
         return None, r.status_code, 0
     buf = numcodecs.blosc.decompress(r.content)
+    dtype = {45000: "<f2", 90000: "<f4", 180000: "<f8"}[len(buf)]
     return np.frombuffer(buf, dtype=dtype).reshape(150, 150), 200, len(r.content)
 
 
@@ -152,26 +164,18 @@ log("missing: " + ", ".join(missing))
 
 if pts:
     try:
-        import s3fs
-        import xarray as xr
-
-        fs = s3fs.S3FileSystem(anon=True)
         dt = datetime(2024, 7, 1, 18, tzinfo=timezone.utc)
-        g = xr.open_zarr(s3fs.S3Map("hrrrzarr/sfc/20240701/20240701_18z_anl.zarr/surface/HGT/surface", s3=fs), consolidated=False)
-        log("\n## orientation check (surface/HGT)\n```\n" + str(g)[:1500] + "\n```")
-        full = g["HGT"].values.squeeze()
-        log(f"xarray HGT shape {full.shape}")
         cache = {}
-        log("| site | xarray m | raw chunk m | launch ft | HRRR terrain ft |")
-        log("|---|---|---|---|---|")
+        log("\n## terrain check: HRRR 3 km terrain under each launch vs the launch elevation")
+        log("| site | launch ft | HRRR terrain ft |")
+        log("|---|---|---|")
         for (sid, iy, ix, ch), s in zip(pts, sites):
             if ch not in cache:
-                cache[ch] = read_chunk(chunk_url("sfc", dt, "surface", "HGT", ch), "<f2")[0]
-            raw = cache[ch][iy % 150, ix % 150] if cache[ch] is not None else float("nan")
-            xv = full[iy, ix]
-            log(f"| {s['name']} | {xv:.0f} | {raw:.0f} | {s['launch_ft']} | {raw * 3.28084:.0f} |")
+                cache[ch] = read_chunk(chunk_url("sfc", dt, "surface", "HGT", ch), None)[0]
+            raw = cache[ch][iy % 150, ix % 150]
+            log(f"| {s['name']} | {s['launch_ft']} | {raw * 3.28084:.0f} |")
     except Exception:
-        log(f"orientation check failed:\n```\n{traceback.format_exc()}\n```")
+        log(f"terrain check failed:\n```\n{traceback.format_exc()}\n```")
 
 # 5. one-week timing test, daytime hours only, all present variables
 if pts and present:
@@ -181,22 +185,29 @@ if pts and present:
     start = datetime(2024, 7, 1, tzinfo=timezone.utc)
     hours = [start + timedelta(hours=h) for h in range(7 * 24) if (start + timedelta(hours=h)).hour in list(range(14, 24)) + [0, 1, 2]]
     jobs = []
+    PRS = [f"{p}mb/{v}" for p in range(500, 876, 25) for v in ("TMP", "DPT", "UGRD", "VGRD", "HGT")]
     for dt in hours:
         for w in present:
             lev, var = w.split("/")
             for ch in chunks:
                 jobs.append((dt, w, ch, chunk_url("sfc", dt, lev, var, ch)))
+        for w in PRS:
+            lev, var = w.split("/")
+            for ch in chunks:
+                jobs.append((dt, "prs:" + w, ch, chunk_url("prs", dt, lev, var, ch)))
+    present = present + ["prs:" + w for w in PRS]
     log(f"{len(hours)} hours x {len(present)} vars x {len(chunks)} chunks = {len(jobs)} requests")
     t0 = time.time()
     res = {}
     nbytes = 0
     fails = {}
+    by_kind = {"sfc": 0, "prs": 0}
 
     def work(j):
         dt, w, ch, url = j
         for attempt in range(3):
             try:
-                a, code, n = read_chunk(url, dtype_for(w))
+                a, code, n = read_chunk(url, None)
                 return j, a, code, n
             except Exception as e:
                 err = repr(e)
@@ -206,10 +217,12 @@ if pts and present:
     with ThreadPoolExecutor(32) as ex:
         for (dt, w, ch, url), a, code, n in ex.map(work, jobs):
             nbytes += n
+            by_kind["prs" if w.startswith("prs:") else "sfc"] += n
             if a is None:
                 fails[(w, str(code))] = fails.get((w, str(code)), 0) + 1
             res[(dt, w, ch)] = a
     el = time.time() - t0
+    log(f"bytes by file: sfc {by_kind['sfc'] / 1e6:.1f} MB, prs {by_kind['prs'] / 1e6:.1f} MB")
     log(f"took {el:.0f} s, {nbytes / 1e6:.1f} MB, {len(jobs) / el:.0f} req/s")
     if fails:
         log("failures: " + "; ".join(f"{k[0]} ({k[1]}): {v}" for k, v in sorted(fails.items())))

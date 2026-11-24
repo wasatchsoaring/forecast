@@ -16,7 +16,7 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
-      - run: pip install numpy requests numcodecs "zarr<3" s3fs xarray
+      - run: pip install numpy requests numcodecs
       - run: python scripts/probe.py 2>&1 | tee probe/log.txt
       - name: Save results to the repo
         if: always()
