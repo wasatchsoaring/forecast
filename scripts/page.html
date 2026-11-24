@@ -143,7 +143,7 @@ function show(s, date, cell) {
   cell.classList.add("sel");
   const d = s.days.find(x => x.date === date);
   const hrs = (s.hours[date] || []);
-  const lim = s.launches.map(L => `${esc(L.name)} ${L.ok ? compass(L.ok[0]) + " to " + compass(L.ok[1]) : "any direction"}, ${L.min} to ${L.max} mph`).join("; ");
+  const lim = s.launches.map(L => L.ok ? `${esc(L.name)} ${compass(L.ok[0])} to ${compass(L.ok[1])}, ${L.min} to ${L.max} mph` : `not set yet, so any direction up to ${L.max} mph counts`).join("; ");
   let why = "";
   if (d.score > 0 && d.pct != null) why = `Better than ${Math.round(d.pct)}% of ${d.n_hist} history days within 3 weeks of this date.`;
   else if (d.share_soarable != null) why = `No soarable hours in this forecast. ${d.share_soarable}% of history days around this date had some.`;

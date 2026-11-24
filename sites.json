@@ -624,7 +624,7 @@
   "note": "Moved 450 m to paraglidingmap's launch (7,815 ft)",
   "type": "thermal",
   "best": "",
-  "src": "unknown, needs Billy",
+  "src": "generic limits",
   "launches": [
    {
     "name": "Any",
@@ -650,7 +650,7 @@
   "note": "Your fix · paraglidingmap agrees within 4 m (7,136 ft)",
   "type": "thermal",
   "best": "",
-  "src": "unknown, needs Billy",
+  "src": "generic limits",
   "launches": [
    {
     "name": "Any",
@@ -676,7 +676,7 @@
   "note": "Your fix · paraglidingmap agrees within 4 m (8,783 ft)",
   "type": "thermal",
   "best": "",
-  "src": "unknown, needs Billy",
+  "src": "generic limits",
   "launches": [
    {
     "name": "Any",
@@ -702,7 +702,7 @@
   "note": "Your fix · not on paraglidingmap",
   "type": "thermal",
   "best": "",
-  "src": "unknown, needs Billy",
+  "src": "generic limits",
   "launches": [
    {
     "name": "Any",
@@ -728,7 +728,7 @@
   "note": "Your fix · paraglidingmap agrees within 6 m (6,234 ft)",
   "type": "thermal",
   "best": "",
-  "src": "unknown, needs Billy",
+  "src": "generic limits",
   "launches": [
    {
     "name": "Any",
@@ -754,7 +754,7 @@
   "note": "Your fix · not on paraglidingmap",
   "type": "thermal",
   "best": "",
-  "src": "unknown, needs Billy",
+  "src": "generic limits",
   "launches": [
    {
     "name": "Any",
