@@ -1,0 +1,9 @@
+{
+ "requests": 100688,
+ "missing": 4528,
+ "month": "2022-01",
+ "hours": 434,
+ "seconds": 290,
+ "missing_hours": 19,
+ "bytes": 1789753
+}
