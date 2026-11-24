@@ -1,0 +1,191 @@
+[
+ {
+  "id": "north-side",
+  "name": "North Side",
+  "area": "Point of the Mountain",
+  "lat": 40.4752,
+  "lon": -111.892,
+  "launch_ft": 5100,
+  "note": "UHGPGA 5,100 ft · flyable N to NW · paraglidingmap agrees (5,085 ft)"
+ },
+ {
+  "id": "south-side",
+  "name": "South Side",
+  "area": "Point of the Mountain",
+  "lat": 40.4567,
+  "lon": -111.9031,
+  "launch_ft": 5148,
+  "note": "UHGPGA 5,148 ft · flyable SSE to SSW · paraglidingmap agrees (5,154 ft)"
+ },
+ {
+  "id": "burn-side",
+  "name": "Burn Side",
+  "area": "Wasatch Front",
+  "lat": 40.737,
+  "lon": -111.6674,
+  "launch_ft": null,
+  "note": "Your coordinates · soaring only, about 10 to 15 mph from the west · not on paraglidingmap"
+ },
+ {
+  "id": "cherry",
+  "name": "Cherry",
+  "area": "Cherry Canyon, Draper",
+  "lat": 40.516,
+  "lon": -111.8171,
+  "launch_ft": 7110,
+  "note": "UHGPGA 7,110 ft · north launch NNE to NNW, west launch WNW to WSW · paraglidingmap agrees (7,129 ft)"
+ },
+ {
+  "id": "grandeur",
+  "name": "Grandeur",
+  "area": "Salt Lake City east bench",
+  "lat": 40.7068,
+  "lon": -111.7787,
+  "launch_ft": 6308,
+  "note": "UHGPGA 6,308 ft · launches face NW to SW · your pick over paraglidingmap's higher pin"
+ },
+ {
+  "id": "the-v",
+  "name": "The V",
+  "area": "Bountiful",
+  "lat": 40.911,
+  "lon": -111.845,
+  "launch_ft": 6344,
+  "note": "UHGPGA 6,344 ft · west launch NW to SW, north launch NNW to N · paraglidingmap agrees (6,329 ft)"
+ },
+ {
+  "id": "francis-peak",
+  "name": "Francis Peak",
+  "area": "Farmington / Kaysville",
+  "lat": 41.0272,
+  "lon": -111.838,
+  "launch_ft": 9154,
+  "note": "UHGPGA 9,154 ft · flyable WNW to SSW · paraglidingmap agrees (9,173 ft)"
+ },
+ {
+  "id": "inspo",
+  "name": "Inspo",
+  "area": "Orem / Provo",
+  "lat": 40.3011,
+  "lon": -111.626,
+  "launch_ft": 6667,
+  "note": "UHGPGA 6,667 ft · flyable WNW to SSW · paraglidingmap agrees (6,608 ft)"
+ },
+ {
+  "id": "jupiter",
+  "name": "Jupiter",
+  "area": "Park City",
+  "lat": 40.6125,
+  "lon": -111.5417,
+  "launch_ft": 9980,
+  "note": "UHGPGA 9,980 ft · flyable WSW to SSE · paraglidingmap agrees (9,938 ft)"
+ },
+ {
+  "id": "horse-heaven",
+  "name": "Horse Heaven",
+  "area": "Juab County",
+  "lat": 39.4923,
+  "lon": -111.8366,
+  "launch_ft": 7538,
+  "note": "UHGPGA 7,538 ft · west launch NW to SW, east launch SSW to ESE · paraglidingmap agrees (7,726 ft)"
+ },
+ {
+  "id": "monroe-peak",
+  "name": "Monroe Peak",
+  "area": "Monroe / Richfield",
+  "lat": 38.5414,
+  "lon": -112.0733,
+  "launch_ft": 11171,
+  "note": "CUASA 11,171 ft · ideal 210 to 240°, OK 200 to 280° · paraglidingmap agrees (11,188 ft)"
+ },
+ {
+  "id": "junction",
+  "name": "Junction",
+  "area": "Piute County",
+  "lat": 38.2576,
+  "lon": -112.3269,
+  "launch_ft": 8100,
+  "note": "CUASA 8,100 ft · ideal 80 to 105°, OK 65 to 105° · your pick over paraglidingmap's higher pin"
+ },
+ {
+  "id": "poverty-ridge",
+  "name": "Poverty Ridge",
+  "area": "Monroe area",
+  "lat": 38.5253,
+  "lon": -112.1731,
+  "launch_ft": 6900,
+  "note": "CUASA 6,900 ft · ideal 330 to 30°, OK 315 to 45° · paraglidingmap agrees (6,880 ft)"
+ },
+ {
+  "id": "cove",
+  "name": "Cove",
+  "area": "Monroe / Richfield",
+  "lat": 38.6342,
+  "lon": -112.061,
+  "launch_ft": 8700,
+  "note": "Moved 2.7 km to paraglidingmap's launch (8,704 ft), which matches CUASA's 8,700 ft"
+ },
+ {
+  "id": "edna",
+  "name": "Edna",
+  "area": "Marysvale",
+  "lat": 38.3856,
+  "lon": -112.333,
+  "launch_ft": 11680,
+  "note": "Moved 4.9 km to paraglidingmap's launch (11,680 ft), which matches CUASA's 11,500 to 11,700 ft"
+ },
+ {
+  "id": "oakley-ridge",
+  "name": "Oakley Ridge",
+  "area": "Kamas Valley",
+  "lat": 40.7221,
+  "lon": -111.2447,
+  "launch_ft": 7815,
+  "note": "Moved 450 m to paraglidingmap's launch (7,815 ft)"
+ },
+ {
+  "id": "wire",
+  "name": "Wire",
+  "area": "Salt Lake City east bench",
+  "lat": 40.7705,
+  "lon": -111.7985,
+  "launch_ft": 7136,
+  "note": "Your fix · paraglidingmap agrees within 4 m (7,136 ft)"
+ },
+ {
+  "id": "mahogany",
+  "name": "Mahogany",
+  "area": "Pleasant Grove",
+  "lat": 40.426,
+  "lon": -111.7199,
+  "launch_ft": 8783,
+  "note": "Your fix · paraglidingmap agrees within 4 m (8,783 ft)"
+ },
+ {
+  "id": "wales",
+  "name": "Wales",
+  "area": "Sanpete",
+  "lat": 39.5249,
+  "lon": -111.6794,
+  "launch_ft": null,
+  "note": "Your fix · not on paraglidingmap"
+ },
+ {
+  "id": "castleton-tower",
+  "name": "Castleton Tower",
+  "area": "Castle Valley, Moab",
+  "lat": 38.6505,
+  "lon": -109.3683,
+  "launch_ft": 6234,
+  "note": "Your fix · paraglidingmap agrees within 6 m (6,234 ft)"
+ },
+ {
+  "id": "kens-lake",
+  "name": "Ken's Lake",
+  "area": "Moab",
+  "lat": 38.4911,
+  "lon": -109.4213,
+  "launch_ft": null,
+  "note": "Your fix · not on paraglidingmap"
+ }
+]
