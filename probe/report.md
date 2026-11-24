@@ -1,0 +1,70 @@
+# HRRR-Zarr probe
+
+run 2026-11-24 15:06 UTC
+
+## sfc .zmetadata: HTTP 200, 903209 bytes
+1360 arrays
+## prs .zmetadata: HTTP 200, 3635520 bytes
+5664 arrays
+
+## chunk index
+HTTP 200
+- .zattrs: {}
+- chunk_id/.zarray: shape=[1799, 1059] chunks=[225, 265] dtype=|O comp={'blocksize': 0, 'clevel': 5, 'cname': 'lz4', 'id': 'blosc', 'shuffle': 1}
+- chunk_id/.zattrs: {"_ARRAY_DIMENSIONS": ["x", "y"]}
+- chunk_x/.zarray: shape=[1799] chunks=[1799] dtype=<i4 comp={'blocksize': 0, 'clevel': 5, 'cname': 'lz4', 'id': 'blosc', 'shuffle': 1}
+- chunk_x/.zattrs: {"_ARRAY_DIMENSIONS": ["x"]}
+- chunk_y/.zarray: shape=[1059] chunks=[1059] dtype=<i4 comp={'blocksize': 0, 'clevel': 5, 'cname': 'lz4', 'id': 'blosc', 'shuffle': 1}
+- chunk_y/.zattrs: {"_ARRAY_DIMENSIONS": ["y"]}
+- in_chunk_x/.zarray: shape=[1799] chunks=[1799] dtype=<i4 comp={'blocksize': 0, 'clevel': 5, 'cname': 'lz4', 'id': 'blosc', 'shuffle': 1}
+- in_chunk_x/.zattrs: {"_ARRAY_DIMENSIONS": ["x"]}
+- in_chunk_y/.zarray: shape=[1059] chunks=[1059] dtype=<i4 comp={'blocksize': 0, 'clevel': 5, 'cname': 'lz4', 'id': 'blosc', 'shuffle': 1}
+- in_chunk_y/.zattrs: {"_ARRAY_DIMENSIONS": ["y"]}
+- index_x/.zarray: shape=[1799] chunks=[1799] dtype=<i4 comp={'blocksize': 0, 'clevel': 5, 'cname': 'lz4', 'id': 'blosc', 'shuffle': 1}
+- index_x/.zattrs: {"_ARRAY_DIMENSIONS": ["x"]}
+- index_y/.zarray: shape=[1059] chunks=[1059] dtype=<i4 comp={'blocksize': 0, 'clevel': 5, 'cname': 'lz4', 'id': 'blosc', 'shuffle': 1}
+- index_y/.zattrs: {"_ARRAY_DIMENSIONS": ["y"]}
+- latitude/.zarray: shape=[1059, 1799] chunks=[133, 450] dtype=<f8 comp={'blocksize': 0, 'clevel': 5, 'cname': 'lz4', 'id': 'blosc', 'shuffle': 1}
+- latitude/.zattrs: {"_ARRAY_DIMENSIONS": ["y", "x"]}
+- longitude/.zarray: shape=[1059, 1799] chunks=[133, 450] dtype=<f8 comp={'blocksize': 0, 'clevel': 5, 'cname': 'lz4', 'id': 'blosc', 'shuffle': 1}
+- longitude/.zattrs: {"_ARRAY_DIMENSIONS": ["y", "x"]}
+- x/.zarray: shape=[1799] chunks=[1799] dtype=<f8 comp={'blocksize': 0, 'clevel': 5, 'cname': 'lz4', 'id': 'blosc', 'shuffle': 1}
+- x/.zattrs: {"_ARRAY_DIMENSIONS": ["x"]}
+- y/.zarray: shape=[1059] chunks=[1059] dtype=<f8 comp={'blocksize': 0, 'clevel': 5, 'cname': 'lz4', 'id': 'blosc', 'shuffle': 1}
+- y/.zattrs: {"_ARRAY_DIMENSIONS": ["y"]}
+chunk index failed:
+```
+Traceback (most recent call last):
+  File "/home/runner/work/forecast/forecast/scripts/probe.py", line 78, in <module>
+    ds = xr.open_zarr(s3fs.S3Map("hrrrzarr/grid/HRRR_chunk_index.zarr", s3=fs))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/xarray/backends/zarr.py", line 1677, in open_zarr
+    ds = open_dataset(
+         ^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/xarray/backends/api.py", line 619, in open_dataset
+    backend_ds = backend.open_dataset(
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/xarray/backends/zarr.py", line 1747, in open_dataset
+    store = ZarrStore.open_group(
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/xarray/backends/zarr.py", line 797, in open_group
+    ) = _get_open_params(
+        ^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/xarray/backends/zarr.py", line 1919, in _get_open_params
+    zarr_root_group = zarr.open_consolidated(store, **open_kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/zarr/convenience.py", line 1366, in open_consolidated
+    return open(store=meta_store, chunk_store=chunk_store, mode=mode, path=path, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/zarr/convenience.py", line 137, in open
+    return open_group(_store, mode=mode, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: open_group() got an unexpected keyword argument 'zarr_format'
+
+```
+
+## candidate variables
+present: surface/HGT, surface/HPBL, surface/SHTFL, surface/LHTFL, surface/GUST, surface/CAPE, surface/CIN, surface/DSWRF, surface/PRES, 10m_above_ground/UGRD, 10m_above_ground/VGRD, 80m_above_ground/UGRD, 80m_above_ground/VGRD, 2m_above_ground/TMP, 2m_above_ground/DPT, 2m_above_ground/RH, cloud_base/HGT, cloud_base/PRES, cloud_ceiling/HGT, cloud_top/HGT, entire_atmosphere/REFC, entire_atmosphere/LTNG, entire_atmosphere/TCDC, low_cloud_layer/LCDC, middle_cloud_layer/MCDC, high_cloud_layer/HCDC, level_of_adiabatic_condensation_from_sfc/HGT, 700mb/TMP, 700mb/UGRD, 700mb/VGRD, 700mb/HGT, 700mb/DPT, 850mb/TMP, 850mb/UGRD, 850mb/VGRD, 850mb/HGT, 500mb/TMP, 500mb/UGRD, 500mb/VGRD, 500mb/HGT, surface/PRATE, surface/CPOFP, surface/VIS
+missing: 700mb/VVEL, surface/APCP
+
+## archive coverage spot checks (surface/HPBL, chunk of first site)

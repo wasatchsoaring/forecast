@@ -1,0 +1,1360 @@
+0.1_sigma_level/HAIL_max_fcst/0.1_sigma_level/HAIL_max_fcst	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+0.1_sigma_level/HAIL_max_fcst/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+0.1_sigma_level/HAIL_max_fcst/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+0.1_sigma_level/HAIL_max_fcst/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+0.1_sigma_level/HAIL_max_fcst/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+0.1_sigma_level/HAIL_max_fcst/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+0.1_sigma_level/HAIL_max_fcst/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+0.1_sigma_level/HAIL_max_fcst/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+0.5_0.8_sigma_layer/DZDT_ave_fcst/0.5_0.8_sigma_layer/DZDT_ave_fcst	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+0.5_0.8_sigma_layer/DZDT_ave_fcst/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+0.5_0.8_sigma_layer/DZDT_ave_fcst/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+0.5_0.8_sigma_layer/DZDT_ave_fcst/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+0.5_0.8_sigma_layer/DZDT_ave_fcst/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+0.5_0.8_sigma_layer/DZDT_ave_fcst/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+0.5_0.8_sigma_layer/DZDT_ave_fcst/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+0.5_0.8_sigma_layer/DZDT_ave_fcst/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+0C_isotherm/HGT/0C_isotherm/HGT	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+0C_isotherm/HGT/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+0C_isotherm/HGT/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+0C_isotherm/HGT/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+0C_isotherm/HGT/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+0C_isotherm/HGT/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+0C_isotherm/HGT/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+0C_isotherm/HGT/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+0C_isotherm/PRES/0C_isotherm/PRES	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+0C_isotherm/PRES/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+0C_isotherm/PRES/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+0C_isotherm/PRES/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+0C_isotherm/PRES/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+0C_isotherm/PRES/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+0C_isotherm/PRES/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+0C_isotherm/PRES/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+0C_isotherm/RH/0C_isotherm/RH	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+0C_isotherm/RH/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+0C_isotherm/RH/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+0C_isotherm/RH/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+0C_isotherm/RH/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+0C_isotherm/RH/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+0C_isotherm/RH/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+0C_isotherm/RH/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+0_1000m_above_ground/VUCSH/0_1000m_above_ground/VUCSH	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+0_1000m_above_ground/VUCSH/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+0_1000m_above_ground/VUCSH/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+0_1000m_above_ground/VUCSH/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+0_1000m_above_ground/VUCSH/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+0_1000m_above_ground/VUCSH/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+0_1000m_above_ground/VUCSH/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+0_1000m_above_ground/VUCSH/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+0_1000m_above_ground/VVCSH/0_1000m_above_ground/VVCSH	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+0_1000m_above_ground/VVCSH/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+0_1000m_above_ground/VVCSH/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+0_1000m_above_ground/VVCSH/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+0_1000m_above_ground/VVCSH/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+0_1000m_above_ground/VVCSH/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+0_1000m_above_ground/VVCSH/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+0_1000m_above_ground/VVCSH/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+0_3000m_above_ground/CAPE/0_3000m_above_ground/CAPE	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+0_3000m_above_ground/CAPE/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+0_3000m_above_ground/CAPE/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+0_3000m_above_ground/CAPE/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+0_3000m_above_ground/CAPE/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+0_3000m_above_ground/CAPE/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+0_3000m_above_ground/CAPE/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+0_3000m_above_ground/CAPE/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+0_3000m_above_ground/ESP/0_3000m_above_ground/ESP	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+0_3000m_above_ground/ESP/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+0_3000m_above_ground/ESP/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+0_3000m_above_ground/ESP/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+0_3000m_above_ground/ESP/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+0_3000m_above_ground/ESP/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+0_3000m_above_ground/ESP/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+0_3000m_above_ground/ESP/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+0_500m_above_ground/CANGLE/0_500m_above_ground/CANGLE	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+0_500m_above_ground/CANGLE/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+0_500m_above_ground/CANGLE/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+0_500m_above_ground/CANGLE/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+0_500m_above_ground/CANGLE/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+0_500m_above_ground/CANGLE/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+0_500m_above_ground/CANGLE/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+0_500m_above_ground/CANGLE/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+0_6000m_above_ground/USTM/0_6000m_above_ground/USTM	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+0_6000m_above_ground/USTM/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+0_6000m_above_ground/USTM/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+0_6000m_above_ground/USTM/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+0_6000m_above_ground/USTM/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+0_6000m_above_ground/USTM/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+0_6000m_above_ground/USTM/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+0_6000m_above_ground/USTM/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+0_6000m_above_ground/VSTM/0_6000m_above_ground/VSTM	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+0_6000m_above_ground/VSTM/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+0_6000m_above_ground/VSTM/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+0_6000m_above_ground/VSTM/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+0_6000m_above_ground/VSTM/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+0_6000m_above_ground/VSTM/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+0_6000m_above_ground/VSTM/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+0_6000m_above_ground/VSTM/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+0_6000m_above_ground/VUCSH/0_6000m_above_ground/VUCSH	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+0_6000m_above_ground/VUCSH/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+0_6000m_above_ground/VUCSH/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+0_6000m_above_ground/VUCSH/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+0_6000m_above_ground/VUCSH/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+0_6000m_above_ground/VUCSH/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+0_6000m_above_ground/VUCSH/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+0_6000m_above_ground/VUCSH/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+0_6000m_above_ground/VVCSH/0_6000m_above_ground/VVCSH	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+0_6000m_above_ground/VVCSH/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+0_6000m_above_ground/VVCSH/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+0_6000m_above_ground/VVCSH/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+0_6000m_above_ground/VVCSH/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+0_6000m_above_ground/VVCSH/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+0_6000m_above_ground/VVCSH/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+0_6000m_above_ground/VVCSH/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+0m_underground/MSTAV/0m_underground/MSTAV	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+0m_underground/MSTAV/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+0m_underground/MSTAV/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+0m_underground/MSTAV/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+0m_underground/MSTAV/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+0m_underground/MSTAV/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+0m_underground/MSTAV/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+0m_underground/MSTAV/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+1000_0m_above_ground/HLCY/1000_0m_above_ground/HLCY	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+1000_0m_above_ground/HLCY/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+1000_0m_above_ground/HLCY/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+1000_0m_above_ground/HLCY/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+1000_0m_above_ground/HLCY/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+1000_0m_above_ground/HLCY/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+1000_0m_above_ground/HLCY/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+1000_0m_above_ground/HLCY/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+1000_0m_above_ground/RELV_max_fcst/1000_0m_above_ground/RELV_max_fcst	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+1000_0m_above_ground/RELV_max_fcst/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+1000_0m_above_ground/RELV_max_fcst/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+1000_0m_above_ground/RELV_max_fcst/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+1000_0m_above_ground/RELV_max_fcst/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+1000_0m_above_ground/RELV_max_fcst/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+1000_0m_above_ground/RELV_max_fcst/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+1000_0m_above_ground/RELV_max_fcst/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+1000m_above_ground/MAXREF_max_fcst/1000m_above_ground/MAXREF_max_fcst	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+1000m_above_ground/MAXREF_max_fcst/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+1000m_above_ground/MAXREF_max_fcst/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+1000m_above_ground/MAXREF_max_fcst/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+1000m_above_ground/MAXREF_max_fcst/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+1000m_above_ground/MAXREF_max_fcst/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+1000m_above_ground/MAXREF_max_fcst/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+1000m_above_ground/MAXREF_max_fcst/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+1000m_above_ground/REFD/1000m_above_ground/REFD	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+1000m_above_ground/REFD/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+1000m_above_ground/REFD/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+1000m_above_ground/REFD/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+1000m_above_ground/REFD/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+1000m_above_ground/REFD/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+1000m_above_ground/REFD/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+1000m_above_ground/REFD/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+1000mb/DPT/1000mb/DPT	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+1000mb/DPT/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+1000mb/DPT/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+1000mb/DPT/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+1000mb/DPT/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+1000mb/DPT/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+1000mb/DPT/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+1000mb/DPT/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+1000mb/HGT/1000mb/HGT	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+1000mb/HGT/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+1000mb/HGT/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+1000mb/HGT/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+1000mb/HGT/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+1000mb/HGT/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+1000mb/HGT/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+1000mb/HGT/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+1000mb/TMP/1000mb/TMP	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+1000mb/TMP/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+1000mb/TMP/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+1000mb/TMP/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+1000mb/TMP/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+1000mb/TMP/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+1000mb/TMP/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+1000mb/TMP/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+1000mb/UGRD/1000mb/UGRD	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+1000mb/UGRD/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+1000mb/UGRD/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+1000mb/UGRD/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+1000mb/UGRD/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+1000mb/UGRD/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+1000mb/UGRD/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+1000mb/UGRD/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+1000mb/VGRD/1000mb/VGRD	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+1000mb/VGRD/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+1000mb/VGRD/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+1000mb/VGRD/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+1000mb/VGRD/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+1000mb/VGRD/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+1000mb/VGRD/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+1000mb/VGRD/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+100_1000mb_above_ground/MAXDVV_max_fcst/100_1000mb_above_ground/MAXDVV_max_fcst	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+100_1000mb_above_ground/MAXDVV_max_fcst/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+100_1000mb_above_ground/MAXDVV_max_fcst/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+100_1000mb_above_ground/MAXDVV_max_fcst/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+100_1000mb_above_ground/MAXDVV_max_fcst/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+100_1000mb_above_ground/MAXDVV_max_fcst/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+100_1000mb_above_ground/MAXDVV_max_fcst/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+100_1000mb_above_ground/MAXDVV_max_fcst/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+100_1000mb_above_ground/MAXUVV_max_fcst/100_1000mb_above_ground/MAXUVV_max_fcst	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+100_1000mb_above_ground/MAXUVV_max_fcst/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+100_1000mb_above_ground/MAXUVV_max_fcst/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+100_1000mb_above_ground/MAXUVV_max_fcst/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+100_1000mb_above_ground/MAXUVV_max_fcst/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+100_1000mb_above_ground/MAXUVV_max_fcst/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+100_1000mb_above_ground/MAXUVV_max_fcst/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+100_1000mb_above_ground/MAXUVV_max_fcst/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+10m_above_ground/MAXUW_max_fcst/10m_above_ground/MAXUW_max_fcst	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+10m_above_ground/MAXUW_max_fcst/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+10m_above_ground/MAXUW_max_fcst/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+10m_above_ground/MAXUW_max_fcst/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+10m_above_ground/MAXUW_max_fcst/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+10m_above_ground/MAXUW_max_fcst/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+10m_above_ground/MAXUW_max_fcst/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+10m_above_ground/MAXUW_max_fcst/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+10m_above_ground/MAXVW_max_fcst/10m_above_ground/MAXVW_max_fcst	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+10m_above_ground/MAXVW_max_fcst/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+10m_above_ground/MAXVW_max_fcst/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+10m_above_ground/MAXVW_max_fcst/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+10m_above_ground/MAXVW_max_fcst/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+10m_above_ground/MAXVW_max_fcst/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+10m_above_ground/MAXVW_max_fcst/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+10m_above_ground/MAXVW_max_fcst/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+10m_above_ground/UGRD/10m_above_ground/UGRD	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+10m_above_ground/UGRD/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+10m_above_ground/UGRD/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+10m_above_ground/UGRD/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+10m_above_ground/UGRD/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+10m_above_ground/UGRD/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+10m_above_ground/UGRD/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+10m_above_ground/UGRD/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+10m_above_ground/VGRD/10m_above_ground/VGRD	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+10m_above_ground/VGRD/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+10m_above_ground/VGRD/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+10m_above_ground/VGRD/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+10m_above_ground/VGRD/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+10m_above_ground/VGRD/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+10m_above_ground/VGRD/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+10m_above_ground/VGRD/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+10m_above_ground/WIND_max_fcst/10m_above_ground/WIND_max_fcst	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+10m_above_ground/WIND_max_fcst/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+10m_above_ground/WIND_max_fcst/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+10m_above_ground/WIND_max_fcst/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+10m_above_ground/WIND_max_fcst/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+10m_above_ground/WIND_max_fcst/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+10m_above_ground/WIND_max_fcst/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+10m_above_ground/WIND_max_fcst/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+180_0mb_above_ground/4LFTX/180_0mb_above_ground/4LFTX	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+180_0mb_above_ground/4LFTX/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+180_0mb_above_ground/4LFTX/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+180_0mb_above_ground/4LFTX/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+180_0mb_above_ground/4LFTX/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+180_0mb_above_ground/4LFTX/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+180_0mb_above_ground/4LFTX/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+180_0mb_above_ground/4LFTX/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+180_0mb_above_ground/CAPE/180_0mb_above_ground/CAPE	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+180_0mb_above_ground/CAPE/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+180_0mb_above_ground/CAPE/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+180_0mb_above_ground/CAPE/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+180_0mb_above_ground/CAPE/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+180_0mb_above_ground/CAPE/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+180_0mb_above_ground/CAPE/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+180_0mb_above_ground/CAPE/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+180_0mb_above_ground/CIN/180_0mb_above_ground/CIN	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+180_0mb_above_ground/CIN/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+180_0mb_above_ground/CIN/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+180_0mb_above_ground/CIN/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+180_0mb_above_ground/CIN/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+180_0mb_above_ground/CIN/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+180_0mb_above_ground/CIN/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+180_0mb_above_ground/CIN/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+1m_above_ground/LTNGSD/1m_above_ground/LTNGSD	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+1m_above_ground/LTNGSD/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+1m_above_ground/LTNGSD/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+1m_above_ground/LTNGSD/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+1m_above_ground/LTNGSD/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+1m_above_ground/LTNGSD/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+1m_above_ground/LTNGSD/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+1m_above_ground/LTNGSD/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+2000_0m_above_ground/MNUPHL_min_fcst/2000_0m_above_ground/MNUPHL_min_fcst	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+2000_0m_above_ground/MNUPHL_min_fcst/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+2000_0m_above_ground/MNUPHL_min_fcst/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+2000_0m_above_ground/MNUPHL_min_fcst/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+2000_0m_above_ground/MNUPHL_min_fcst/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+2000_0m_above_ground/MNUPHL_min_fcst/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+2000_0m_above_ground/MNUPHL_min_fcst/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+2000_0m_above_ground/MNUPHL_min_fcst/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+2000_0m_above_ground/MXUPHL_max_fcst/2000_0m_above_ground/MXUPHL_max_fcst	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+2000_0m_above_ground/MXUPHL_max_fcst/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+2000_0m_above_ground/MXUPHL_max_fcst/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+2000_0m_above_ground/MXUPHL_max_fcst/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+2000_0m_above_ground/MXUPHL_max_fcst/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+2000_0m_above_ground/MXUPHL_max_fcst/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+2000_0m_above_ground/MXUPHL_max_fcst/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+2000_0m_above_ground/MXUPHL_max_fcst/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+2000_0m_above_ground/RELV_max_fcst/2000_0m_above_ground/RELV_max_fcst	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+2000_0m_above_ground/RELV_max_fcst/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+2000_0m_above_ground/RELV_max_fcst/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+2000_0m_above_ground/RELV_max_fcst/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+2000_0m_above_ground/RELV_max_fcst/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+2000_0m_above_ground/RELV_max_fcst/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+2000_0m_above_ground/RELV_max_fcst/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+2000_0m_above_ground/RELV_max_fcst/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+250mb/UGRD/250mb/UGRD	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+250mb/UGRD/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+250mb/UGRD/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+250mb/UGRD/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+250mb/UGRD/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+250mb/UGRD/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+250mb/UGRD/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+250mb/UGRD/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+250mb/VGRD/250mb/VGRD	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+250mb/VGRD/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+250mb/VGRD/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+250mb/VGRD/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+250mb/VGRD/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+250mb/VGRD/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+250mb/VGRD/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+250mb/VGRD/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+253K_level/HGT/253K_level/HGT	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+253K_level/HGT/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+253K_level/HGT/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+253K_level/HGT/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+253K_level/HGT/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+253K_level/HGT/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+253K_level/HGT/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+253K_level/HGT/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+255_0mb_above_ground/CAPE/255_0mb_above_ground/CAPE	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+255_0mb_above_ground/CAPE/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+255_0mb_above_ground/CAPE/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+255_0mb_above_ground/CAPE/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+255_0mb_above_ground/CAPE/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+255_0mb_above_ground/CAPE/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+255_0mb_above_ground/CAPE/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+255_0mb_above_ground/CAPE/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+255_0mb_above_ground/CIN/255_0mb_above_ground/CIN	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+255_0mb_above_ground/CIN/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+255_0mb_above_ground/CIN/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+255_0mb_above_ground/CIN/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+255_0mb_above_ground/CIN/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+255_0mb_above_ground/CIN/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+255_0mb_above_ground/CIN/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+255_0mb_above_ground/CIN/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+255_0mb_above_ground/PLPL/255_0mb_above_ground/PLPL	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+255_0mb_above_ground/PLPL/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+255_0mb_above_ground/PLPL/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+255_0mb_above_ground/PLPL/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+255_0mb_above_ground/PLPL/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+255_0mb_above_ground/PLPL/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+255_0mb_above_ground/PLPL/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+255_0mb_above_ground/PLPL/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+261K_level___256K_level/LAYTH/261K_level___256K_level/LAYTH	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+261K_level___256K_level/LAYTH/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+261K_level___256K_level/LAYTH/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+261K_level___256K_level/LAYTH/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+261K_level___256K_level/LAYTH/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+261K_level___256K_level/LAYTH/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+261K_level___256K_level/LAYTH/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+261K_level___256K_level/LAYTH/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+263K_level/HGT/263K_level/HGT	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+263K_level/HGT/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+263K_level/HGT/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+263K_level/HGT/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+263K_level/HGT/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+263K_level/HGT/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+263K_level/HGT/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+263K_level/HGT/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+263K_level/REFD/263K_level/REFD	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+263K_level/REFD/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+263K_level/REFD/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+263K_level/REFD/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+263K_level/REFD/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+263K_level/REFD/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+263K_level/REFD/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+263K_level/REFD/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+263K_level/REFD_max_fcst/263K_level/REFD_max_fcst	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+263K_level/REFD_max_fcst/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+263K_level/REFD_max_fcst/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+263K_level/REFD_max_fcst/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+263K_level/REFD_max_fcst/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+263K_level/REFD_max_fcst/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+263K_level/REFD_max_fcst/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+263K_level/REFD_max_fcst/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+2m_above_ground/DPT/2m_above_ground/DPT	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+2m_above_ground/DPT/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+2m_above_ground/DPT/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+2m_above_ground/DPT/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+2m_above_ground/DPT/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+2m_above_ground/DPT/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+2m_above_ground/DPT/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+2m_above_ground/DPT/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+2m_above_ground/LTNGSD/2m_above_ground/LTNGSD	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+2m_above_ground/LTNGSD/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+2m_above_ground/LTNGSD/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+2m_above_ground/LTNGSD/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+2m_above_ground/LTNGSD/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+2m_above_ground/LTNGSD/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+2m_above_ground/LTNGSD/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+2m_above_ground/LTNGSD/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+2m_above_ground/POT/2m_above_ground/POT	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+2m_above_ground/POT/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+2m_above_ground/POT/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+2m_above_ground/POT/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+2m_above_ground/POT/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+2m_above_ground/POT/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+2m_above_ground/POT/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+2m_above_ground/POT/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+2m_above_ground/RH/2m_above_ground/RH	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+2m_above_ground/RH/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+2m_above_ground/RH/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+2m_above_ground/RH/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+2m_above_ground/RH/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+2m_above_ground/RH/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+2m_above_ground/RH/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+2m_above_ground/RH/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+2m_above_ground/SPFH/2m_above_ground/SPFH	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+2m_above_ground/SPFH/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+2m_above_ground/SPFH/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+2m_above_ground/SPFH/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+2m_above_ground/SPFH/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+2m_above_ground/SPFH/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+2m_above_ground/SPFH/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+2m_above_ground/SPFH/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+2m_above_ground/TMP/2m_above_ground/TMP	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+2m_above_ground/TMP/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+2m_above_ground/TMP/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+2m_above_ground/TMP/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+2m_above_ground/TMP/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+2m_above_ground/TMP/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+2m_above_ground/TMP/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+2m_above_ground/TMP/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+3000_0m_above_ground/HLCY/3000_0m_above_ground/HLCY	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+3000_0m_above_ground/HLCY/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+3000_0m_above_ground/HLCY/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+3000_0m_above_ground/HLCY/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+3000_0m_above_ground/HLCY/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+3000_0m_above_ground/HLCY/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+3000_0m_above_ground/HLCY/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+3000_0m_above_ground/HLCY/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+3000_0m_above_ground/MNUPHL_min_fcst/3000_0m_above_ground/MNUPHL_min_fcst	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+3000_0m_above_ground/MNUPHL_min_fcst/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+3000_0m_above_ground/MNUPHL_min_fcst/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+3000_0m_above_ground/MNUPHL_min_fcst/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+3000_0m_above_ground/MNUPHL_min_fcst/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+3000_0m_above_ground/MNUPHL_min_fcst/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+3000_0m_above_ground/MNUPHL_min_fcst/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+3000_0m_above_ground/MNUPHL_min_fcst/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+3000_0m_above_ground/MXUPHL_max_fcst/3000_0m_above_ground/MXUPHL_max_fcst	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+3000_0m_above_ground/MXUPHL_max_fcst/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+3000_0m_above_ground/MXUPHL_max_fcst/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+3000_0m_above_ground/MXUPHL_max_fcst/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+3000_0m_above_ground/MXUPHL_max_fcst/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+3000_0m_above_ground/MXUPHL_max_fcst/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+3000_0m_above_ground/MXUPHL_max_fcst/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+3000_0m_above_ground/MXUPHL_max_fcst/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+300mb/UGRD/300mb/UGRD	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+300mb/UGRD/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+300mb/UGRD/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+300mb/UGRD/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+300mb/UGRD/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+300mb/UGRD/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+300mb/UGRD/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+300mb/UGRD/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+300mb/VGRD/300mb/VGRD	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+300mb/VGRD/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+300mb/VGRD/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+300mb/VGRD/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+300mb/VGRD/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+300mb/VGRD/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+300mb/VGRD/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+300mb/VGRD/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+4000m_above_ground/REFD/4000m_above_ground/REFD	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+4000m_above_ground/REFD/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+4000m_above_ground/REFD/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+4000m_above_ground/REFD/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+4000m_above_ground/REFD/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+4000m_above_ground/REFD/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+4000m_above_ground/REFD/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+4000m_above_ground/REFD/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+5000_2000m_above_ground/MNUPHL_min_fcst/5000_2000m_above_ground/MNUPHL_min_fcst	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+5000_2000m_above_ground/MNUPHL_min_fcst/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+5000_2000m_above_ground/MNUPHL_min_fcst/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+5000_2000m_above_ground/MNUPHL_min_fcst/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+5000_2000m_above_ground/MNUPHL_min_fcst/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+5000_2000m_above_ground/MNUPHL_min_fcst/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+5000_2000m_above_ground/MNUPHL_min_fcst/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+5000_2000m_above_ground/MNUPHL_min_fcst/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+5000_2000m_above_ground/MXUPHL_max_fcst/5000_2000m_above_ground/MXUPHL_max_fcst	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+5000_2000m_above_ground/MXUPHL_max_fcst/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+5000_2000m_above_ground/MXUPHL_max_fcst/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+5000_2000m_above_ground/MXUPHL_max_fcst/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+5000_2000m_above_ground/MXUPHL_max_fcst/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+5000_2000m_above_ground/MXUPHL_max_fcst/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+5000_2000m_above_ground/MXUPHL_max_fcst/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+5000_2000m_above_ground/MXUPHL_max_fcst/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+500_1000mb/LFTX/500_1000mb/LFTX	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+500_1000mb/LFTX/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+500_1000mb/LFTX/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+500_1000mb/LFTX/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+500_1000mb/LFTX/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+500_1000mb/LFTX/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+500_1000mb/LFTX/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+500_1000mb/LFTX/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+500mb/DPT/500mb/DPT	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+500mb/DPT/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+500mb/DPT/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+500mb/DPT/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+500mb/DPT/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+500mb/DPT/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+500mb/DPT/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+500mb/DPT/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+500mb/HGT/500mb/HGT	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+500mb/HGT/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+500mb/HGT/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+500mb/HGT/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+500mb/HGT/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+500mb/HGT/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+500mb/HGT/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+500mb/HGT/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+500mb/TMP/500mb/TMP	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+500mb/TMP/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+500mb/TMP/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+500mb/TMP/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+500mb/TMP/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+500mb/TMP/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+500mb/TMP/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+500mb/TMP/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+500mb/UGRD/500mb/UGRD	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+500mb/UGRD/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+500mb/UGRD/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+500mb/UGRD/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+500mb/UGRD/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+500mb/UGRD/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+500mb/UGRD/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+500mb/UGRD/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+500mb/VGRD/500mb/VGRD	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+500mb/VGRD/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+500mb/VGRD/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+500mb/VGRD/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+500mb/VGRD/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+500mb/VGRD/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+500mb/VGRD/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+500mb/VGRD/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+700mb/DPT/700mb/DPT	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+700mb/DPT/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+700mb/DPT/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+700mb/DPT/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+700mb/DPT/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+700mb/DPT/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+700mb/DPT/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+700mb/DPT/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+700mb/DZDT/700mb/DZDT	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+700mb/DZDT/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+700mb/DZDT/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+700mb/DZDT/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+700mb/DZDT/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+700mb/DZDT/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+700mb/DZDT/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+700mb/DZDT/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+700mb/HGT/700mb/HGT	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+700mb/HGT/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+700mb/HGT/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+700mb/HGT/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+700mb/HGT/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+700mb/HGT/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+700mb/HGT/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+700mb/HGT/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+700mb/TMP/700mb/TMP	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+700mb/TMP/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+700mb/TMP/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+700mb/TMP/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+700mb/TMP/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+700mb/TMP/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+700mb/TMP/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+700mb/TMP/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+700mb/UGRD/700mb/UGRD	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+700mb/UGRD/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+700mb/UGRD/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+700mb/UGRD/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+700mb/UGRD/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+700mb/UGRD/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+700mb/UGRD/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+700mb/UGRD/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+700mb/VGRD/700mb/VGRD	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+700mb/VGRD/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+700mb/VGRD/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+700mb/VGRD/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+700mb/VGRD/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+700mb/VGRD/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+700mb/VGRD/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+700mb/VGRD/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+80m_above_ground/UGRD/80m_above_ground/UGRD	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+80m_above_ground/UGRD/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+80m_above_ground/UGRD/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+80m_above_ground/UGRD/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+80m_above_ground/UGRD/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+80m_above_ground/UGRD/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+80m_above_ground/UGRD/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+80m_above_ground/UGRD/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+80m_above_ground/VGRD/80m_above_ground/VGRD	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+80m_above_ground/VGRD/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+80m_above_ground/VGRD/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+80m_above_ground/VGRD/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+80m_above_ground/VGRD/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+80m_above_ground/VGRD/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+80m_above_ground/VGRD/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+80m_above_ground/VGRD/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+850mb/DPT/850mb/DPT	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+850mb/DPT/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+850mb/DPT/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+850mb/DPT/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+850mb/DPT/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+850mb/DPT/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+850mb/DPT/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+850mb/DPT/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+850mb/HGT/850mb/HGT	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+850mb/HGT/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+850mb/HGT/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+850mb/HGT/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+850mb/HGT/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+850mb/HGT/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+850mb/HGT/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+850mb/HGT/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+850mb/TMP/850mb/TMP	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+850mb/TMP/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+850mb/TMP/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+850mb/TMP/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+850mb/TMP/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+850mb/TMP/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+850mb/TMP/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+850mb/TMP/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+850mb/UGRD/850mb/UGRD	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+850mb/UGRD/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+850mb/UGRD/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+850mb/UGRD/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+850mb/UGRD/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+850mb/UGRD/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+850mb/UGRD/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+850mb/UGRD/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+850mb/VGRD/850mb/VGRD	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+850mb/VGRD/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+850mb/VGRD/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+850mb/VGRD/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+850mb/VGRD/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+850mb/VGRD/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+850mb/VGRD/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+850mb/VGRD/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+8m_above_ground/MASSDEN/8m_above_ground/MASSDEN	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f8	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+8m_above_ground/MASSDEN/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+8m_above_ground/MASSDEN/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+8m_above_ground/MASSDEN/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+8m_above_ground/MASSDEN/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+8m_above_ground/MASSDEN/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+8m_above_ground/MASSDEN/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+8m_above_ground/MASSDEN/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+90_0mb_above_ground/CAPE/90_0mb_above_ground/CAPE	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+90_0mb_above_ground/CAPE/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+90_0mb_above_ground/CAPE/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+90_0mb_above_ground/CAPE/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+90_0mb_above_ground/CAPE/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+90_0mb_above_ground/CAPE/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+90_0mb_above_ground/CAPE/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+90_0mb_above_ground/CAPE/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+90_0mb_above_ground/CIN/90_0mb_above_ground/CIN	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+90_0mb_above_ground/CIN/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+90_0mb_above_ground/CIN/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+90_0mb_above_ground/CIN/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+90_0mb_above_ground/CIN/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+90_0mb_above_ground/CIN/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+90_0mb_above_ground/CIN/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+90_0mb_above_ground/CIN/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+925mb/DPT/925mb/DPT	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+925mb/DPT/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+925mb/DPT/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+925mb/DPT/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+925mb/DPT/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+925mb/DPT/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+925mb/DPT/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+925mb/DPT/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+925mb/TMP/925mb/TMP	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+925mb/TMP/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+925mb/TMP/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+925mb/TMP/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+925mb/TMP/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+925mb/TMP/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+925mb/TMP/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+925mb/TMP/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+925mb/UGRD/925mb/UGRD	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+925mb/UGRD/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+925mb/UGRD/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+925mb/UGRD/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+925mb/UGRD/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+925mb/UGRD/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+925mb/UGRD/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+925mb/UGRD/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+925mb/VGRD/925mb/VGRD	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+925mb/VGRD/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+925mb/VGRD/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+925mb/VGRD/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+925mb/VGRD/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+925mb/VGRD/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+925mb/VGRD/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+925mb/VGRD/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+boundary_layer_cloud_layer/TCDC/boundary_layer_cloud_layer/TCDC	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+boundary_layer_cloud_layer/TCDC/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+boundary_layer_cloud_layer/TCDC/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+boundary_layer_cloud_layer/TCDC/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+boundary_layer_cloud_layer/TCDC/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+boundary_layer_cloud_layer/TCDC/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+boundary_layer_cloud_layer/TCDC/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+boundary_layer_cloud_layer/TCDC/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+cloud_base/HGT/cloud_base/HGT	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+cloud_base/HGT/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+cloud_base/HGT/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+cloud_base/HGT/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+cloud_base/HGT/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+cloud_base/HGT/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+cloud_base/HGT/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+cloud_base/HGT/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+cloud_base/PRES/cloud_base/PRES	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+cloud_base/PRES/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+cloud_base/PRES/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+cloud_base/PRES/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+cloud_base/PRES/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+cloud_base/PRES/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+cloud_base/PRES/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+cloud_base/PRES/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+cloud_ceiling/HGT/cloud_ceiling/HGT	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+cloud_ceiling/HGT/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+cloud_ceiling/HGT/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+cloud_ceiling/HGT/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+cloud_ceiling/HGT/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+cloud_ceiling/HGT/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+cloud_ceiling/HGT/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+cloud_ceiling/HGT/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+cloud_top/HGT/cloud_top/HGT	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+cloud_top/HGT/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+cloud_top/HGT/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+cloud_top/HGT/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+cloud_top/HGT/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+cloud_top/HGT/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+cloud_top/HGT/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+cloud_top/HGT/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+cloud_top/PRES/cloud_top/PRES	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+cloud_top/PRES/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+cloud_top/PRES/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+cloud_top/PRES/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+cloud_top/PRES/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+cloud_top/PRES/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+cloud_top/PRES/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+cloud_top/PRES/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+cloud_top/RETOP/cloud_top/RETOP	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+cloud_top/RETOP/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+cloud_top/RETOP/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+cloud_top/RETOP/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+cloud_top/RETOP/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+cloud_top/RETOP/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+cloud_top/RETOP/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+cloud_top/RETOP/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+entire_atmosphere/HAIL_max_fcst/entire_atmosphere/HAIL_max_fcst	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+entire_atmosphere/HAIL_max_fcst/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+entire_atmosphere/HAIL_max_fcst/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+entire_atmosphere/HAIL_max_fcst/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+entire_atmosphere/HAIL_max_fcst/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+entire_atmosphere/HAIL_max_fcst/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+entire_atmosphere/HAIL_max_fcst/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+entire_atmosphere/HAIL_max_fcst/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+entire_atmosphere/LTNG/entire_atmosphere/LTNG	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+entire_atmosphere/LTNG/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+entire_atmosphere/LTNG/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+entire_atmosphere/LTNG/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+entire_atmosphere/LTNG/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+entire_atmosphere/LTNG/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+entire_atmosphere/LTNG/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+entire_atmosphere/LTNG/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+entire_atmosphere/REFC/entire_atmosphere/REFC	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+entire_atmosphere/REFC/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+entire_atmosphere/REFC/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+entire_atmosphere/REFC/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+entire_atmosphere/REFC/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+entire_atmosphere/REFC/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+entire_atmosphere/REFC/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+entire_atmosphere/REFC/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+entire_atmosphere/RHPW/entire_atmosphere/RHPW	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+entire_atmosphere/RHPW/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+entire_atmosphere/RHPW/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+entire_atmosphere/RHPW/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+entire_atmosphere/RHPW/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+entire_atmosphere/RHPW/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+entire_atmosphere/RHPW/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+entire_atmosphere/RHPW/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+entire_atmosphere/TCDC/entire_atmosphere/TCDC	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+entire_atmosphere/TCDC/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+entire_atmosphere/TCDC/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+entire_atmosphere/TCDC/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+entire_atmosphere/TCDC/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+entire_atmosphere/TCDC/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+entire_atmosphere/TCDC/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+entire_atmosphere/TCDC/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+entire_atmosphere/TCOLI/entire_atmosphere/TCOLI	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+entire_atmosphere/TCOLI/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+entire_atmosphere/TCOLI/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+entire_atmosphere/TCOLI/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+entire_atmosphere/TCOLI/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+entire_atmosphere/TCOLI/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+entire_atmosphere/TCOLI/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+entire_atmosphere/TCOLI/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+entire_atmosphere/TCOLW/entire_atmosphere/TCOLW	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+entire_atmosphere/TCOLW/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+entire_atmosphere/TCOLW/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+entire_atmosphere/TCOLW/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+entire_atmosphere/TCOLW/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+entire_atmosphere/TCOLW/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+entire_atmosphere/TCOLW/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+entire_atmosphere/TCOLW/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+entire_atmosphere/VIL/entire_atmosphere/VIL	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+entire_atmosphere/VIL/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+entire_atmosphere/VIL/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+entire_atmosphere/VIL/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+entire_atmosphere/VIL/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+entire_atmosphere/VIL/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+entire_atmosphere/VIL/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+entire_atmosphere/VIL/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+entire_atmosphere/unknown/entire_atmosphere/unknown	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+entire_atmosphere/unknown/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+entire_atmosphere/unknown/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+entire_atmosphere/unknown/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+entire_atmosphere/unknown/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+entire_atmosphere/unknown/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+entire_atmosphere/unknown/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+entire_atmosphere/unknown/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+entire_atmosphere_single_layer/AOTK/entire_atmosphere_single_layer/AOTK	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+entire_atmosphere_single_layer/AOTK/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+entire_atmosphere_single_layer/AOTK/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+entire_atmosphere_single_layer/AOTK/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+entire_atmosphere_single_layer/AOTK/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+entire_atmosphere_single_layer/AOTK/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+entire_atmosphere_single_layer/AOTK/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+entire_atmosphere_single_layer/AOTK/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+entire_atmosphere_single_layer/COLMD/entire_atmosphere_single_layer/COLMD	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f8	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+entire_atmosphere_single_layer/COLMD/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+entire_atmosphere_single_layer/COLMD/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+entire_atmosphere_single_layer/COLMD/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+entire_atmosphere_single_layer/COLMD/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+entire_atmosphere_single_layer/COLMD/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+entire_atmosphere_single_layer/COLMD/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+entire_atmosphere_single_layer/COLMD/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+entire_atmosphere_single_layer/PWAT/entire_atmosphere_single_layer/PWAT	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+entire_atmosphere_single_layer/PWAT/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+entire_atmosphere_single_layer/PWAT/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+entire_atmosphere_single_layer/PWAT/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+entire_atmosphere_single_layer/PWAT/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+entire_atmosphere_single_layer/PWAT/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+entire_atmosphere_single_layer/PWAT/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+entire_atmosphere_single_layer/PWAT/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+entire_atmosphere_single_layer/TCOLG_max_fcst/entire_atmosphere_single_layer/TCOLG_max_fcst	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+entire_atmosphere_single_layer/TCOLG_max_fcst/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+entire_atmosphere_single_layer/TCOLG_max_fcst/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+entire_atmosphere_single_layer/TCOLG_max_fcst/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+entire_atmosphere_single_layer/TCOLG_max_fcst/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+entire_atmosphere_single_layer/TCOLG_max_fcst/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+entire_atmosphere_single_layer/TCOLG_max_fcst/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+entire_atmosphere_single_layer/TCOLG_max_fcst/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+equilibrium_level/HGT/equilibrium_level/HGT	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+equilibrium_level/HGT/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+equilibrium_level/HGT/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+equilibrium_level/HGT/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+equilibrium_level/HGT/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+equilibrium_level/HGT/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+equilibrium_level/HGT/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+equilibrium_level/HGT/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+high_cloud_layer/HCDC/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+high_cloud_layer/HCDC/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+high_cloud_layer/HCDC/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+high_cloud_layer/HCDC/high_cloud_layer/HCDC	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+high_cloud_layer/HCDC/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+high_cloud_layer/HCDC/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+high_cloud_layer/HCDC/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+high_cloud_layer/HCDC/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+highest_tropospheric_freezing_level/HGT/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+highest_tropospheric_freezing_level/HGT/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+highest_tropospheric_freezing_level/HGT/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+highest_tropospheric_freezing_level/HGT/highest_tropospheric_freezing_level/HGT	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+highest_tropospheric_freezing_level/HGT/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+highest_tropospheric_freezing_level/HGT/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+highest_tropospheric_freezing_level/HGT/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+highest_tropospheric_freezing_level/HGT/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+highest_tropospheric_freezing_level/PRES/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+highest_tropospheric_freezing_level/PRES/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+highest_tropospheric_freezing_level/PRES/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+highest_tropospheric_freezing_level/PRES/highest_tropospheric_freezing_level/PRES	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+highest_tropospheric_freezing_level/PRES/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+highest_tropospheric_freezing_level/PRES/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+highest_tropospheric_freezing_level/PRES/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+highest_tropospheric_freezing_level/PRES/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+highest_tropospheric_freezing_level/RH/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+highest_tropospheric_freezing_level/RH/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+highest_tropospheric_freezing_level/RH/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+highest_tropospheric_freezing_level/RH/highest_tropospheric_freezing_level/RH	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+highest_tropospheric_freezing_level/RH/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+highest_tropospheric_freezing_level/RH/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+highest_tropospheric_freezing_level/RH/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+highest_tropospheric_freezing_level/RH/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+level_of_adiabatic_condensation_from_sfc/HGT/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+level_of_adiabatic_condensation_from_sfc/HGT/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+level_of_adiabatic_condensation_from_sfc/HGT/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+level_of_adiabatic_condensation_from_sfc/HGT/level_of_adiabatic_condensation_from_sfc/HGT	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+level_of_adiabatic_condensation_from_sfc/HGT/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+level_of_adiabatic_condensation_from_sfc/HGT/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+level_of_adiabatic_condensation_from_sfc/HGT/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+level_of_adiabatic_condensation_from_sfc/HGT/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+level_of_free_convection/HGT/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+level_of_free_convection/HGT/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+level_of_free_convection/HGT/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+level_of_free_convection/HGT/level_of_free_convection/HGT	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+level_of_free_convection/HGT/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+level_of_free_convection/HGT/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+level_of_free_convection/HGT/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+level_of_free_convection/HGT/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+low_cloud_layer/LCDC/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+low_cloud_layer/LCDC/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+low_cloud_layer/LCDC/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+low_cloud_layer/LCDC/low_cloud_layer/LCDC	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+low_cloud_layer/LCDC/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+low_cloud_layer/LCDC/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+low_cloud_layer/LCDC/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+low_cloud_layer/LCDC/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+mean_sea_level/MSLMA/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+mean_sea_level/MSLMA/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+mean_sea_level/MSLMA/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+mean_sea_level/MSLMA/mean_sea_level/MSLMA	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+mean_sea_level/MSLMA/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+mean_sea_level/MSLMA/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+mean_sea_level/MSLMA/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+mean_sea_level/MSLMA/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+middle_cloud_layer/MCDC/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+middle_cloud_layer/MCDC/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+middle_cloud_layer/MCDC/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+middle_cloud_layer/MCDC/middle_cloud_layer/MCDC	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+middle_cloud_layer/MCDC/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+middle_cloud_layer/MCDC/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+middle_cloud_layer/MCDC/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+middle_cloud_layer/MCDC/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/APCP_acc_fcst/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+surface/APCP_acc_fcst/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/APCP_acc_fcst/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/APCP_acc_fcst/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/APCP_acc_fcst/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/APCP_acc_fcst/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/APCP_acc_fcst/surface/APCP_acc_fcst	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/APCP_acc_fcst/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/ASNOW_acc_fcst/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+surface/ASNOW_acc_fcst/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/ASNOW_acc_fcst/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/ASNOW_acc_fcst/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/ASNOW_acc_fcst/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/ASNOW_acc_fcst/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/ASNOW_acc_fcst/surface/ASNOW_acc_fcst	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/ASNOW_acc_fcst/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/BGRUN_acc_fcst/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+surface/BGRUN_acc_fcst/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/BGRUN_acc_fcst/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/BGRUN_acc_fcst/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/BGRUN_acc_fcst/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/BGRUN_acc_fcst/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/BGRUN_acc_fcst/surface/BGRUN_acc_fcst	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/BGRUN_acc_fcst/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/CAPE/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+surface/CAPE/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/CAPE/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/CAPE/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/CAPE/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/CAPE/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/CAPE/surface/CAPE	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/CAPE/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/CFNSF/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+surface/CFNSF/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/CFNSF/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/CFNSF/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/CFNSF/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/CFNSF/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/CFNSF/surface/CFNSF	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/CFNSF/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/CFRZR/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+surface/CFRZR/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/CFRZR/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/CFRZR/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/CFRZR/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/CFRZR/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/CFRZR/surface/CFRZR	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/CFRZR/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/CICEP/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+surface/CICEP/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/CICEP/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/CICEP/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/CICEP/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/CICEP/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/CICEP/surface/CICEP	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/CICEP/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/CIN/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+surface/CIN/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/CIN/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/CIN/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/CIN/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/CIN/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/CIN/surface/CIN	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/CIN/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/CNWAT/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+surface/CNWAT/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/CNWAT/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/CNWAT/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/CNWAT/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/CNWAT/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/CNWAT/surface/CNWAT	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/CNWAT/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/CPOFP/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+surface/CPOFP/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/CPOFP/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/CPOFP/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/CPOFP/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/CPOFP/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/CPOFP/surface/CPOFP	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/CPOFP/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/CRAIN/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+surface/CRAIN/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/CRAIN/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/CRAIN/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/CRAIN/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/CRAIN/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/CRAIN/surface/CRAIN	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/CRAIN/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/CSNOW/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+surface/CSNOW/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/CSNOW/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/CSNOW/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/CSNOW/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/CSNOW/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/CSNOW/surface/CSNOW	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/CSNOW/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/DLWRF/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+surface/DLWRF/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/DLWRF/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/DLWRF/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/DLWRF/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/DLWRF/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/DLWRF/surface/DLWRF	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/DLWRF/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/DSWRF/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+surface/DSWRF/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/DSWRF/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/DSWRF/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/DSWRF/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/DSWRF/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/DSWRF/surface/DSWRF	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/DSWRF/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/EFHL/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+surface/EFHL/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/EFHL/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/EFHL/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/EFHL/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/EFHL/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/EFHL/surface/EFHL	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/EFHL/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/FRICV/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+surface/FRICV/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/FRICV/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/FRICV/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/FRICV/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/FRICV/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/FRICV/surface/FRICV	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/FRICV/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/FROZR_acc_fcst/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+surface/FROZR_acc_fcst/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/FROZR_acc_fcst/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/FROZR_acc_fcst/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/FROZR_acc_fcst/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/FROZR_acc_fcst/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/FROZR_acc_fcst/surface/FROZR_acc_fcst	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/FROZR_acc_fcst/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/FRZR_acc_fcst/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+surface/FRZR_acc_fcst/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/FRZR_acc_fcst/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/FRZR_acc_fcst/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/FRZR_acc_fcst/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/FRZR_acc_fcst/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/FRZR_acc_fcst/surface/FRZR_acc_fcst	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/FRZR_acc_fcst/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/GFLUX/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+surface/GFLUX/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/GFLUX/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/GFLUX/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/GFLUX/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/GFLUX/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/GFLUX/surface/GFLUX	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/GFLUX/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/GUST/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+surface/GUST/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/GUST/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/GUST/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/GUST/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/GUST/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/GUST/surface/GUST	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/GUST/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/HAIL_max_fcst/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+surface/HAIL_max_fcst/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/HAIL_max_fcst/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/HAIL_max_fcst/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/HAIL_max_fcst/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/HAIL_max_fcst/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/HAIL_max_fcst/surface/HAIL_max_fcst	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/HAIL_max_fcst/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/HGT/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+surface/HGT/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/HGT/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/HGT/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/HGT/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/HGT/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/HGT/surface/HGT	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/HGT/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/HPBL/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+surface/HPBL/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/HPBL/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/HPBL/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/HPBL/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/HPBL/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/HPBL/surface/HPBL	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/HPBL/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/ICEC/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+surface/ICEC/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/ICEC/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/ICEC/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/ICEC/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/ICEC/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/ICEC/surface/ICEC	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/ICEC/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/LAI/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+surface/LAI/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/LAI/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/LAI/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/LAI/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/LAI/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/LAI/surface/LAI	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/LAI/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/LAND/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+surface/LAND/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/LAND/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/LAND/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/LAND/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/LAND/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/LAND/surface/LAND	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/LAND/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/LHTFL/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+surface/LHTFL/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/LHTFL/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/LHTFL/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/LHTFL/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/LHTFL/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/LHTFL/surface/LHTFL	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/LHTFL/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/PRATE/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+surface/PRATE/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/PRATE/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/PRATE/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/PRATE/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/PRATE/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/PRATE/surface/PRATE	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/PRATE/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/PRES/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+surface/PRES/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/PRES/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/PRES/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/PRES/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/PRES/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/PRES/surface/PRES	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/PRES/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/SFCR/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+surface/SFCR/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/SFCR/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/SFCR/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/SFCR/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/SFCR/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/SFCR/surface/SFCR	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/SFCR/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/SHTFL/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+surface/SHTFL/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/SHTFL/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/SHTFL/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/SHTFL/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/SHTFL/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/SHTFL/surface/SHTFL	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/SHTFL/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/SNOD/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+surface/SNOD/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/SNOD/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/SNOD/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/SNOD/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/SNOD/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/SNOD/surface/SNOD	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/SNOD/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/SNOWC/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+surface/SNOWC/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/SNOWC/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/SNOWC/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/SNOWC/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/SNOWC/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/SNOWC/surface/SNOWC	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/SNOWC/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/SSRUN_acc_fcst/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+surface/SSRUN_acc_fcst/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/SSRUN_acc_fcst/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/SSRUN_acc_fcst/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/SSRUN_acc_fcst/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/SSRUN_acc_fcst/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/SSRUN_acc_fcst/surface/SSRUN_acc_fcst	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/SSRUN_acc_fcst/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/TMP/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+surface/TMP/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/TMP/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/TMP/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/TMP/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/TMP/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/TMP/surface/TMP	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/TMP/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/ULWRF/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+surface/ULWRF/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/ULWRF/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/ULWRF/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/ULWRF/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/ULWRF/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/ULWRF/surface/ULWRF	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/ULWRF/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/USWRF/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+surface/USWRF/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/USWRF/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/USWRF/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/USWRF/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/USWRF/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/USWRF/surface/USWRF	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/USWRF/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/VBDSF/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+surface/VBDSF/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/VBDSF/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/VBDSF/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/VBDSF/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/VBDSF/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/VBDSF/surface/VBDSF	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/VBDSF/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/VDDSF/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+surface/VDDSF/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/VDDSF/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/VDDSF/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/VDDSF/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/VDDSF/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/VDDSF/surface/VDDSF	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/VDDSF/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/VEG/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+surface/VEG/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/VEG/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/VEG/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/VEG/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/VEG/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/VEG/surface/VEG	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/VEG/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/VEGMAX/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+surface/VEGMAX/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/VEGMAX/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/VEGMAX/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/VEGMAX/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/VEGMAX/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/VEGMAX/surface/VEGMAX	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/VEGMAX/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/VEGMIN/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+surface/VEGMIN/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/VEGMIN/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/VEGMIN/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/VEGMIN/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/VEGMIN/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/VEGMIN/surface/VEGMIN	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/VEGMIN/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/VGTYP/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+surface/VGTYP/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/VGTYP/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/VGTYP/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/VGTYP/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/VGTYP/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/VGTYP/surface/VGTYP	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/VGTYP/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/VIS/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+surface/VIS/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/VIS/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/VIS/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/VIS/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/VIS/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/VIS/surface/VIS	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/VIS/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/WEASD/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+surface/WEASD/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/WEASD/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/WEASD/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/WEASD/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/WEASD/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/WEASD/surface/WEASD	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/WEASD/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/WEASD_acc_fcst/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+surface/WEASD_acc_fcst/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/WEASD_acc_fcst/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/WEASD_acc_fcst/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+surface/WEASD_acc_fcst/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/WEASD_acc_fcst/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/WEASD_acc_fcst/surface/WEASD_acc_fcst	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+surface/WEASD_acc_fcst/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+top_of_atmosphere/SBT113/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+top_of_atmosphere/SBT113/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+top_of_atmosphere/SBT113/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+top_of_atmosphere/SBT113/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+top_of_atmosphere/SBT113/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+top_of_atmosphere/SBT113/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+top_of_atmosphere/SBT113/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+top_of_atmosphere/SBT113/top_of_atmosphere/SBT113	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+top_of_atmosphere/SBT114/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+top_of_atmosphere/SBT114/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+top_of_atmosphere/SBT114/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+top_of_atmosphere/SBT114/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+top_of_atmosphere/SBT114/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+top_of_atmosphere/SBT114/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+top_of_atmosphere/SBT114/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+top_of_atmosphere/SBT114/top_of_atmosphere/SBT114	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+top_of_atmosphere/SBT123/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+top_of_atmosphere/SBT123/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+top_of_atmosphere/SBT123/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+top_of_atmosphere/SBT123/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+top_of_atmosphere/SBT123/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+top_of_atmosphere/SBT123/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+top_of_atmosphere/SBT123/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+top_of_atmosphere/SBT123/top_of_atmosphere/SBT123	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+top_of_atmosphere/SBT124/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+top_of_atmosphere/SBT124/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+top_of_atmosphere/SBT124/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+top_of_atmosphere/SBT124/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+top_of_atmosphere/SBT124/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+top_of_atmosphere/SBT124/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+top_of_atmosphere/SBT124/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+top_of_atmosphere/SBT124/top_of_atmosphere/SBT124	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+top_of_atmosphere/ULWRF/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+top_of_atmosphere/ULWRF/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+top_of_atmosphere/ULWRF/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+top_of_atmosphere/ULWRF/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+top_of_atmosphere/ULWRF/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+top_of_atmosphere/ULWRF/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+top_of_atmosphere/ULWRF/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+top_of_atmosphere/ULWRF/top_of_atmosphere/ULWRF	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
+top_of_atmosphere/USWRF/forecast_period	shape=[]	chunks=[]	dtype=<i8	comp=null
+top_of_atmosphere/USWRF/forecast_reference_time	shape=[]	chunks=[]	dtype=<f8	comp=null
+top_of_atmosphere/USWRF/height	shape=[]	chunks=[]	dtype=<f8	comp=null
+top_of_atmosphere/USWRF/pressure	shape=[]	chunks=[]	dtype=<f8	comp=null
+top_of_atmosphere/USWRF/projection_x_coordinate	shape=[1799]	chunks=[1799]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+top_of_atmosphere/USWRF/projection_y_coordinate	shape=[1059]	chunks=[1059]	dtype=<f8	comp={"blocksize": 0, "clevel": 5, "cname": "lz4", "id": "blosc", "shuffle": 1}
+top_of_atmosphere/USWRF/time	shape=[]	chunks=[]	dtype=<f8	comp=null
+top_of_atmosphere/USWRF/top_of_atmosphere/USWRF	shape=[1059, 1799]	chunks=[150, 150]	dtype=<f4	comp={"blocksize": 0, "clevel": 9, "cname": "lz4", "id": "blosc", "shuffle": 1}
