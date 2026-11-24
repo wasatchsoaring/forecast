@@ -1,0 +1,1046 @@
+0.1_sigma_level/HAIL_1hr_max_fcst/0.1_sigma_level/HAIL_1hr_max_fcst	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+0.1_sigma_level/HAIL_1hr_max_fcst/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+0.1_sigma_level/HAIL_1hr_max_fcst/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+0.1_sigma_level/HAIL_1hr_max_fcst/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+0.1_sigma_level/HAIL_1hr_max_fcst/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+0.1_sigma_level/HAIL_1hr_max_fcst/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+0.5_0.8_sigma_layer/DZDT_1hr_ave_fcst/0.5_0.8_sigma_layer/DZDT_1hr_ave_fcst	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+0.5_0.8_sigma_layer/DZDT_1hr_ave_fcst/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+0.5_0.8_sigma_layer/DZDT_1hr_ave_fcst/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+0.5_0.8_sigma_layer/DZDT_1hr_ave_fcst/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+0.5_0.8_sigma_layer/DZDT_1hr_ave_fcst/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+0.5_0.8_sigma_layer/DZDT_1hr_ave_fcst/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+0C_isotherm/HGT/0C_isotherm/HGT	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+0C_isotherm/HGT/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+0C_isotherm/HGT/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+0C_isotherm/HGT/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+0C_isotherm/HGT/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+0C_isotherm/HGT/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+0C_isotherm/PRES/0C_isotherm/PRES	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+0C_isotherm/PRES/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+0C_isotherm/PRES/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+0C_isotherm/PRES/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+0C_isotherm/PRES/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+0C_isotherm/PRES/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+0C_isotherm/RH/0C_isotherm/RH	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+0C_isotherm/RH/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+0C_isotherm/RH/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+0C_isotherm/RH/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+0C_isotherm/RH/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+0C_isotherm/RH/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+0_1000m_above_ground/VUCSH/0_1000m_above_ground/VUCSH	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+0_1000m_above_ground/VUCSH/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+0_1000m_above_ground/VUCSH/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+0_1000m_above_ground/VUCSH/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+0_1000m_above_ground/VUCSH/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+0_1000m_above_ground/VUCSH/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+0_1000m_above_ground/VVCSH/0_1000m_above_ground/VVCSH	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+0_1000m_above_ground/VVCSH/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+0_1000m_above_ground/VVCSH/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+0_1000m_above_ground/VVCSH/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+0_1000m_above_ground/VVCSH/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+0_1000m_above_ground/VVCSH/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+0_3000m_above_ground/CAPE/0_3000m_above_ground/CAPE	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+0_3000m_above_ground/CAPE/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+0_3000m_above_ground/CAPE/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+0_3000m_above_ground/CAPE/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+0_3000m_above_ground/CAPE/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+0_3000m_above_ground/CAPE/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+0_3000m_above_ground/ESP/0_3000m_above_ground/ESP	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+0_3000m_above_ground/ESP/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+0_3000m_above_ground/ESP/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+0_3000m_above_ground/ESP/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+0_3000m_above_ground/ESP/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+0_3000m_above_ground/ESP/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+0_500m_above_ground/CANGLE/0_500m_above_ground/CANGLE	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+0_500m_above_ground/CANGLE/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+0_500m_above_ground/CANGLE/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+0_500m_above_ground/CANGLE/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+0_500m_above_ground/CANGLE/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+0_500m_above_ground/CANGLE/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+0_6000m_above_ground/USTM/0_6000m_above_ground/USTM	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+0_6000m_above_ground/USTM/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+0_6000m_above_ground/USTM/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+0_6000m_above_ground/USTM/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+0_6000m_above_ground/USTM/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+0_6000m_above_ground/USTM/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+0_6000m_above_ground/VSTM/0_6000m_above_ground/VSTM	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+0_6000m_above_ground/VSTM/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+0_6000m_above_ground/VSTM/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+0_6000m_above_ground/VSTM/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+0_6000m_above_ground/VSTM/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+0_6000m_above_ground/VSTM/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+0_6000m_above_ground/VUCSH/0_6000m_above_ground/VUCSH	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+0_6000m_above_ground/VUCSH/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+0_6000m_above_ground/VUCSH/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+0_6000m_above_ground/VUCSH/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+0_6000m_above_ground/VUCSH/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+0_6000m_above_ground/VUCSH/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+0_6000m_above_ground/VVCSH/0_6000m_above_ground/VVCSH	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+0_6000m_above_ground/VVCSH/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+0_6000m_above_ground/VVCSH/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+0_6000m_above_ground/VVCSH/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+0_6000m_above_ground/VVCSH/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+0_6000m_above_ground/VVCSH/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+0m_underground/MSTAV/0m_underground/MSTAV	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+0m_underground/MSTAV/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+0m_underground/MSTAV/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+0m_underground/MSTAV/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+0m_underground/MSTAV/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+0m_underground/MSTAV/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+1000_0m_above_ground/HLCY/1000_0m_above_ground/HLCY	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+1000_0m_above_ground/HLCY/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+1000_0m_above_ground/HLCY/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+1000_0m_above_ground/HLCY/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+1000_0m_above_ground/HLCY/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+1000_0m_above_ground/HLCY/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+1000_0m_above_ground/RELV_1hr_max_fcst/1000_0m_above_ground/RELV_1hr_max_fcst	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+1000_0m_above_ground/RELV_1hr_max_fcst/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+1000_0m_above_ground/RELV_1hr_max_fcst/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+1000_0m_above_ground/RELV_1hr_max_fcst/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+1000_0m_above_ground/RELV_1hr_max_fcst/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+1000_0m_above_ground/RELV_1hr_max_fcst/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+1000m_above_ground/MAXREF_1hr_max_fcst/1000m_above_ground/MAXREF_1hr_max_fcst	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+1000m_above_ground/MAXREF_1hr_max_fcst/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+1000m_above_ground/MAXREF_1hr_max_fcst/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+1000m_above_ground/MAXREF_1hr_max_fcst/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+1000m_above_ground/MAXREF_1hr_max_fcst/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+1000m_above_ground/MAXREF_1hr_max_fcst/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+1000m_above_ground/REFD/1000m_above_ground/REFD	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+1000m_above_ground/REFD/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+1000m_above_ground/REFD/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+1000m_above_ground/REFD/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+1000m_above_ground/REFD/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+1000m_above_ground/REFD/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+1000mb/DPT/1000mb/DPT	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+1000mb/DPT/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+1000mb/DPT/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+1000mb/DPT/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+1000mb/DPT/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+1000mb/DPT/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+1000mb/HGT/1000mb/HGT	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+1000mb/HGT/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+1000mb/HGT/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+1000mb/HGT/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+1000mb/HGT/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+1000mb/HGT/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+1000mb/TMP/1000mb/TMP	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+1000mb/TMP/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+1000mb/TMP/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+1000mb/TMP/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+1000mb/TMP/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+1000mb/TMP/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+1000mb/UGRD/1000mb/UGRD	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+1000mb/UGRD/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+1000mb/UGRD/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+1000mb/UGRD/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+1000mb/UGRD/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+1000mb/UGRD/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+1000mb/VGRD/1000mb/VGRD	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+1000mb/VGRD/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+1000mb/VGRD/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+1000mb/VGRD/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+1000mb/VGRD/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+1000mb/VGRD/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+100_1000mb_above_ground/MAXDVV_1hr_max_fcst/100_1000mb_above_ground/MAXDVV_1hr_max_fcst	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+100_1000mb_above_ground/MAXDVV_1hr_max_fcst/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+100_1000mb_above_ground/MAXDVV_1hr_max_fcst/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+100_1000mb_above_ground/MAXDVV_1hr_max_fcst/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+100_1000mb_above_ground/MAXDVV_1hr_max_fcst/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+100_1000mb_above_ground/MAXDVV_1hr_max_fcst/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+100_1000mb_above_ground/MAXUVV_1hr_max_fcst/100_1000mb_above_ground/MAXUVV_1hr_max_fcst	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+100_1000mb_above_ground/MAXUVV_1hr_max_fcst/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+100_1000mb_above_ground/MAXUVV_1hr_max_fcst/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+100_1000mb_above_ground/MAXUVV_1hr_max_fcst/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+100_1000mb_above_ground/MAXUVV_1hr_max_fcst/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+100_1000mb_above_ground/MAXUVV_1hr_max_fcst/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+10m_above_ground/MAXUW_1hr_max_fcst/10m_above_ground/MAXUW_1hr_max_fcst	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+10m_above_ground/MAXUW_1hr_max_fcst/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+10m_above_ground/MAXUW_1hr_max_fcst/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+10m_above_ground/MAXUW_1hr_max_fcst/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+10m_above_ground/MAXUW_1hr_max_fcst/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+10m_above_ground/MAXUW_1hr_max_fcst/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+10m_above_ground/MAXVW_1hr_max_fcst/10m_above_ground/MAXVW_1hr_max_fcst	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+10m_above_ground/MAXVW_1hr_max_fcst/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+10m_above_ground/MAXVW_1hr_max_fcst/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+10m_above_ground/MAXVW_1hr_max_fcst/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+10m_above_ground/MAXVW_1hr_max_fcst/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+10m_above_ground/MAXVW_1hr_max_fcst/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+10m_above_ground/UGRD/10m_above_ground/UGRD	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+10m_above_ground/UGRD/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+10m_above_ground/UGRD/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+10m_above_ground/UGRD/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+10m_above_ground/UGRD/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+10m_above_ground/UGRD/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+10m_above_ground/VGRD/10m_above_ground/VGRD	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+10m_above_ground/VGRD/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+10m_above_ground/VGRD/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+10m_above_ground/VGRD/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+10m_above_ground/VGRD/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+10m_above_ground/VGRD/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+10m_above_ground/WIND_1hr_max_fcst/10m_above_ground/WIND_1hr_max_fcst	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+10m_above_ground/WIND_1hr_max_fcst/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+10m_above_ground/WIND_1hr_max_fcst/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+10m_above_ground/WIND_1hr_max_fcst/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+10m_above_ground/WIND_1hr_max_fcst/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+10m_above_ground/WIND_1hr_max_fcst/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+180_0mb_above_ground/4LFTX/180_0mb_above_ground/4LFTX	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+180_0mb_above_ground/4LFTX/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+180_0mb_above_ground/4LFTX/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+180_0mb_above_ground/4LFTX/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+180_0mb_above_ground/4LFTX/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+180_0mb_above_ground/4LFTX/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+180_0mb_above_ground/CAPE/180_0mb_above_ground/CAPE	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+180_0mb_above_ground/CAPE/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+180_0mb_above_ground/CAPE/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+180_0mb_above_ground/CAPE/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+180_0mb_above_ground/CAPE/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+180_0mb_above_ground/CAPE/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+180_0mb_above_ground/CIN/180_0mb_above_ground/CIN	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+180_0mb_above_ground/CIN/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+180_0mb_above_ground/CIN/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+180_0mb_above_ground/CIN/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+180_0mb_above_ground/CIN/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+180_0mb_above_ground/CIN/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+1m_above_ground/LTNGSD/1m_above_ground/LTNGSD	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+1m_above_ground/LTNGSD/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+1m_above_ground/LTNGSD/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+1m_above_ground/LTNGSD/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+1m_above_ground/LTNGSD/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+1m_above_ground/LTNGSD/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+2000_0m_above_ground/MNUPHL_1hr_min_fcst/2000_0m_above_ground/MNUPHL_1hr_min_fcst	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+2000_0m_above_ground/MNUPHL_1hr_min_fcst/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+2000_0m_above_ground/MNUPHL_1hr_min_fcst/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+2000_0m_above_ground/MNUPHL_1hr_min_fcst/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+2000_0m_above_ground/MNUPHL_1hr_min_fcst/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+2000_0m_above_ground/MNUPHL_1hr_min_fcst/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+2000_0m_above_ground/MXUPHL_1hr_max_fcst/2000_0m_above_ground/MXUPHL_1hr_max_fcst	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+2000_0m_above_ground/MXUPHL_1hr_max_fcst/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+2000_0m_above_ground/MXUPHL_1hr_max_fcst/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+2000_0m_above_ground/MXUPHL_1hr_max_fcst/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+2000_0m_above_ground/MXUPHL_1hr_max_fcst/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+2000_0m_above_ground/MXUPHL_1hr_max_fcst/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+2000_0m_above_ground/RELV_1hr_max_fcst/2000_0m_above_ground/RELV_1hr_max_fcst	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+2000_0m_above_ground/RELV_1hr_max_fcst/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+2000_0m_above_ground/RELV_1hr_max_fcst/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+2000_0m_above_ground/RELV_1hr_max_fcst/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+2000_0m_above_ground/RELV_1hr_max_fcst/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+2000_0m_above_ground/RELV_1hr_max_fcst/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+250mb/UGRD/250mb/UGRD	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+250mb/UGRD/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+250mb/UGRD/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+250mb/UGRD/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+250mb/UGRD/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+250mb/UGRD/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+250mb/VGRD/250mb/VGRD	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+250mb/VGRD/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+250mb/VGRD/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+250mb/VGRD/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+250mb/VGRD/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+250mb/VGRD/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+253K_level/HGT/253K_level/HGT	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+253K_level/HGT/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+253K_level/HGT/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+253K_level/HGT/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+253K_level/HGT/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+253K_level/HGT/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+255_0mb_above_ground/CAPE/255_0mb_above_ground/CAPE	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+255_0mb_above_ground/CAPE/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+255_0mb_above_ground/CAPE/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+255_0mb_above_ground/CAPE/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+255_0mb_above_ground/CAPE/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+255_0mb_above_ground/CAPE/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+255_0mb_above_ground/CIN/255_0mb_above_ground/CIN	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+255_0mb_above_ground/CIN/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+255_0mb_above_ground/CIN/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+255_0mb_above_ground/CIN/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+255_0mb_above_ground/CIN/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+255_0mb_above_ground/CIN/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+255_0mb_above_ground/PLPL/255_0mb_above_ground/PLPL	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+255_0mb_above_ground/PLPL/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+255_0mb_above_ground/PLPL/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+255_0mb_above_ground/PLPL/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+255_0mb_above_ground/PLPL/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+255_0mb_above_ground/PLPL/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+261K_level___256K_level/LAYTH/261K_level___256K_level/LAYTH	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+261K_level___256K_level/LAYTH/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+261K_level___256K_level/LAYTH/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+261K_level___256K_level/LAYTH/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+261K_level___256K_level/LAYTH/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+261K_level___256K_level/LAYTH/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+263K_level/HGT/263K_level/HGT	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+263K_level/HGT/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+263K_level/HGT/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+263K_level/HGT/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+263K_level/HGT/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+263K_level/HGT/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+263K_level/REFD/263K_level/REFD	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+263K_level/REFD/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+263K_level/REFD/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+263K_level/REFD/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+263K_level/REFD/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+263K_level/REFD/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+263K_level/REFD_1hr_max_fcst/263K_level/REFD_1hr_max_fcst	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+263K_level/REFD_1hr_max_fcst/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+263K_level/REFD_1hr_max_fcst/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+263K_level/REFD_1hr_max_fcst/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+263K_level/REFD_1hr_max_fcst/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+263K_level/REFD_1hr_max_fcst/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+2m_above_ground/DPT/2m_above_ground/DPT	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+2m_above_ground/DPT/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+2m_above_ground/DPT/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+2m_above_ground/DPT/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+2m_above_ground/DPT/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+2m_above_ground/DPT/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+2m_above_ground/LTNGSD/2m_above_ground/LTNGSD	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+2m_above_ground/LTNGSD/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+2m_above_ground/LTNGSD/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+2m_above_ground/LTNGSD/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+2m_above_ground/LTNGSD/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+2m_above_ground/LTNGSD/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+2m_above_ground/POT/2m_above_ground/POT	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+2m_above_ground/POT/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+2m_above_ground/POT/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+2m_above_ground/POT/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+2m_above_ground/POT/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+2m_above_ground/POT/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+2m_above_ground/RH/2m_above_ground/RH	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+2m_above_ground/RH/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+2m_above_ground/RH/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+2m_above_ground/RH/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+2m_above_ground/RH/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+2m_above_ground/RH/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+2m_above_ground/SPFH/2m_above_ground/SPFH	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+2m_above_ground/SPFH/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+2m_above_ground/SPFH/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+2m_above_ground/SPFH/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+2m_above_ground/SPFH/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+2m_above_ground/SPFH/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+2m_above_ground/TMP/2m_above_ground/TMP	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+2m_above_ground/TMP/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+2m_above_ground/TMP/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+2m_above_ground/TMP/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+2m_above_ground/TMP/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+2m_above_ground/TMP/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+3000_0m_above_ground/HLCY/3000_0m_above_ground/HLCY	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+3000_0m_above_ground/HLCY/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+3000_0m_above_ground/HLCY/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+3000_0m_above_ground/HLCY/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+3000_0m_above_ground/HLCY/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+3000_0m_above_ground/HLCY/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+3000_0m_above_ground/MNUPHL_1hr_min_fcst/3000_0m_above_ground/MNUPHL_1hr_min_fcst	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+3000_0m_above_ground/MNUPHL_1hr_min_fcst/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+3000_0m_above_ground/MNUPHL_1hr_min_fcst/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+3000_0m_above_ground/MNUPHL_1hr_min_fcst/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+3000_0m_above_ground/MNUPHL_1hr_min_fcst/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+3000_0m_above_ground/MNUPHL_1hr_min_fcst/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+3000_0m_above_ground/MXUPHL_1hr_max_fcst/3000_0m_above_ground/MXUPHL_1hr_max_fcst	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+3000_0m_above_ground/MXUPHL_1hr_max_fcst/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+3000_0m_above_ground/MXUPHL_1hr_max_fcst/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+3000_0m_above_ground/MXUPHL_1hr_max_fcst/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+3000_0m_above_ground/MXUPHL_1hr_max_fcst/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+3000_0m_above_ground/MXUPHL_1hr_max_fcst/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+300mb/UGRD/300mb/UGRD	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+300mb/UGRD/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+300mb/UGRD/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+300mb/UGRD/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+300mb/UGRD/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+300mb/UGRD/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+300mb/VGRD/300mb/VGRD	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+300mb/VGRD/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+300mb/VGRD/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+300mb/VGRD/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+300mb/VGRD/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+300mb/VGRD/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+4000m_above_ground/REFD/4000m_above_ground/REFD	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+4000m_above_ground/REFD/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+4000m_above_ground/REFD/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+4000m_above_ground/REFD/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+4000m_above_ground/REFD/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+4000m_above_ground/REFD/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+5000_2000m_above_ground/MNUPHL_1hr_min_fcst/5000_2000m_above_ground/MNUPHL_1hr_min_fcst	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+5000_2000m_above_ground/MNUPHL_1hr_min_fcst/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+5000_2000m_above_ground/MNUPHL_1hr_min_fcst/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+5000_2000m_above_ground/MNUPHL_1hr_min_fcst/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+5000_2000m_above_ground/MNUPHL_1hr_min_fcst/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+5000_2000m_above_ground/MNUPHL_1hr_min_fcst/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+5000_2000m_above_ground/MXUPHL_1hr_max_fcst/5000_2000m_above_ground/MXUPHL_1hr_max_fcst	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+5000_2000m_above_ground/MXUPHL_1hr_max_fcst/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+5000_2000m_above_ground/MXUPHL_1hr_max_fcst/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+5000_2000m_above_ground/MXUPHL_1hr_max_fcst/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+5000_2000m_above_ground/MXUPHL_1hr_max_fcst/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+5000_2000m_above_ground/MXUPHL_1hr_max_fcst/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+500_1000mb/LFTX/500_1000mb/LFTX	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+500_1000mb/LFTX/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+500_1000mb/LFTX/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+500_1000mb/LFTX/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+500_1000mb/LFTX/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+500_1000mb/LFTX/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+500mb/DPT/500mb/DPT	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+500mb/DPT/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+500mb/DPT/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+500mb/DPT/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+500mb/DPT/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+500mb/DPT/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+500mb/HGT/500mb/HGT	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+500mb/HGT/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+500mb/HGT/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+500mb/HGT/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+500mb/HGT/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+500mb/HGT/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+500mb/TMP/500mb/TMP	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+500mb/TMP/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+500mb/TMP/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+500mb/TMP/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+500mb/TMP/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+500mb/TMP/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+500mb/UGRD/500mb/UGRD	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+500mb/UGRD/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+500mb/UGRD/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+500mb/UGRD/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+500mb/UGRD/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+500mb/UGRD/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+500mb/VGRD/500mb/VGRD	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+500mb/VGRD/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+500mb/VGRD/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+500mb/VGRD/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+500mb/VGRD/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+500mb/VGRD/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+700mb/DPT/700mb/DPT	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+700mb/DPT/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+700mb/DPT/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+700mb/DPT/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+700mb/DPT/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+700mb/DPT/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+700mb/DZDT/700mb/DZDT	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+700mb/DZDT/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+700mb/DZDT/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+700mb/DZDT/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+700mb/DZDT/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+700mb/DZDT/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+700mb/HGT/700mb/HGT	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+700mb/HGT/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+700mb/HGT/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+700mb/HGT/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+700mb/HGT/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+700mb/HGT/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+700mb/TMP/700mb/TMP	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+700mb/TMP/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+700mb/TMP/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+700mb/TMP/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+700mb/TMP/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+700mb/TMP/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+700mb/UGRD/700mb/UGRD	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+700mb/UGRD/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+700mb/UGRD/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+700mb/UGRD/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+700mb/UGRD/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+700mb/UGRD/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+700mb/VGRD/700mb/VGRD	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+700mb/VGRD/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+700mb/VGRD/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+700mb/VGRD/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+700mb/VGRD/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+700mb/VGRD/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+80m_above_ground/UGRD/80m_above_ground/UGRD	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+80m_above_ground/UGRD/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+80m_above_ground/UGRD/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+80m_above_ground/UGRD/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+80m_above_ground/UGRD/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+80m_above_ground/UGRD/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+80m_above_ground/VGRD/80m_above_ground/VGRD	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+80m_above_ground/VGRD/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+80m_above_ground/VGRD/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+80m_above_ground/VGRD/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+80m_above_ground/VGRD/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+80m_above_ground/VGRD/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+850mb/DPT/850mb/DPT	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+850mb/DPT/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+850mb/DPT/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+850mb/DPT/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+850mb/DPT/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+850mb/DPT/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+850mb/HGT/850mb/HGT	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+850mb/HGT/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+850mb/HGT/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+850mb/HGT/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+850mb/HGT/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+850mb/HGT/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+850mb/TMP/850mb/TMP	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+850mb/TMP/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+850mb/TMP/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+850mb/TMP/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+850mb/TMP/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+850mb/TMP/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+850mb/UGRD/850mb/UGRD	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+850mb/UGRD/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+850mb/UGRD/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+850mb/UGRD/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+850mb/UGRD/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+850mb/UGRD/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+850mb/VGRD/850mb/VGRD	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+850mb/VGRD/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+850mb/VGRD/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+850mb/VGRD/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+850mb/VGRD/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+850mb/VGRD/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+8m_above_ground/MASSDEN/8m_above_ground/MASSDEN	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f8"}
+8m_above_ground/MASSDEN/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+8m_above_ground/MASSDEN/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+8m_above_ground/MASSDEN/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+8m_above_ground/MASSDEN/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+8m_above_ground/MASSDEN/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+90_0mb_above_ground/CAPE/90_0mb_above_ground/CAPE	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+90_0mb_above_ground/CAPE/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+90_0mb_above_ground/CAPE/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+90_0mb_above_ground/CAPE/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+90_0mb_above_ground/CAPE/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+90_0mb_above_ground/CAPE/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+90_0mb_above_ground/CIN/90_0mb_above_ground/CIN	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+90_0mb_above_ground/CIN/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+90_0mb_above_ground/CIN/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+90_0mb_above_ground/CIN/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+90_0mb_above_ground/CIN/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+90_0mb_above_ground/CIN/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+925mb/DPT/925mb/DPT	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+925mb/DPT/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+925mb/DPT/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+925mb/DPT/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+925mb/DPT/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+925mb/DPT/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+925mb/TMP/925mb/TMP	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+925mb/TMP/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+925mb/TMP/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+925mb/TMP/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+925mb/TMP/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+925mb/TMP/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+925mb/UGRD/925mb/UGRD	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+925mb/UGRD/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+925mb/UGRD/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+925mb/UGRD/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+925mb/UGRD/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+925mb/UGRD/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+925mb/VGRD/925mb/VGRD	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+925mb/VGRD/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+925mb/VGRD/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+925mb/VGRD/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+925mb/VGRD/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+925mb/VGRD/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+boundary_layer_cloud_layer/TCDC/boundary_layer_cloud_layer/TCDC	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+boundary_layer_cloud_layer/TCDC/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+boundary_layer_cloud_layer/TCDC/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+boundary_layer_cloud_layer/TCDC/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+boundary_layer_cloud_layer/TCDC/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+boundary_layer_cloud_layer/TCDC/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+cloud_base/HGT/cloud_base/HGT	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+cloud_base/HGT/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+cloud_base/HGT/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+cloud_base/HGT/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+cloud_base/HGT/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+cloud_base/HGT/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+cloud_base/PRES/cloud_base/PRES	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+cloud_base/PRES/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+cloud_base/PRES/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+cloud_base/PRES/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+cloud_base/PRES/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+cloud_base/PRES/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+cloud_ceiling/HGT/cloud_ceiling/HGT	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+cloud_ceiling/HGT/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+cloud_ceiling/HGT/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+cloud_ceiling/HGT/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+cloud_ceiling/HGT/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+cloud_ceiling/HGT/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+cloud_top/HGT/cloud_top/HGT	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+cloud_top/HGT/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+cloud_top/HGT/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+cloud_top/HGT/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+cloud_top/HGT/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+cloud_top/HGT/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+cloud_top/PRES/cloud_top/PRES	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+cloud_top/PRES/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+cloud_top/PRES/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+cloud_top/PRES/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+cloud_top/PRES/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+cloud_top/PRES/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+cloud_top/RETOP/cloud_top/RETOP	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+cloud_top/RETOP/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+cloud_top/RETOP/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+cloud_top/RETOP/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+cloud_top/RETOP/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+cloud_top/RETOP/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+entire_atmosphere/HAIL_1hr_max_fcst/entire_atmosphere/HAIL_1hr_max_fcst	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+entire_atmosphere/HAIL_1hr_max_fcst/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+entire_atmosphere/HAIL_1hr_max_fcst/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+entire_atmosphere/HAIL_1hr_max_fcst/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+entire_atmosphere/HAIL_1hr_max_fcst/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+entire_atmosphere/HAIL_1hr_max_fcst/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+entire_atmosphere/LTNG/entire_atmosphere/LTNG	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+entire_atmosphere/LTNG/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+entire_atmosphere/LTNG/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+entire_atmosphere/LTNG/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+entire_atmosphere/LTNG/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+entire_atmosphere/LTNG/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+entire_atmosphere/RADARVIL/entire_atmosphere/RADARVIL	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+entire_atmosphere/RADARVIL/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+entire_atmosphere/RADARVIL/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+entire_atmosphere/RADARVIL/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+entire_atmosphere/RADARVIL/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+entire_atmosphere/RADARVIL/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+entire_atmosphere/REFC/entire_atmosphere/REFC	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+entire_atmosphere/REFC/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+entire_atmosphere/REFC/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+entire_atmosphere/REFC/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+entire_atmosphere/REFC/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+entire_atmosphere/REFC/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+entire_atmosphere/RHPW/entire_atmosphere/RHPW	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+entire_atmosphere/RHPW/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+entire_atmosphere/RHPW/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+entire_atmosphere/RHPW/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+entire_atmosphere/RHPW/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+entire_atmosphere/RHPW/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+entire_atmosphere/TCDC/entire_atmosphere/TCDC	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+entire_atmosphere/TCDC/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+entire_atmosphere/TCDC/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+entire_atmosphere/TCDC/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+entire_atmosphere/TCDC/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+entire_atmosphere/TCDC/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+entire_atmosphere/TCOLI/entire_atmosphere/TCOLI	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+entire_atmosphere/TCOLI/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+entire_atmosphere/TCOLI/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+entire_atmosphere/TCOLI/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+entire_atmosphere/TCOLI/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+entire_atmosphere/TCOLI/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+entire_atmosphere/TCOLW/entire_atmosphere/TCOLW	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+entire_atmosphere/TCOLW/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+entire_atmosphere/TCOLW/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+entire_atmosphere/TCOLW/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+entire_atmosphere/TCOLW/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+entire_atmosphere/TCOLW/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+entire_atmosphere/VIL/entire_atmosphere/VIL	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+entire_atmosphere/VIL/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+entire_atmosphere/VIL/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+entire_atmosphere/VIL/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+entire_atmosphere/VIL/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+entire_atmosphere/VIL/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+entire_atmosphere_single_layer/AOTK/entire_atmosphere_single_layer/AOTK	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+entire_atmosphere_single_layer/AOTK/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+entire_atmosphere_single_layer/AOTK/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+entire_atmosphere_single_layer/AOTK/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+entire_atmosphere_single_layer/AOTK/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+entire_atmosphere_single_layer/AOTK/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+entire_atmosphere_single_layer/COLMD/entire_atmosphere_single_layer/COLMD	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f8"}
+entire_atmosphere_single_layer/COLMD/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+entire_atmosphere_single_layer/COLMD/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+entire_atmosphere_single_layer/COLMD/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+entire_atmosphere_single_layer/COLMD/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+entire_atmosphere_single_layer/COLMD/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+entire_atmosphere_single_layer/PWAT/entire_atmosphere_single_layer/PWAT	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+entire_atmosphere_single_layer/PWAT/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+entire_atmosphere_single_layer/PWAT/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+entire_atmosphere_single_layer/PWAT/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+entire_atmosphere_single_layer/PWAT/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+entire_atmosphere_single_layer/PWAT/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+entire_atmosphere_single_layer/TCOLG_1hr_max_fcst/entire_atmosphere_single_layer/TCOLG_1hr_max_fcst	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+entire_atmosphere_single_layer/TCOLG_1hr_max_fcst/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+entire_atmosphere_single_layer/TCOLG_1hr_max_fcst/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+entire_atmosphere_single_layer/TCOLG_1hr_max_fcst/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+entire_atmosphere_single_layer/TCOLG_1hr_max_fcst/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+entire_atmosphere_single_layer/TCOLG_1hr_max_fcst/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+equilibrium_level/HGT/equilibrium_level/HGT	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+equilibrium_level/HGT/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+equilibrium_level/HGT/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+equilibrium_level/HGT/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+equilibrium_level/HGT/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+equilibrium_level/HGT/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+high_cloud_layer/HCDC/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+high_cloud_layer/HCDC/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+high_cloud_layer/HCDC/high_cloud_layer/HCDC	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+high_cloud_layer/HCDC/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+high_cloud_layer/HCDC/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+high_cloud_layer/HCDC/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+highest_tropospheric_freezing_level/HGT/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+highest_tropospheric_freezing_level/HGT/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+highest_tropospheric_freezing_level/HGT/highest_tropospheric_freezing_level/HGT	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+highest_tropospheric_freezing_level/HGT/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+highest_tropospheric_freezing_level/HGT/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+highest_tropospheric_freezing_level/HGT/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+highest_tropospheric_freezing_level/PRES/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+highest_tropospheric_freezing_level/PRES/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+highest_tropospheric_freezing_level/PRES/highest_tropospheric_freezing_level/PRES	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+highest_tropospheric_freezing_level/PRES/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+highest_tropospheric_freezing_level/PRES/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+highest_tropospheric_freezing_level/PRES/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+highest_tropospheric_freezing_level/RH/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+highest_tropospheric_freezing_level/RH/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+highest_tropospheric_freezing_level/RH/highest_tropospheric_freezing_level/RH	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+highest_tropospheric_freezing_level/RH/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+highest_tropospheric_freezing_level/RH/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+highest_tropospheric_freezing_level/RH/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+level_of_adiabatic_condensation_from_sfc/HGT/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+level_of_adiabatic_condensation_from_sfc/HGT/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+level_of_adiabatic_condensation_from_sfc/HGT/level_of_adiabatic_condensation_from_sfc/HGT	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+level_of_adiabatic_condensation_from_sfc/HGT/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+level_of_adiabatic_condensation_from_sfc/HGT/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+level_of_adiabatic_condensation_from_sfc/HGT/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+level_of_free_convection/HGT/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+level_of_free_convection/HGT/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+level_of_free_convection/HGT/level_of_free_convection/HGT	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+level_of_free_convection/HGT/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+level_of_free_convection/HGT/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+level_of_free_convection/HGT/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+low_cloud_layer/LCDC/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+low_cloud_layer/LCDC/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+low_cloud_layer/LCDC/low_cloud_layer/LCDC	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+low_cloud_layer/LCDC/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+low_cloud_layer/LCDC/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+low_cloud_layer/LCDC/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+mean_sea_level/MSLMA/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+mean_sea_level/MSLMA/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+mean_sea_level/MSLMA/mean_sea_level/MSLMA	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+mean_sea_level/MSLMA/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+mean_sea_level/MSLMA/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+mean_sea_level/MSLMA/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+middle_cloud_layer/MCDC/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+middle_cloud_layer/MCDC/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+middle_cloud_layer/MCDC/middle_cloud_layer/MCDC	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+middle_cloud_layer/MCDC/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+middle_cloud_layer/MCDC/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+middle_cloud_layer/MCDC/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+surface/APCP_1hr_acc_fcst/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+surface/APCP_1hr_acc_fcst/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+surface/APCP_1hr_acc_fcst/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+surface/APCP_1hr_acc_fcst/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+surface/APCP_1hr_acc_fcst/surface/APCP_1hr_acc_fcst	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+surface/APCP_1hr_acc_fcst/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+surface/APCP_acc_fcst/forecast_period_1	{"shape": [17], "chunks": [17], "dtype": "<i8"}
+surface/APCP_acc_fcst/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+surface/APCP_acc_fcst/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+surface/APCP_acc_fcst/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+surface/APCP_acc_fcst/surface/APCP_acc_fcst	{"shape": [17, 1059, 1799], "chunks": [17, 150, 150], "dtype": "<f4"}
+surface/APCP_acc_fcst/time_1	{"shape": [17], "chunks": [17], "dtype": "<f8"}
+surface/ASNOW_1hr_acc_fcst/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+surface/ASNOW_1hr_acc_fcst/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+surface/ASNOW_1hr_acc_fcst/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+surface/ASNOW_1hr_acc_fcst/surface/ASNOW_1hr_acc_fcst	{"shape": [1059, 1799], "chunks": [150, 150], "dtype": "<f4"}
+surface/ASNOW_acc_fcst/forecast_period_1	{"shape": [17], "chunks": [17], "dtype": "<i8"}
+surface/ASNOW_acc_fcst/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+surface/ASNOW_acc_fcst/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+surface/ASNOW_acc_fcst/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+surface/ASNOW_acc_fcst/surface/ASNOW_acc_fcst	{"shape": [17, 1059, 1799], "chunks": [17, 150, 150], "dtype": "<f4"}
+surface/ASNOW_acc_fcst/time_1	{"shape": [17], "chunks": [17], "dtype": "<f8"}
+surface/BGRUN_1hr_acc_fcst/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+surface/BGRUN_1hr_acc_fcst/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+surface/BGRUN_1hr_acc_fcst/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+surface/BGRUN_1hr_acc_fcst/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+surface/BGRUN_1hr_acc_fcst/surface/BGRUN_1hr_acc_fcst	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+surface/BGRUN_1hr_acc_fcst/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+surface/CAPE/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+surface/CAPE/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+surface/CAPE/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+surface/CAPE/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+surface/CAPE/surface/CAPE	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+surface/CAPE/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+surface/CFNSF/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+surface/CFNSF/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+surface/CFNSF/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+surface/CFNSF/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+surface/CFNSF/surface/CFNSF	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+surface/CFNSF/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+surface/CFRZR/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+surface/CFRZR/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+surface/CFRZR/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+surface/CFRZR/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+surface/CFRZR/surface/CFRZR	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+surface/CFRZR/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+surface/CICEP/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+surface/CICEP/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+surface/CICEP/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+surface/CICEP/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+surface/CICEP/surface/CICEP	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+surface/CICEP/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+surface/CIN/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+surface/CIN/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+surface/CIN/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+surface/CIN/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+surface/CIN/surface/CIN	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+surface/CIN/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+surface/CNWAT/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+surface/CNWAT/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+surface/CNWAT/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+surface/CNWAT/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+surface/CNWAT/surface/CNWAT	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+surface/CNWAT/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+surface/CPOFP/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+surface/CPOFP/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+surface/CPOFP/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+surface/CPOFP/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+surface/CPOFP/surface/CPOFP	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+surface/CPOFP/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+surface/CRAIN/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+surface/CRAIN/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+surface/CRAIN/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+surface/CRAIN/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+surface/CRAIN/surface/CRAIN	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+surface/CRAIN/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+surface/CSNOW/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+surface/CSNOW/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+surface/CSNOW/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+surface/CSNOW/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+surface/CSNOW/surface/CSNOW	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+surface/CSNOW/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+surface/DLWRF/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+surface/DLWRF/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+surface/DLWRF/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+surface/DLWRF/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+surface/DLWRF/surface/DLWRF	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+surface/DLWRF/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+surface/DSWRF/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+surface/DSWRF/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+surface/DSWRF/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+surface/DSWRF/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+surface/DSWRF/surface/DSWRF	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+surface/DSWRF/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+surface/EFHL/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+surface/EFHL/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+surface/EFHL/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+surface/EFHL/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+surface/EFHL/surface/EFHL	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+surface/EFHL/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+surface/FRICV/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+surface/FRICV/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+surface/FRICV/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+surface/FRICV/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+surface/FRICV/surface/FRICV	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+surface/FRICV/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+surface/FROZR_1hr_acc_fcst/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+surface/FROZR_1hr_acc_fcst/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+surface/FROZR_1hr_acc_fcst/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+surface/FROZR_1hr_acc_fcst/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+surface/FROZR_1hr_acc_fcst/surface/FROZR_1hr_acc_fcst	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+surface/FROZR_1hr_acc_fcst/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+surface/FROZR_acc_fcst/forecast_period_1	{"shape": [17], "chunks": [17], "dtype": "<i8"}
+surface/FROZR_acc_fcst/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+surface/FROZR_acc_fcst/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+surface/FROZR_acc_fcst/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+surface/FROZR_acc_fcst/surface/FROZR_acc_fcst	{"shape": [17, 1059, 1799], "chunks": [17, 150, 150], "dtype": "<f4"}
+surface/FROZR_acc_fcst/time_1	{"shape": [17], "chunks": [17], "dtype": "<f8"}
+surface/FRZR_1hr_acc_fcst/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+surface/FRZR_1hr_acc_fcst/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+surface/FRZR_1hr_acc_fcst/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+surface/FRZR_1hr_acc_fcst/surface/FRZR_1hr_acc_fcst	{"shape": [1059, 1799], "chunks": [150, 150], "dtype": "<f4"}
+surface/FRZR_acc_fcst/forecast_period_1	{"shape": [17], "chunks": [17], "dtype": "<i8"}
+surface/FRZR_acc_fcst/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+surface/FRZR_acc_fcst/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+surface/FRZR_acc_fcst/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+surface/FRZR_acc_fcst/surface/FRZR_acc_fcst	{"shape": [17, 1059, 1799], "chunks": [17, 150, 150], "dtype": "<f4"}
+surface/FRZR_acc_fcst/time_1	{"shape": [17], "chunks": [17], "dtype": "<f8"}
+surface/GFLUX/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+surface/GFLUX/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+surface/GFLUX/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+surface/GFLUX/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+surface/GFLUX/surface/GFLUX	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+surface/GFLUX/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+surface/GUST/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+surface/GUST/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+surface/GUST/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+surface/GUST/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+surface/GUST/surface/GUST	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+surface/GUST/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+surface/HAIL_1hr_max_fcst/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+surface/HAIL_1hr_max_fcst/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+surface/HAIL_1hr_max_fcst/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+surface/HAIL_1hr_max_fcst/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+surface/HAIL_1hr_max_fcst/surface/HAIL_1hr_max_fcst	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+surface/HAIL_1hr_max_fcst/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+surface/HGT/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+surface/HGT/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+surface/HGT/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+surface/HGT/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+surface/HGT/surface/HGT	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+surface/HGT/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+surface/HPBL/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+surface/HPBL/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+surface/HPBL/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+surface/HPBL/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+surface/HPBL/surface/HPBL	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+surface/HPBL/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+surface/ICEC/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+surface/ICEC/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+surface/ICEC/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+surface/ICEC/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+surface/ICEC/surface/ICEC	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+surface/ICEC/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+surface/LAI/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+surface/LAI/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+surface/LAI/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+surface/LAI/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+surface/LAI/surface/LAI	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+surface/LAI/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+surface/LAND/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+surface/LAND/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+surface/LAND/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+surface/LAND/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+surface/LAND/surface/LAND	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+surface/LAND/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+surface/LHTFL/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+surface/LHTFL/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+surface/LHTFL/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+surface/LHTFL/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+surface/LHTFL/surface/LHTFL	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+surface/LHTFL/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+surface/PRATE/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+surface/PRATE/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+surface/PRATE/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+surface/PRATE/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+surface/PRATE/surface/PRATE	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+surface/PRATE/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+surface/PRES/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+surface/PRES/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+surface/PRES/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+surface/PRES/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+surface/PRES/surface/PRES	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+surface/PRES/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+surface/SFCR/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+surface/SFCR/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+surface/SFCR/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+surface/SFCR/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+surface/SFCR/surface/SFCR	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+surface/SFCR/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+surface/SHTFL/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+surface/SHTFL/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+surface/SHTFL/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+surface/SHTFL/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+surface/SHTFL/surface/SHTFL	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+surface/SHTFL/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+surface/SNOD/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+surface/SNOD/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+surface/SNOD/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+surface/SNOD/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+surface/SNOD/surface/SNOD	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+surface/SNOD/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+surface/SNOWC/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+surface/SNOWC/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+surface/SNOWC/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+surface/SNOWC/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+surface/SNOWC/surface/SNOWC	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+surface/SNOWC/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+surface/SSRUN_1hr_acc_fcst/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+surface/SSRUN_1hr_acc_fcst/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+surface/SSRUN_1hr_acc_fcst/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+surface/SSRUN_1hr_acc_fcst/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+surface/SSRUN_1hr_acc_fcst/surface/SSRUN_1hr_acc_fcst	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+surface/SSRUN_1hr_acc_fcst/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+surface/TMP/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+surface/TMP/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+surface/TMP/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+surface/TMP/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+surface/TMP/surface/TMP	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+surface/TMP/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+surface/ULWRF/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+surface/ULWRF/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+surface/ULWRF/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+surface/ULWRF/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+surface/ULWRF/surface/ULWRF	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+surface/ULWRF/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+surface/USWRF/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+surface/USWRF/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+surface/USWRF/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+surface/USWRF/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+surface/USWRF/surface/USWRF	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+surface/USWRF/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+surface/VBDSF/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+surface/VBDSF/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+surface/VBDSF/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+surface/VBDSF/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+surface/VBDSF/surface/VBDSF	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+surface/VBDSF/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+surface/VDDSF/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+surface/VDDSF/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+surface/VDDSF/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+surface/VDDSF/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+surface/VDDSF/surface/VDDSF	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+surface/VDDSF/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+surface/VEG/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+surface/VEG/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+surface/VEG/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+surface/VEG/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+surface/VEG/surface/VEG	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+surface/VEG/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+surface/VEGMAX/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+surface/VEGMAX/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+surface/VEGMAX/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+surface/VEGMAX/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+surface/VEGMAX/surface/VEGMAX	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+surface/VEGMAX/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+surface/VEGMIN/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+surface/VEGMIN/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+surface/VEGMIN/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+surface/VEGMIN/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+surface/VEGMIN/surface/VEGMIN	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+surface/VEGMIN/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+surface/VGTYP/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+surface/VGTYP/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+surface/VGTYP/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+surface/VGTYP/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+surface/VGTYP/surface/VGTYP	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+surface/VGTYP/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+surface/VIS/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+surface/VIS/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+surface/VIS/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+surface/VIS/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+surface/VIS/surface/VIS	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+surface/VIS/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+surface/WEASD/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+surface/WEASD/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+surface/WEASD/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+surface/WEASD/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+surface/WEASD/surface/WEASD	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+surface/WEASD/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+surface/WEASD_1hr_acc_fcst/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+surface/WEASD_1hr_acc_fcst/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+surface/WEASD_1hr_acc_fcst/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+surface/WEASD_1hr_acc_fcst/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+surface/WEASD_1hr_acc_fcst/surface/WEASD_1hr_acc_fcst	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+surface/WEASD_1hr_acc_fcst/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+surface/WEASD_acc_fcst/forecast_period_1	{"shape": [17], "chunks": [17], "dtype": "<i8"}
+surface/WEASD_acc_fcst/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+surface/WEASD_acc_fcst/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+surface/WEASD_acc_fcst/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+surface/WEASD_acc_fcst/surface/WEASD_acc_fcst	{"shape": [17, 1059, 1799], "chunks": [17, 150, 150], "dtype": "<f4"}
+surface/WEASD_acc_fcst/time_1	{"shape": [17], "chunks": [17], "dtype": "<f8"}
+top_of_atmosphere/SBT113/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+top_of_atmosphere/SBT113/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+top_of_atmosphere/SBT113/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+top_of_atmosphere/SBT113/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+top_of_atmosphere/SBT113/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+top_of_atmosphere/SBT113/top_of_atmosphere/SBT113	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+top_of_atmosphere/SBT114/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+top_of_atmosphere/SBT114/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+top_of_atmosphere/SBT114/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+top_of_atmosphere/SBT114/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+top_of_atmosphere/SBT114/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+top_of_atmosphere/SBT114/top_of_atmosphere/SBT114	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+top_of_atmosphere/SBT123/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+top_of_atmosphere/SBT123/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+top_of_atmosphere/SBT123/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+top_of_atmosphere/SBT123/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+top_of_atmosphere/SBT123/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+top_of_atmosphere/SBT123/top_of_atmosphere/SBT123	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+top_of_atmosphere/SBT124/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+top_of_atmosphere/SBT124/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+top_of_atmosphere/SBT124/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+top_of_atmosphere/SBT124/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+top_of_atmosphere/SBT124/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+top_of_atmosphere/SBT124/top_of_atmosphere/SBT124	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+top_of_atmosphere/ULWRF/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+top_of_atmosphere/ULWRF/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+top_of_atmosphere/ULWRF/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+top_of_atmosphere/ULWRF/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+top_of_atmosphere/ULWRF/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+top_of_atmosphere/ULWRF/top_of_atmosphere/ULWRF	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
+top_of_atmosphere/USWRF/forecast_period	{"shape": [18], "chunks": [18], "dtype": "<i8"}
+top_of_atmosphere/USWRF/forecast_reference_time	{"shape": [], "chunks": [], "dtype": "<f8"}
+top_of_atmosphere/USWRF/projection_x_coordinate	{"shape": [1799], "chunks": [1799], "dtype": "<f8"}
+top_of_atmosphere/USWRF/projection_y_coordinate	{"shape": [1059], "chunks": [1059], "dtype": "<f8"}
+top_of_atmosphere/USWRF/time	{"shape": [18], "chunks": [18], "dtype": "<f8"}
+top_of_atmosphere/USWRF/top_of_atmosphere/USWRF	{"shape": [18, 1059, 1799], "chunks": [18, 150, 150], "dtype": "<f4"}
