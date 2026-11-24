@@ -12,6 +12,7 @@ from datetime import datetime, timedelta, timezone
 import pandas as pd
 
 sys.path.insert(0, os.path.dirname(__file__))
+import fill_gaps  # noqa: E402
 import hrrr  # noqa: E402
 
 V4_START = datetime(2020, 12, 3, tzinfo=timezone.utc)   # HRRRv4 went operational 2 Dec 2020 12Z
@@ -47,6 +48,7 @@ def main(month):
         df[c] = df[c].astype("float32")
     os.makedirs("data/hrrr/_status", exist_ok=True)
     df.to_parquet(f"data/hrrr/{month}.parquet", compression="zstd", index=False)
+    stats["gap_filled"] = fill_gaps.fill(month, pts)
     stats.update(month=month, hours=len(hours), seconds=round(time.time() - t0),
                  missing_hours=int(sum(df.groupby("time")["HPBL"].apply(lambda s: s.isna().all()))),
                  bytes=os.path.getsize(f"data/hrrr/{month}.parquet"))

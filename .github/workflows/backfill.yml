@@ -56,14 +56,15 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
-      - run: pip install numpy pandas pyarrow
+      - run: pip install numpy requests numcodecs pandas pyarrow
+      - run: python scripts/fill_gaps.py
       - run: python scripts/climo.py
       - name: Save to the repo
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/climo.parquet
-          git commit -q -m "Re-rate every history day" || exit 0
+          git add data/climo.parquet data/hrrr
+          git commit -q -m "Fill gaps and re-rate every history day" || exit 0
           for i in 1 2 3 4 5 6 7 8 9 10; do
             git pull -q --rebase && git push -q && exit 0
             sleep $((RANDOM % 25 + 5))
