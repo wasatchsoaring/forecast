@@ -1,0 +1,38 @@
+name: daily history
+on:
+  schedule:
+    - cron: '17 10 * * *'
+  push:
+    branches: [main]
+    paths: ['climo.trigger']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: daily
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - run: pip install numpy requests numcodecs pandas pyarrow
+      - name: Add the newest analyses to this month's history
+        run: |
+          python scripts/backfill.py $(date -u +%Y-%m)
+          if [ "$(date -u +%d)" -le 2 ]; then python scripts/backfill.py $(date -u -d '5 days ago' +%Y-%m); fi
+      - name: Re-rate every history day
+        run: python scripts/climo.py
+      - name: Save to the repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/hrrr data/climo.parquet
+          git commit -q -m "Daily history update $(date -u +%Y-%m-%d)" || exit 0
+          for i in 1 2 3 4 5 6 7 8 9 10; do
+            git pull -q --rebase && git push -q && exit 0
+            sleep $((RANDOM % 25 + 5))
+          done
+          exit 1

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Wasatch Soaring Forecast</title>
+<meta name="description" content="Paragliding forecasts for Wasatch and Utah sites, rated against years of HRRR history.">
+<style>
+:root{
+  --bg:#f6f5f1;--card:#ffffff;--ink:#1b1d1f;--soft:#5d6369;--line:#e3e1da;
+  --t5:#5b2bd6;--t25:#13804a;--good:#7aa23a;--ok:#c8d8b0;--no:#ecebe6;--storm:#d9480f;
+  --t5ink:#fff;--t25ink:#fff;--goodink:#fff;--okink:#22301a;--noink:#8a8f94;
+}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#111315;--card:#191c1f;--ink:#eceae4;--soft:#9aa0a6;--line:#2a2e33;
+  --t5:#7c55ee;--t25:#1f9a5c;--good:#6d8f34;--ok:#33402a;--no:#202326;--storm:#ff7a3d;
+  --okink:#d7e6c4;--noink:#6c7278;
+}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.4 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif;-webkit-text-size-adjust:100%}
+header{padding:18px 16px 6px;max-width:980px;margin:0 auto}
+h1{font-size:22px;margin:0 0 2px;letter-spacing:-.01em}
+.sub{color:var(--soft);font-size:13px}
+.legend{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0 4px}
+.chip{font-size:12px;padding:3px 8px;border-radius:999px;font-weight:600}
+main{max-width:980px;margin:0 auto;padding:0 8px 40px}
+table{border-collapse:separate;border-spacing:4px;width:100%;table-layout:fixed}
+th{font-size:12px;color:var(--soft);font-weight:600;text-align:left;padding:8px 4px 2px}
+th.site{width:34%}
+td.name{padding:6px 4px;vertical-align:middle}
+td.name b{display:block;font-size:14px}
+td.name span{font-size:11.5px;color:var(--soft)}
+tr.region td{padding:14px 4px 2px;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--soft);font-weight:700}
+td.cell{border-radius:10px;padding:7px 8px;vertical-align:top;cursor:pointer;position:relative;min-height:58px}
+td.cell:focus-visible{outline:2px solid var(--ink)}
+td.cell.sel{box-shadow:0 0 0 2px var(--ink) inset}
+.lab{font-weight:700;font-size:13px}
+.l2,.l3{font-size:12px;opacity:.92}
+.flag{position:absolute;right:6px;top:5px;font-size:13px}
+.t5{background:var(--t5);color:var(--t5ink)}
+.t25{background:var(--t25);color:var(--t25ink)}
+.good{background:var(--good);color:var(--goodink)}
+.ok{background:var(--ok);color:var(--okink)}
+.no{background:var(--no);color:var(--noink)}
+#detail{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;margin:14px 4px;scroll-margin-top:10px}
+#detail h2{font-size:17px;margin:0 0 2px}
+#detail .why{font-size:13px;color:var(--soft);margin:4px 0 10px}
+.hours{width:100%;border-collapse:collapse;font-size:13px;table-layout:auto}
+.hours th{font-size:11px;text-align:right;padding:4px 6px;border-bottom:1px solid var(--line)}
+.hours th:first-child,.hours td:first-child{text-align:left}
+.hours td{padding:5px 6px;text-align:right;border-bottom:1px solid var(--line);white-space:nowrap}
+.hours tr.soar td{background:color-mix(in srgb,var(--t25) 14%,transparent)}
+.hours tr.storm td{background:color-mix(in srgb,var(--storm) 14%,transparent)}
+.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.arrow{display:inline-block;width:12px;text-align:center}
+.foot{font-size:12.5px;color:var(--soft);max-width:980px;margin:0 auto;padding:0 16px 40px}
+.foot p{margin:6px 0}
+.muted{color:var(--soft)}
+@media (max-width:520px){th.site{width:36%}td.cell{padding:6px}.l3{display:none}}
+</style>
+</head>
+<body>
+<header>
+  <h1>Wasatch Soaring Forecast</h1>
+  <div class="sub" id="sub"></div>
+  <div class="legend">
+    <span class="chip t5">Top 5%</span><span class="chip t25">Top 25%</span><span class="chip good">Better than usual</span><span class="chip ok">Soarable</span><span class="chip no">Not soarable</span><span class="chip" style="color:var(--storm)">⚡ storm risk</span><span class="chip">🦅 strong climbs</span>
+  </div>
+  <div class="sub">Each day is ranked against the same site's HRRR history, within 3 weeks of the date. Tap a day for the hour by hour.</div>
+</header>
+<main>
+  <table id="grid"></table>
+  <section id="detail" hidden></section>
+</main>
+<div class="foot">
+  <p><b>How it's rated.</b> Thermal sites: an hour counts when the wind at launch height is inside the club's direction and speed limits, there's no storm or rain nearby, the thermals reach at least 1,000 ft over launch, and W* (average thermal strength) is at least 1 m/s. The day's score is the best hour's height over launch times thermal strength. Ridge sites (North Side, South Side, Burn Side, Poverty Ridge): an hour counts when the wind is in range, weighted by how close it is to the ideal speed.</p>
+  <p><b>Where the numbers come from.</b> NOAA's HRRR model (3 km), read from the University of Utah HRRR-Zarr archive. Thermal top is the model's boundary layer top, capped at cumulus base. History runs from <span id="hist"></span>.</p>
+  <p><b>Known gaps.</b> HRRR goes 48 hours out, so you see today and tomorrow. Wind limits for Oakley Ridge, Wire, Mahogany, Wales, Castleton Tower and Ken's Lake aren't set yet, so those use generic limits. A model, not a weather station: check live wind before you launch.</p>
+</div>
+<script>
+const DATA = /*DATA*/null;
+const REGIONS = [
+  ["Point of the Mountain", ["north-side","south-side"]],
+  ["Salt Lake & Davis", ["burn-side","grandeur","wire","cherry","the-v","francis-peak"]],
+  ["Utah County", ["inspo","mahogany"]],
+  ["Park City & Kamas", ["jupiter","oakley-ridge"]],
+  ["Juab & Sanpete", ["horse-heaven","wales"]],
+  ["Monroe & Marysvale", ["monroe-peak","cove","poverty-ridge","edna","junction"]],
+  ["Moab", ["castleton-tower","kens-lake"]],
+];
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const cls = l => ({"Top 5%":"t5","Top 25%":"t25","Better than usual":"good","Soarable":"ok"}[l] || "no");
+const DIRS = ["N","NNE","NE","ENE","E","ESE","SE","SSE","S","SSW","SW","WSW","W","WNW","NW","NNW"];
+const compass = d => d == null ? "" : DIRS[Math.round(d / 22.5) % 16];
+const arrow = d => d == null ? "" : `<span class="arrow" style="transform:rotate(${(d + 180) % 360}deg)">↑</span>`;
+const kft = ft => ft == null ? "" : ft >= 18000 ? "18k+" : (ft / 1000).toFixed(1) + "k";
+const topTxt = h => h.top == null ? "" : (h.top >= 18000 ? "18k+" : h.top.toLocaleString()) + (h.cu ? " cu" : "");
+const dayName = iso => { const d = new Date(iso + "T12:00:00"); return d.toLocaleDateString("en-US", {weekday: "short", month: "short", day: "numeric"}); };
+
+function render(D) {
+  const byId = Object.fromEntries(D.sites.map(s => [s.id, s]));
+  const dates = [...new Set(D.sites.flatMap(s => s.days.map(d => d.date)))].sort();
+  const run = D.run.newest_run ? new Date(D.run.newest_run.replace(" ", "T") + (D.run.newest_run.includes("+") ? "" : "Z")) : null;
+  const built = new Date(D.built);
+  document.getElementById("sub").textContent =
+    `HRRR ${run ? run.toISOString().slice(11, 13) + "Z run" : ""} · updated ${built.toLocaleString("en-US", {weekday: "short", hour: "numeric", minute: "2-digit"})}`;
+  document.getElementById("hist").textContent = D.history.from ? `${D.history.from} to ${D.history.to}` : "(still loading)";
+  let html = `<tr><th class="site">Site</th>${dates.map(d => `<th>${esc(dayName(d))}</th>`).join("")}</tr>`;
+  const seen = new Set();
+  const regions = REGIONS.map(([r, ids]) => [r, ids.filter(i => byId[i])]);
+  const rest = D.sites.map(s => s.id).filter(i => !REGIONS.some(([, ids]) => ids.includes(i)));
+  if (rest.length) regions.push(["Other", rest]);
+  for (const [region, ids] of regions) {
+    if (!ids.length) continue;
+    html += `<tr class="region"><td colspan="${dates.length + 1}">${esc(region)}</td></tr>`;
+    for (const id of ids) {
+      const s = byId[id]; seen.add(id);
+      html += `<tr><td class="name"><b>${esc(s.name)}</b><span>${s.type === "ridge" ? "ridge" : "thermal"}${s.launch_ft ? " · " + s.launch_ft.toLocaleString() + " ft" : ""}</span></td>`;
+      for (const date of dates) {
+        const d = s.days.find(x => x.date === date);
+        if (!d) { html += `<td class="cell no"></td>`; continue; }
+        const flag = (d.storm ? "⚡" : "") + (d.wstar >= 3 && d.score > 0 && s.type !== "ridge" ? "🦅" : "");
+        let l2 = "", l3 = "";
+        if (d.score > 0) {
+          l2 = s.type === "ridge" ? `${d.soarable_hours} h · ${esc((d.wind || "").replace(/ from (\d+)°/, (m, a) => " " + compass(+a)))}` : `${kft(d.top_ft)} ft · ${(+d.wstar).toFixed(1)} m/s`;
+          l3 = d.first ? `${d.first}–${d.last}` : "";
+        } else {
+          l2 = d.storm ? "storms" : s.type === "ridge" ? "wind out of range" : "wind or lift off";
+        }
+        html += `<td class="cell ${cls(d.label)}" tabindex="0" data-s="${id}" data-d="${date}"><div class="lab">${esc(d.label === "not soarable" ? "Not soarable" : d.label)}</div><div class="l2">${l2}</div><div class="l3">${esc(l3)}</div>${flag ? `<span class="flag">${flag}</span>` : ""}</td>`;
+      }
+      html += `</tr>`;
+    }
+  }
+  const grid = document.getElementById("grid");
+  grid.innerHTML = html;
+  grid.onclick = e => { const c = e.target.closest("td.cell[data-s]"); if (c) show(byId[c.dataset.s], c.dataset.d, c); };
+  grid.onkeydown = e => { if (e.key === "Enter") { const c = e.target.closest("td.cell[data-s]"); if (c) show(byId[c.dataset.s], c.dataset.d, c); } };
+}
+
+function show(s, date, cell) {
+  document.querySelectorAll("td.cell.sel").forEach(c => c.classList.remove("sel"));
+  cell.classList.add("sel");
+  const d = s.days.find(x => x.date === date);
+  const hrs = (s.hours[date] || []);
+  const lim = s.launches.map(L => `${esc(L.name)} ${L.ok ? compass(L.ok[0]) + " to " + compass(L.ok[1]) : "any direction"}, ${L.min} to ${L.max} mph`).join("; ");
+  let why = "";
+  if (d.score > 0 && d.pct != null) why = `Better than ${Math.round(d.pct)}% of ${d.n_hist} history days within 3 weeks of this date.`;
+  else if (d.share_soarable != null) why = `No soarable hours in this forecast. ${d.share_soarable}% of history days around this date had some.`;
+  const el = document.getElementById("detail");
+  el.hidden = false;
+  el.innerHTML = `<h2>${esc(s.name)} · ${esc(dayName(date))}</h2>
+    <div class="why"><b>${esc(d.label === "not soarable" ? "Not soarable" : d.label)}.</b> ${why}<br>Launch limits: ${lim} <span class="muted">(${esc(s.src)})</span>${s.best ? `<br>Best: ${esc(s.best)}` : ""}</div>
+    <div class="scroll"><table class="hours"><tr><th>Time</th><th>Launch wind</th><th>Aloft</th><th>Top ft</th><th>Over launch</th><th>W*</th><th></th></tr>
+    ${hrs.map(h => `<tr class="${h.storm ? "storm" : h.soar ? "soar" : ""}"><td>${esc(h.h)}</td><td>${arrow(h.dir)} ${h.wind ?? ""} ${compass(h.dir)}</td><td>${h.bl ?? ""}</td><td>${topTxt(h)}</td><td>${h.above?.toLocaleString() ?? ""}</td><td>${h.w ?? ""}</td><td>${h.storm ? "⚡" : h.soar ? "✓" : h.fly ? "fly" : ""}</td></tr>`).join("")}
+    </table></div>
+    <div class="why" style="margin-top:8px">Winds in mph. Aloft = average wind in the thermal layer. Top = thermal top in ft above sea level, "cu" when cumulus cap it. Over launch is capped at 18,000 ft (Class A). W* = average thermal strength in m/s. ✓ soarable, fly = launchable but weak or low, ⚡ storm or rain nearby.</div>`;
+  el.scrollIntoView({behavior: "smooth", block: "start"});
+}
+
+(async () => {
+  let D = DATA;
+  if (!D) D = await fetch("forecast.json", {cache: "no-store"}).then(r => r.json());
+  render(D);
+})();
+</script>
+</body>
+</html>

@@ -1,2 +1,5 @@
 __pycache__/
 *.pyc
+site/
+data/forecast.parquet
+data/forecast_meta.json
