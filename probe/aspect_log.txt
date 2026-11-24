@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/runner/work/forecast/forecast/scripts/aspect.py", line 25, in <module>
+    elev += requests.get("https://api.open-meteo.com/v1/elevation", params=q, timeout=60).json()["elevation"]
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+KeyError: 'elevation'
