@@ -1,6 +1,8 @@
 """Rate every history day for every site, for the percentiles.
 
-reads data/hrrr/*.parquet, writes data/climo.parquet (one row per site per local day)
+reads data/hrrr/*.parquet, writes data/climo.parquet with one row per site per local day:
+  best_soar_above_ft   the day's best soarable height over launch, 8 am to 5 pm (what Top 25% / Top 5% compare against)
+  best_level           the day's best rating before percentiles (-1 to 2)
 """
 import glob
 import os
@@ -22,15 +24,19 @@ def main():
             continue
         x = x.sort_values("time").reset_index(drop=True)
         h = rate.hourly(x, sid)
-        for d in rate.daily(h, sid):
-            if d["hours"] < 10:          # skip days with missing hours
-                continue
-            rows.append({"site": sid, "date": d["date"], "score": d["score"], "soarable_hours": d["soarable_hours"],
-                         "above_ft": d.get("above_ft"), "wstar": d.get("wstar"), "max_top_ft": d.get("max_top_ft")})
-    out = pd.DataFrame(rows)
+        h["date"] = h["local"].dt.date
+        h = h[(h["local"].dt.hour >= 8) & (h["local"].dt.hour <= 17)]
+        g = h.groupby("date")
+        day = pd.DataFrame({"hours": g.size(), "best_soar_above_ft": g["soar_above_ft"].max(), "best_level": g["level"].max(),
+                            "flyable_hours": g["flyable"].sum(), "best_wstar": g["wstar"].max()}).reset_index()
+        day = day[day["hours"] >= 8]
+        day.insert(0, "site", sid)
+        rows.append(day)
+    out = pd.concat(rows, ignore_index=True)
+    out["date"] = out["date"].astype(str)
     out.to_parquet("data/climo.parquet", compression="zstd", index=False)
     print(len(files), "months,", len(out), "site-days")
-    print(out.groupby("site")["score"].describe().round(2).to_string())
+    print(out.groupby("site")["best_soar_above_ft"].describe(percentiles=[.25, .5, .75, .95]).round(0).to_string())
 
 
 if __name__ == "__main__":

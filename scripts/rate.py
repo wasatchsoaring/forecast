@@ -1,17 +1,17 @@
-"""Turn HRRR columns into soaring numbers and day ratings.
+"""Turn HRRR columns into soaring numbers and Air School style ratings.
 
 Works the same on history (analyses) and forecasts, so the percentiles compare like with like.
 
 Per hour, per site:
-  top_m     thermal top (m MSL): boundary layer top, capped at cloud base when cumulus form
-  above_ft  usable height above launch, in feet
-  wstar     convective velocity scale W* (m/s), the usual RASP measure of thermal strength
-  wind_*    wind at launch height, in the thermal layer, and at the top (mph, deg)
-  flyable   launch wind inside the club limits for at least one launch, and no storm
-  soarable  flyable and either thermals worth flying (thermal sites) or ridge wind in range (ridge sites)
+  top_m          boundary layer top (m MSL), capped at cumulus base
+  soar_top_m     soarable height: where an average thermal core fades to about 1 m/s, capped at cumulus base
+  soar_above_ft  soarable height over launch in feet, capped at 18,000 ft MSL (Class A)
+  wstar          W*, average thermal strength (m/s), the usual RASP number
+  wind_*         wind at launch height, in the thermal layer, and at the top (mph, deg)
+  flyable        daylight, launch wind inside the club limits for at least one launch, no storm or rain
+  level          -1 not flyable, 0 marginal, 1 soarable, 2 strong thermals (3 = Top 25% day, 4 = Top 5% day, set later)
 """
 import json
-from datetime import timedelta
 from zoneinfo import ZoneInfo
 
 import numpy as np
@@ -22,6 +22,15 @@ MS_TO_MPH = 2.23694
 M_TO_FT = 3.28084
 G, CP, RD = 9.81, 1005.0, 287.0
 CLASS_A_M = 17999 / 3.28084
+SLOT_HOURS = (8, 11, 14, 17)
+SOARABLE_FT = 500        # soarable height at least this far above launch
+STRONG_W = 3.0           # Air School's "strong thermals": average thermals 3 m/s or more
+HCRIT_W = 1.0            # soarable height is where thermals fade to about 1 m/s
+CORE = 3.0               # thermal core vs area-average updraft
+# Area-average updraft profile w/W* = (z/zi)^(1/3) (1 - 1.1 z/zi) (Lenschow and Stephens, as used by Allen 2006)
+_X = np.linspace(1e-4, 1 / 1.1, 4000)
+_F = _X ** (1 / 3) * (1 - 1.1 * _X)
+_PK = int(np.argmax(_F))
 LEVELS = [850, 700, 500]   # the levels live forecasts carry, so history and forecasts use the same profile
 
 SITES = {s["id"]: s for s in json.load(open("sites.json"))}
@@ -51,6 +60,13 @@ def sun_elevation(times_utc, lat, lon):
     la = np.radians(lat)
     cosz = np.sin(la) * np.sin(decl) + np.cos(la) * np.cos(decl) * np.cos(ha)
     return np.degrees(np.arcsin(np.clip(cosz, -1, 1)))
+
+
+def hcrit_fraction(wstar):
+    """Fraction of the boundary layer depth where a thermal core weakens to HCRIT_W. 0 when it never gets there."""
+    need = HCRIT_W / (CORE * np.maximum(np.nan_to_num(wstar, nan=0.0), 1e-6))
+    xs, fs = _X[_PK:], _F[_PK:]                  # upper half of the profile, updraft weakening with height
+    return np.interp(need, fs[::-1], xs[::-1], left=xs[-1], right=0.0)
 
 
 def wind_dir(u, v):
@@ -99,12 +115,16 @@ def hourly(df, site_id):
     cloud_base = terrain + 125.0 * np.clip(t2 - td2, 0, None)     # Espy's rule for cumulus base
     cumulus = bl_top > cloud_base
     top = np.where(cumulus, cloud_base, bl_top)
+    soar_top = np.minimum(terrain + hpbl * hcrit_fraction(wstar), np.where(cumulus, cloud_base, np.inf))
     out["wstar"] = np.round(wstar, 2)
-    out["top_m"] = np.round(top)
-    usable = np.minimum(top, CLASS_A_M)                              # no climbing into Class A airspace
-    out["above_ft"] = np.round((usable - launch) * M_TO_FT)
+    out["top_m"] = np.round(top)                                     # BL top, capped at cumulus base
+    out["soar_top_m"] = np.round(soar_top)                           # where thermals fade to about 1 m/s
+    out["soar_above_ft"] = np.round((np.minimum(soar_top, CLASS_A_M) - launch) * M_TO_FT)   # no climbing into Class A
     out["cloudbase_ft"] = np.round(cloud_base * M_TO_FT)
     out["cumulus"] = cumulus
+    out["t_f"] = np.round((t2 - 273.15) * 9 / 5 + 32)
+    out["td_f"] = np.round((td2 - 273.15) * 9 / 5 + 32)
+    out["cloud_pct"] = np.round(df["TCDC"].values.astype(float))
 
     ul, vl = profile_wind(df, np.full(len(df), max(launch, terrain + 10.0)), terrain)
     out["wind_mph"] = np.round(np.hypot(ul, vl) * MS_TO_MPH, 1)
@@ -126,54 +146,51 @@ def hourly(df, site_id):
     spd, dirn = out["wind_mph"].values, out["wind_dir"].values
     best_launch = np.array([""] * len(df), dtype=object)
     ok_any = np.zeros(len(df), dtype=bool)
+    ridge_ok = np.zeros(len(df), dtype=bool)
     for L in s["launches"]:
         ok = in_range(dirn, L["ok"]) & (spd >= L["min"]) & (spd <= L["max"])
-        if s["type"] == "ridge":
-            ok &= spd >= max(L["min"], L["ideal_mph"][0] - 3)
         best_launch = np.where(ok & (best_launch == ""), L["name"], best_launch)
         ok_any |= ok
+        ridge_ok |= ok & (spd >= max(L["min"], L["ideal_mph"][0] - 2))
     out["launch"] = best_launch
     out["daylight"] = sun_elevation(out["time"], s["lat"], s["lon"]) > 2     # sunrise to sunset, give or take 15 min
-    out["flyable"] = ok_any & ~out["storm"].values & ~out["rain"].values & out["daylight"].values
+    flyable = ok_any & ~out["storm"].values & ~out["rain"].values & out["daylight"].values
+    out["flyable"] = flyable
 
-    if s["type"] == "ridge":
-        out["soarable"] = out["flyable"]
-    else:
-        out["soarable"] = out["flyable"] & (out["above_ft"].values >= 1000) & (wstar >= 1.0)
-    # one number for "how good is this hour": thousands of feet above launch times thermal strength
-    out["score"] = np.where(out["soarable"], np.clip(out["above_ft"].values, 0, None) / 1000 * np.clip(wstar, 0, 4), 0.0)
-    if s["type"] == "ridge":
-        lo, hi = s["launches"][0]["ideal_mph"]
-        closeness = 1 - np.clip(np.maximum(lo - spd, spd - hi), 0, 10) / 10
-        out["score"] = np.where(out["soarable"], closeness, 0.0)
+    # Air School style ladder, each step builds on the one before:
+    # -1 not flyable, 0 marginal, 1 soarable, 2 strong thermals (3 and 4, the Top 25% and Top 5% days, come from history)
+    thermal_ok = out["soar_above_ft"].values >= SOARABLE_FT
+    soarable = flyable & (thermal_ok | (ridge_ok if s["type"] == "ridge" else False))
+    level = np.where(flyable, 0, -1)
+    level = np.where(soarable, 1, level)
+    level = np.where(soarable & thermal_ok & (wstar >= STRONG_W), 2, level)
+    out["level"] = level
+    out["soarable"] = soarable
     return out
 
 
-def daily(h, site_id):
-    """Summarise hours into local days (8 am to 8 pm Mountain)."""
-    s = SITES[site_id]
-    h = h[(h["local"].dt.hour >= 8) & (h["local"].dt.hour <= 20)].copy()
+def slots(h, site_id):
+    """The four Air School style time slots for each local day, plus each day's best soarable height."""
+    h = h.copy()
     h["date"] = h["local"].dt.date
-    rows = []
+    h["hour"] = h["local"].dt.hour
+    days = []
     for d, x in h.groupby("date"):
-        good = x[x["soarable"]]
-        row = {"date": str(d), "hours": int(len(x))}
-        if s["type"] == "ridge":
-            row["score"] = float(good["score"].sum())          # soarable hours, weighted by how close to ideal
-        else:
-            row["score"] = float(x["score"].max()) if len(x) else 0.0
-        row["soarable_hours"] = int(len(good))
-        if len(good):
-            row["first"] = good["local"].min().strftime("%-I %p").lower()
-            row["last"] = (good["local"].max() + timedelta(hours=1)).strftime("%-I %p").lower()
-            best = good.loc[good["score"].idxmax()]
-            row.update(best_hour=best["local"].strftime("%-I %p").lower(), top_ft=int(best["top_m"] * M_TO_FT),
-                       above_ft=int(best["above_ft"]), wstar=float(best["wstar"]),
-                       wind=f"{int(best['wind_mph'])} mph from {int(best['wind_dir'])}°", launch=best["launch"])
-        row["max_top_ft"] = int(x["top_m"].max() * M_TO_FT) if x["top_m"].notna().any() else None
-        row["storm"] = bool(x["storm"].any())
-        rows.append(row)
-    return rows
+        day_hours = x[(x["hour"] >= 8) & (x["hour"] <= 17)]
+        row = {"date": str(d), "hours": int(len(day_hours)), "slots": {}}
+        if len(day_hours):
+            row["best_soar_above_ft"] = float(np.nanmax(day_hours["soar_above_ft"].values)) if day_hours["soar_above_ft"].notna().any() else None
+            row["tops_ft"] = int(np.nanmax(np.minimum(day_hours["soar_top_m"].values, 99999)) * M_TO_FT) if day_hours["soar_top_m"].notna().any() else None
+        for sh in SLOT_HOURS:
+            r = x[x["hour"] == sh]
+            if len(r):
+                r = r.iloc[0]
+                row["slots"][sh] = {"level": int(r["level"]), "wind": None if np.isnan(r["wind_mph"]) else int(round(r["wind_mph"])),
+                                    "dir": None if np.isnan(r["wind_dir"]) else int(r["wind_dir"]),
+                                    "soar_above_ft": None if np.isnan(r["soar_above_ft"]) else float(r["soar_above_ft"]),
+                                    "dark": not bool(r["daylight"]), "storm": bool(r["storm"] or r["rain"])}
+        days.append(row)
+    return days
 
 
 def percentile(score, history_scores):
@@ -184,13 +201,3 @@ def percentile(score, history_scores):
     return float(np.round(100 * ((hs < score).sum() + 0.5 * (hs == score).sum()) / len(hs), 1))
 
 
-def label(pct, score):
-    if score <= 0:
-        return "not soarable"
-    if pct >= 95:
-        return "Top 5%"
-    if pct >= 75:
-        return "Top 25%"
-    if pct >= 50:
-        return "Better than usual"
-    return "Soarable"

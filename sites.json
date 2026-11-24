@@ -73,7 +73,7 @@
   "note": "Your coordinates · soaring only, about 10 to 15 mph from the west · not on paraglidingmap",
   "type": "ridge",
   "best": "soaring only",
-  "src": "Billy",
+  "src": "local pilot",
   "launches": [
    {
     "name": "West",
@@ -623,13 +623,19 @@
   "launch_ft": 7815,
   "note": "Moved 450 m to paraglidingmap's launch (7,815 ft)",
   "type": "thermal",
-  "best": "",
-  "src": "generic limits",
+  "best": "upper launch thermals; lower launch for stronger wind or a sunset sledder",
+  "src": "paraglidingmap.com (SW, W, NW; ideal W or NW)",
   "launches": [
    {
-    "name": "Any",
-    "ok": null,
-    "ideal": null,
+    "name": "West",
+    "ok": [
+     202.5,
+     337.5
+    ],
+    "ideal": [
+     270,
+     315
+    ],
     "min": 0,
     "ideal_mph": [
      5,
@@ -649,13 +655,19 @@
   "launch_ft": 7136,
   "note": "Your fix · paraglidingmap agrees within 4 m (7,136 ft)",
   "type": "thermal",
-  "best": "",
-  "src": "generic limits",
+  "best": "mostly speed wings; hike and fly for thermals",
+  "src": "paraglidingmap.com (S, SW, W, NW)",
   "launches": [
    {
-    "name": "Any",
-    "ok": null,
-    "ideal": null,
+    "name": "West",
+    "ok": [
+     157.5,
+     337.5
+    ],
+    "ideal": [
+     247.5,
+     292.5
+    ],
     "min": 0,
     "ideal_mph": [
      5,
@@ -675,12 +687,15 @@
   "launch_ft": 8783,
   "note": "Your fix · paraglidingmap agrees within 4 m (8,783 ft)",
   "type": "thermal",
-  "best": "",
-  "src": "generic limits",
+  "best": "light west to southwest flow",
+  "src": "paraglidingmap.com (SW, W)",
   "launches": [
    {
-    "name": "Any",
-    "ok": null,
+    "name": "West",
+    "ok": [
+     202.5,
+     292.5
+    ],
     "ideal": null,
     "min": 0,
     "ideal_mph": [
@@ -702,12 +717,18 @@
   "note": "Your fix · not on paraglidingmap",
   "type": "thermal",
   "best": "",
-  "src": "generic limits",
+  "src": "estimated from terrain: slope faces roughly north to east",
   "launches": [
    {
-    "name": "Any",
-    "ok": null,
-    "ideal": null,
+    "name": "North-east",
+    "ok": [
+     300,
+     120
+    ],
+    "ideal": [
+     0,
+     60
+    ],
     "min": 0,
     "ideal_mph": [
      5,
@@ -727,12 +748,15 @@
   "launch_ft": 6234,
   "note": "Your fix · paraglidingmap agrees within 6 m (6,234 ft)",
   "type": "thermal",
-  "best": "",
-  "src": "generic limits",
+  "best": "P3 cliff launch, short and steep",
+  "src": "paraglidingmap.com (S, SW, W)",
   "launches": [
    {
-    "name": "Any",
-    "ok": null,
+    "name": "West",
+    "ok": [
+     157.5,
+     292.5
+    ],
     "ideal": null,
     "min": 0,
     "ideal_mph": [
@@ -754,12 +778,18 @@
   "note": "Your fix · not on paraglidingmap",
   "type": "thermal",
   "best": "",
-  "src": "generic limits",
+  "src": "estimated from terrain: slope faces roughly west-southwest",
   "launches": [
    {
-    "name": "Any",
-    "ok": null,
-    "ideal": null,
+    "name": "West",
+    "ok": [
+     202.5,
+     292.5
+    ],
+    "ideal": [
+     230,
+     270
+    ],
     "min": 0,
     "ideal_mph": [
      5,
