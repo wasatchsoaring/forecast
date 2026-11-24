@@ -6,7 +6,30 @@
   "lat": 40.4752,
   "lon": -111.892,
   "launch_ft": 5100,
-  "note": "UHGPGA 5,100 ft · flyable N to NW · paraglidingmap agrees (5,085 ft)"
+  "note": "UHGPGA 5,100 ft · flyable N to NW · paraglidingmap agrees (5,085 ft)",
+  "type": "ridge",
+  "best": "evening glass-off, also mornings",
+  "src": "UHGPGA",
+  "launches": [
+   {
+    "name": "North",
+    "ok": [
+     315,
+     10
+    ],
+    "ideal": [
+     330,
+     360
+    ],
+    "min": 5,
+    "ideal_mph": [
+     12,
+     16
+    ],
+    "max": 18,
+    "gust": 5
+   }
+  ]
  },
  {
   "id": "south-side",
@@ -15,7 +38,30 @@
   "lat": 40.4567,
   "lon": -111.9031,
   "launch_ft": 5148,
-  "note": "UHGPGA 5,148 ft · flyable SSE to SSW · paraglidingmap agrees (5,154 ft)"
+  "note": "UHGPGA 5,148 ft · flyable SSE to SSW · paraglidingmap agrees (5,154 ft)",
+  "type": "ridge",
+  "best": "first 2 hours after sunrise",
+  "src": "UHGPGA",
+  "launches": [
+   {
+    "name": "South",
+    "ok": [
+     160,
+     200
+    ],
+    "ideal": [
+     170,
+     190
+    ],
+    "min": 0,
+    "ideal_mph": [
+     10,
+     16
+    ],
+    "max": 18,
+    "gust": 5
+   }
+  ]
  },
  {
   "id": "burn-side",
@@ -24,7 +70,30 @@
   "lat": 40.737,
   "lon": -111.6674,
   "launch_ft": null,
-  "note": "Your coordinates · soaring only, about 10 to 15 mph from the west · not on paraglidingmap"
+  "note": "Your coordinates · soaring only, about 10 to 15 mph from the west · not on paraglidingmap",
+  "type": "ridge",
+  "best": "soaring only",
+  "src": "Billy",
+  "launches": [
+   {
+    "name": "West",
+    "ok": [
+     245,
+     295
+    ],
+    "ideal": [
+     260,
+     280
+    ],
+    "min": 8,
+    "ideal_mph": [
+     10,
+     15
+    ],
+    "max": 18,
+    "gust": 5
+   }
+  ]
  },
  {
   "id": "cherry",
@@ -33,7 +102,42 @@
   "lat": 40.516,
   "lon": -111.8171,
   "launch_ft": 7110,
-  "note": "UHGPGA 7,110 ft · north launch NNE to NNW, west launch WNW to WSW · paraglidingmap agrees (7,129 ft)"
+  "note": "UHGPGA 7,110 ft · north launch NNE to NNW, west launch WNW to WSW · paraglidingmap agrees (7,129 ft)",
+  "type": "thermal",
+  "best": "mornings in light wind",
+  "src": "UHGPGA",
+  "launches": [
+   {
+    "name": "North",
+    "ok": [
+     337.5,
+     22.5
+    ],
+    "ideal": null,
+    "min": 0,
+    "ideal_mph": [
+     5,
+     8
+    ],
+    "max": 9,
+    "gust": 5
+   },
+   {
+    "name": "West",
+    "ok": [
+     247.5,
+     292.5
+    ],
+    "ideal": null,
+    "min": 2,
+    "ideal_mph": [
+     5,
+     8
+    ],
+    "max": 9,
+    "gust": 5
+   }
+  ]
  },
  {
   "id": "grandeur",
@@ -42,7 +146,42 @@
   "lat": 40.7068,
   "lon": -111.7787,
   "launch_ft": 6308,
-  "note": "UHGPGA 6,308 ft · launches face NW to SW · your pick over paraglidingmap's higher pin"
+  "note": "UHGPGA 6,308 ft · launches face NW to SW · your pick over paraglidingmap's higher pin",
+  "type": "thermal",
+  "best": "spring and fall",
+  "src": "UHGPGA",
+  "launches": [
+   {
+    "name": "North",
+    "ok": [
+     225,
+     315
+    ],
+    "ideal": null,
+    "min": 0,
+    "ideal_mph": [
+     5,
+     8
+    ],
+    "max": 9,
+    "gust": 6
+   },
+   {
+    "name": "South",
+    "ok": [
+     225,
+     270
+    ],
+    "ideal": null,
+    "min": 2,
+    "ideal_mph": [
+     5,
+     7
+    ],
+    "max": 9,
+    "gust": 5
+   }
+  ]
  },
  {
   "id": "the-v",
@@ -51,7 +190,42 @@
   "lat": 40.911,
   "lon": -111.845,
   "launch_ft": 6344,
-  "note": "UHGPGA 6,344 ft · west launch NW to SW, north launch NNW to N · paraglidingmap agrees (6,329 ft)"
+  "note": "UHGPGA 6,344 ft · west launch NW to SW, north launch NNW to N · paraglidingmap agrees (6,329 ft)",
+  "type": "thermal",
+  "best": "",
+  "src": "UHGPGA",
+  "launches": [
+   {
+    "name": "West",
+    "ok": [
+     225,
+     315
+    ],
+    "ideal": null,
+    "min": 0,
+    "ideal_mph": [
+     5,
+     7
+    ],
+    "max": 10,
+    "gust": 4
+   },
+   {
+    "name": "North (P4)",
+    "ok": [
+     337.5,
+     360
+    ],
+    "ideal": null,
+    "min": 6,
+    "ideal_mph": [
+     8,
+     8
+    ],
+    "max": 10,
+    "gust": 2
+   }
+  ]
  },
  {
   "id": "francis-peak",
@@ -60,7 +234,27 @@
   "lat": 41.0272,
   "lon": -111.838,
   "launch_ft": 9154,
-  "note": "UHGPGA 9,154 ft · flyable WNW to SSW · paraglidingmap agrees (9,173 ft)"
+  "note": "UHGPGA 9,154 ft · flyable WNW to SSW · paraglidingmap agrees (9,173 ft)",
+  "type": "thermal",
+  "best": "",
+  "src": "UHGPGA",
+  "launches": [
+   {
+    "name": "West",
+    "ok": [
+     202.5,
+     292.5
+    ],
+    "ideal": null,
+    "min": 4,
+    "ideal_mph": [
+     6,
+     8
+    ],
+    "max": 10,
+    "gust": 4
+   }
+  ]
  },
  {
   "id": "inspo",
@@ -69,7 +263,30 @@
   "lat": 40.3011,
   "lon": -111.626,
   "launch_ft": 6667,
-  "note": "UHGPGA 6,667 ft · flyable WNW to SSW · paraglidingmap agrees (6,608 ft)"
+  "note": "UHGPGA 6,667 ft · flyable WNW to SSW · paraglidingmap agrees (6,608 ft)",
+  "type": "thermal",
+  "best": "west wind works best",
+  "src": "UHGPGA",
+  "launches": [
+   {
+    "name": "West",
+    "ok": [
+     202.5,
+     292.5
+    ],
+    "ideal": [
+     260,
+     280
+    ],
+    "min": 4,
+    "ideal_mph": [
+     6,
+     8
+    ],
+    "max": 10,
+    "gust": 4
+   }
+  ]
  },
  {
   "id": "jupiter",
@@ -78,7 +295,27 @@
   "lat": 40.6125,
   "lon": -111.5417,
   "launch_ft": 9980,
-  "note": "UHGPGA 9,980 ft · flyable WSW to SSE · paraglidingmap agrees (9,938 ft)"
+  "note": "UHGPGA 9,980 ft · flyable WSW to SSE · paraglidingmap agrees (9,938 ft)",
+  "type": "thermal",
+  "best": "late morning as the first cumulus form",
+  "src": "UHGPGA",
+  "launches": [
+   {
+    "name": "South",
+    "ok": [
+     157.5,
+     247.5
+    ],
+    "ideal": null,
+    "min": 4,
+    "ideal_mph": [
+     6,
+     8
+    ],
+    "max": 12,
+    "gust": 5
+   }
+  ]
  },
  {
   "id": "horse-heaven",
@@ -87,7 +324,45 @@
   "lat": 39.4923,
   "lon": -111.8366,
   "launch_ft": 7538,
-  "note": "UHGPGA 7,538 ft · west launch NW to SW, east launch SSW to ESE · paraglidingmap agrees (7,726 ft)"
+  "note": "UHGPGA 7,538 ft · west launch NW to SW, east launch SSW to ESE · paraglidingmap agrees (7,726 ft)",
+  "type": "thermal",
+  "best": "",
+  "src": "UHGPGA",
+  "launches": [
+   {
+    "name": "West",
+    "ok": [
+     225,
+     315
+    ],
+    "ideal": [
+     255,
+     285
+    ],
+    "min": 4,
+    "ideal_mph": [
+     6,
+     8
+    ],
+    "max": 10,
+    "gust": 2
+   },
+   {
+    "name": "East",
+    "ok": [
+     112.5,
+     202.5
+    ],
+    "ideal": null,
+    "min": 4,
+    "ideal_mph": [
+     6,
+     8
+    ],
+    "max": 10,
+    "gust": 2
+   }
+  ]
  },
  {
   "id": "monroe-peak",
@@ -96,7 +371,30 @@
   "lat": 38.5414,
   "lon": -112.0733,
   "launch_ft": 11171,
-  "note": "CUASA 11,171 ft · ideal 210 to 240°, OK 200 to 280° · paraglidingmap agrees (11,188 ft)"
+  "note": "CUASA 11,171 ft · ideal 210 to 240°, OK 200 to 280° · paraglidingmap agrees (11,188 ft)",
+  "type": "thermal",
+  "best": "mornings, June to November",
+  "src": "CUASA",
+  "launches": [
+   {
+    "name": "SW",
+    "ok": [
+     200,
+     280
+    ],
+    "ideal": [
+     210,
+     240
+    ],
+    "min": 0,
+    "ideal_mph": [
+     8,
+     8
+    ],
+    "max": 12,
+    "gust": 5
+   }
+  ]
  },
  {
   "id": "junction",
@@ -105,7 +403,30 @@
   "lat": 38.2576,
   "lon": -112.3269,
   "launch_ft": 8100,
-  "note": "CUASA 8,100 ft · ideal 80 to 105°, OK 65 to 105° · your pick over paraglidingmap's higher pin"
+  "note": "CUASA 8,100 ft · ideal 80 to 105°, OK 65 to 105° · your pick over paraglidingmap's higher pin",
+  "type": "thermal",
+  "best": "early morning",
+  "src": "CUASA",
+  "launches": [
+   {
+    "name": "East",
+    "ok": [
+     65,
+     105
+    ],
+    "ideal": [
+     80,
+     105
+    ],
+    "min": 0,
+    "ideal_mph": [
+     6,
+     6
+    ],
+    "max": 12,
+    "gust": 5
+   }
+  ]
  },
  {
   "id": "poverty-ridge",
@@ -114,7 +435,30 @@
   "lat": 38.5253,
   "lon": -112.1731,
   "launch_ft": 6900,
-  "note": "CUASA 6,900 ft · ideal 330 to 30°, OK 315 to 45° · paraglidingmap agrees (6,880 ft)"
+  "note": "CUASA 6,900 ft · ideal 330 to 30°, OK 315 to 45° · paraglidingmap agrees (6,880 ft)",
+  "type": "ridge",
+  "best": "winter, November to February",
+  "src": "CUASA",
+  "launches": [
+   {
+    "name": "North",
+    "ok": [
+     315,
+     45
+    ],
+    "ideal": [
+     330,
+     30
+    ],
+    "min": 0,
+    "ideal_mph": [
+     6,
+     6
+    ],
+    "max": 12,
+    "gust": 5
+   }
+  ]
  },
  {
   "id": "cove",
@@ -123,7 +467,66 @@
   "lat": 38.6342,
   "lon": -112.061,
   "launch_ft": 8700,
-  "note": "Moved 2.7 km to paraglidingmap's launch (8,704 ft), which matches CUASA's 8,700 ft"
+  "note": "Moved 2.7 km to paraglidingmap's launch (8,704 ft), which matches CUASA's 8,700 ft",
+  "type": "thermal",
+  "best": "snowed in November to May",
+  "src": "CUASA",
+  "launches": [
+   {
+    "name": "North Point",
+    "ok": [
+     355,
+     40
+    ],
+    "ideal": [
+     1,
+     25
+    ],
+    "min": 0,
+    "ideal_mph": [
+     5,
+     5
+    ],
+    "max": 10,
+    "gust": 5
+   },
+   {
+    "name": "West",
+    "ok": [
+     225,
+     315
+    ],
+    "ideal": [
+     260,
+     280
+    ],
+    "min": 0,
+    "ideal_mph": [
+     6,
+     6
+    ],
+    "max": 12,
+    "gust": 5
+   },
+   {
+    "name": "South",
+    "ok": [
+     160,
+     210
+    ],
+    "ideal": [
+     170,
+     195
+    ],
+    "min": 0,
+    "ideal_mph": [
+     6,
+     6
+    ],
+    "max": 12,
+    "gust": 5
+   }
+  ]
  },
  {
   "id": "edna",
@@ -132,7 +535,84 @@
   "lat": 38.3856,
   "lon": -112.333,
   "launch_ft": 11680,
-  "note": "Moved 4.9 km to paraglidingmap's launch (11,680 ft), which matches CUASA's 11,500 to 11,700 ft"
+  "note": "Moved 4.9 km to paraglidingmap's launch (11,680 ft), which matches CUASA's 11,500 to 11,700 ft",
+  "type": "thermal",
+  "best": "morning site, launch before noon",
+  "src": "CUASA",
+  "launches": [
+   {
+    "name": "North",
+    "ok": [
+     300,
+     60
+    ],
+    "ideal": [
+     315,
+     45
+    ],
+    "min": 0,
+    "ideal_mph": [
+     6,
+     6
+    ],
+    "max": 12,
+    "gust": 5
+   },
+   {
+    "name": "Southwest",
+    "ok": [
+     190,
+     270
+    ],
+    "ideal": [
+     210,
+     240
+    ],
+    "min": 0,
+    "ideal_mph": [
+     6,
+     6
+    ],
+    "max": 12,
+    "gust": 5
+   },
+   {
+    "name": "East",
+    "ok": [
+     50,
+     130
+    ],
+    "ideal": [
+     70,
+     110
+    ],
+    "min": 0,
+    "ideal_mph": [
+     6,
+     6
+    ],
+    "max": 12,
+    "gust": 5
+   },
+   {
+    "name": "South",
+    "ok": [
+     130,
+     220
+    ],
+    "ideal": [
+     160,
+     200
+    ],
+    "min": 0,
+    "ideal_mph": [
+     6,
+     6
+    ],
+    "max": 12,
+    "gust": 5
+   }
+  ]
  },
  {
   "id": "oakley-ridge",
@@ -141,7 +621,24 @@
   "lat": 40.7221,
   "lon": -111.2447,
   "launch_ft": 7815,
-  "note": "Moved 450 m to paraglidingmap's launch (7,815 ft)"
+  "note": "Moved 450 m to paraglidingmap's launch (7,815 ft)",
+  "type": "thermal",
+  "best": "",
+  "src": "unknown, needs Billy",
+  "launches": [
+   {
+    "name": "Any",
+    "ok": null,
+    "ideal": null,
+    "min": 0,
+    "ideal_mph": [
+     5,
+     8
+    ],
+    "max": 12,
+    "gust": 5
+   }
+  ]
  },
  {
   "id": "wire",
@@ -150,7 +647,24 @@
   "lat": 40.7705,
   "lon": -111.7985,
   "launch_ft": 7136,
-  "note": "Your fix · paraglidingmap agrees within 4 m (7,136 ft)"
+  "note": "Your fix · paraglidingmap agrees within 4 m (7,136 ft)",
+  "type": "thermal",
+  "best": "",
+  "src": "unknown, needs Billy",
+  "launches": [
+   {
+    "name": "Any",
+    "ok": null,
+    "ideal": null,
+    "min": 0,
+    "ideal_mph": [
+     5,
+     8
+    ],
+    "max": 12,
+    "gust": 5
+   }
+  ]
  },
  {
   "id": "mahogany",
@@ -159,7 +673,24 @@
   "lat": 40.426,
   "lon": -111.7199,
   "launch_ft": 8783,
-  "note": "Your fix · paraglidingmap agrees within 4 m (8,783 ft)"
+  "note": "Your fix · paraglidingmap agrees within 4 m (8,783 ft)",
+  "type": "thermal",
+  "best": "",
+  "src": "unknown, needs Billy",
+  "launches": [
+   {
+    "name": "Any",
+    "ok": null,
+    "ideal": null,
+    "min": 0,
+    "ideal_mph": [
+     5,
+     8
+    ],
+    "max": 12,
+    "gust": 5
+   }
+  ]
  },
  {
   "id": "wales",
@@ -168,7 +699,24 @@
   "lat": 39.5249,
   "lon": -111.6794,
   "launch_ft": null,
-  "note": "Your fix · not on paraglidingmap"
+  "note": "Your fix · not on paraglidingmap",
+  "type": "thermal",
+  "best": "",
+  "src": "unknown, needs Billy",
+  "launches": [
+   {
+    "name": "Any",
+    "ok": null,
+    "ideal": null,
+    "min": 0,
+    "ideal_mph": [
+     5,
+     8
+    ],
+    "max": 12,
+    "gust": 5
+   }
+  ]
  },
  {
   "id": "castleton-tower",
@@ -177,7 +725,24 @@
   "lat": 38.6505,
   "lon": -109.3683,
   "launch_ft": 6234,
-  "note": "Your fix · paraglidingmap agrees within 6 m (6,234 ft)"
+  "note": "Your fix · paraglidingmap agrees within 6 m (6,234 ft)",
+  "type": "thermal",
+  "best": "",
+  "src": "unknown, needs Billy",
+  "launches": [
+   {
+    "name": "Any",
+    "ok": null,
+    "ideal": null,
+    "min": 0,
+    "ideal_mph": [
+     5,
+     8
+    ],
+    "max": 12,
+    "gust": 5
+   }
+  ]
  },
  {
   "id": "kens-lake",
@@ -186,6 +751,23 @@
   "lat": 38.4911,
   "lon": -109.4213,
   "launch_ft": null,
-  "note": "Your fix · not on paraglidingmap"
+  "note": "Your fix · not on paraglidingmap",
+  "type": "thermal",
+  "best": "",
+  "src": "unknown, needs Billy",
+  "launches": [
+   {
+    "name": "Any",
+    "ok": null,
+    "ideal": null,
+    "min": 0,
+    "ideal_mph": [
+     5,
+     8
+    ],
+    "max": 12,
+    "gust": 5
+   }
+  ]
  }
 ]

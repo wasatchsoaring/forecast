@@ -3,126 +3,147 @@
   "id": "north-side",
   "iy": 634,
   "ix": 495,
-  "chunk": "4.3"
+  "chunk": "4.3",
+  "terrain_m": 1605.7
  },
  {
   "id": "south-side",
   "iy": 633,
   "ix": 494,
-  "chunk": "4.3"
+  "chunk": "4.3",
+  "terrain_m": 1437.4
  },
  {
   "id": "burn-side",
   "iy": 643,
   "ix": 503,
-  "chunk": "4.3"
+  "chunk": "4.3",
+  "terrain_m": 2079.7
  },
  {
   "id": "cherry",
   "iy": 635,
   "ix": 497,
-  "chunk": "4.3"
+  "chunk": "4.3",
+  "terrain_m": 2032.4
  },
  {
   "id": "grandeur",
   "iy": 642,
   "ix": 499,
-  "chunk": "4.3"
+  "chunk": "4.3",
+  "terrain_m": 1731.3
  },
  {
   "id": "the-v",
   "iy": 650,
   "ix": 499,
-  "chunk": "4.3"
+  "chunk": "4.3",
+  "terrain_m": 2044.6
  },
  {
   "id": "francis-peak",
   "iy": 654,
   "ix": 499,
-  "chunk": "4.3"
+  "chunk": "4.3",
+  "terrain_m": 2414.3
  },
  {
   "id": "inspo",
   "iy": 626,
   "ix": 501,
-  "chunk": "4.3"
+  "chunk": "4.3",
+  "terrain_m": 1897.4
  },
  {
   "id": "jupiter",
   "iy": 638,
   "ix": 505,
-  "chunk": "4.3"
+  "chunk": "4.3",
+  "terrain_m": 2793.2
  },
  {
   "id": "horse-heaven",
   "iy": 598,
   "ix": 491,
-  "chunk": "3.3"
+  "chunk": "3.3",
+  "terrain_m": 2192.4
  },
  {
   "id": "monroe-peak",
   "iy": 564,
   "ix": 478,
-  "chunk": "3.3"
+  "chunk": "3.3",
+  "terrain_m": 2984.6
  },
  {
   "id": "junction",
   "iy": 555,
   "ix": 469,
-  "chunk": "3.3"
+  "chunk": "3.3",
+  "terrain_m": 2865.7
  },
  {
   "id": "poverty-ridge",
   "iy": 564,
   "ix": 475,
-  "chunk": "3.3"
+  "chunk": "3.3",
+  "terrain_m": 1988.5
  },
  {
   "id": "cove",
   "iy": 567,
   "ix": 479,
-  "chunk": "3.3"
+  "chunk": "3.3",
+  "terrain_m": 2346.4
  },
  {
   "id": "edna",
   "iy": 560,
   "ix": 470,
-  "chunk": "3.3"
+  "chunk": "3.3",
+  "terrain_m": 2914.2
  },
  {
   "id": "oakley-ridge",
   "iy": 640,
   "ix": 514,
-  "chunk": "4.3"
+  "chunk": "4.3",
+  "terrain_m": 2191.2
  },
  {
   "id": "wire",
   "iy": 644,
   "ix": 499,
-  "chunk": "4.3"
+  "chunk": "4.3",
+  "terrain_m": 1778.2
  },
  {
   "id": "mahogany",
   "iy": 631,
   "ix": 499,
-  "chunk": "4.3"
+  "chunk": "4.3",
+  "terrain_m": 2227.5
  },
  {
   "id": "wales",
   "iy": 598,
   "ix": 495,
-  "chunk": "3.3"
+  "chunk": "3.3",
+  "terrain_m": 2379.9
  },
  {
   "id": "castleton-tower",
   "iy": 557,
   "ix": 557,
-  "chunk": "3.3"
+  "chunk": "3.3",
+  "terrain_m": 1463.3
  },
  {
   "id": "kens-lake",
   "iy": 551,
   "ix": 554,
-  "chunk": "3.3"
+  "chunk": "3.3",
+  "terrain_m": 1598.4
  }
 ]
