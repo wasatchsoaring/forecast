@@ -93,7 +93,16 @@ def main():
                     "launch": r["launch"],
                 })
             day_rows = [r for r in rows if 8 <= r["h"] <= 17]
-            slots = {str(r["h"]): r for r in rows if r["h"] in rate.SLOT_HOURS}
+            by_h = {r["h"]: r for r in rows}
+            lit = [r["h"] for r in rows if not r["dark"]]
+            slots = {}
+            if lit and min(lit) < 11:
+                slots["rise"] = by_h[min(lit)]                 # first daylight hour, for dawn sleds
+            for sh in (11, 14, 17):
+                if sh in by_h:
+                    slots[str(sh)] = by_h[sh]
+            if lit and max(lit) > 17:
+                slots["set"] = by_h[max(lit)]                  # last daylight hour, for evening sleds and glass-off
             if not slots:
                 continue
             all_dates.add(d)
@@ -108,12 +117,12 @@ def main():
                 "sun": {"rise": clock(rise), "set": clock(sset),
                         "tw_start": clock(rise - timedelta(minutes=30)) if rise else None,
                         "tw_end": clock(sset + timedelta(minutes=30)) if sset else None},
-                "slots": {k: {"lv": v["lv"], "wind": v["wind"], "dir": v["dir"], "dark": v["dark"], "storm": v["storm"] or v["rain"]} for k, v in slots.items()},
+                "slots": {k: {"h": v["h"], "lv": v["lv"], "wind": v["wind"], "dir": v["dir"], "dark": v["dark"], "storm": v["storm"] or v["rain"]} for k, v in slots.items()},
                 "best": best_lv,
                 "tops": tops, "bltop": bltop, "bar": bar, "bar_lv": best_hr["lv"], "best_over": best_over, "pct": pct_of(best_over, hist) if best_over is not None else None,
                 "n_hist": int(len(hist)),
             }
-            hours[d] = [r for r in rows if not r["dark"] or r["h"] in rate.SLOT_HOURS]
+            hours[d] = [r for r in rows if not r["dark"] or r["h"] in (11, 14, 17)]
             for name, rid in REFERENCE:
                 if rid == sid:
                     r14 = [r for r in rows if r["h"] == 14]
@@ -141,7 +150,7 @@ def main():
         "run": meta,
         "history": {"from": str(climo["date"].min()) if len(climo) else None, "to": str(climo["date"].max()) if len(climo) else None,
                     "window_days": WINDOW_DAYS},
-        "slots": list(rate.SLOT_HOURS), "dates": sorted(all_dates), "regions": [r for r, _ in REGIONS],
+        "slots": ["rise", "11", "14", "17", "set"], "dates": sorted(all_dates), "regions": [r for r, _ in REGIONS],
         "reference": ref, "sites": sites_out,
     }
     os.makedirs("site", exist_ok=True)

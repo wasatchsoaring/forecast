@@ -56,7 +56,10 @@ table.grid{width:100%;border-collapse:collapse;font-size:13.5px}
 .grid td.tops small{display:block;font-size:10.5px;color:var(--soft);font-weight:400}
 .grid .dash{color:#b6bfcc}
 .grid .nodata{color:transparent}
-.cellw{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12.5px}
+.cellw{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px}
+.grid td small{display:block;font-family:-apple-system,BlinkMacSystemFont,sans-serif;font-size:10px;color:var(--soft)}
+.tablewrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.short{display:none}
 .also{font-size:12.5px;color:var(--soft);margin:10px 0 0}
 .also a{color:var(--soft)}
 .foot{max-width:1000px;margin:0 auto;padding:18px 20px 50px;font-size:12.5px;color:var(--soft)}
@@ -80,6 +83,11 @@ table.hours{border-collapse:collapse;font-size:12.5px;min-width:760px;width:100%
 .chartbox{border:1px solid var(--line);background:var(--band);border-radius:12px;padding:14px;margin:6px 0 4px}
 .chart{width:100%;height:auto;color:var(--ink)}
 @media (max-width:560px){
+  .cellw{font-size:11px}
+  .long{display:none}.short{display:inline}
+  .grid td.site{white-space:normal;max-width:96px}
+  .grid td.site a{font-size:13px}
+  .grid th{font-size:10px;letter-spacing:.04em}
   .hero h1{font-size:26px}
   .grid td.type,.grid th.type{display:none}
   .grid td,.grid th{padding-left:2px;padding-right:2px}
@@ -99,7 +107,10 @@ const compass = d => d == null ? "" : DIRS[Math.round(d / 22.5) % 16];
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const ft = v => v == null ? "—" : v >= 18000 ? "18,000+" : Math.round(v).toLocaleString();
 const hourName = h => h === 12 ? "12 pm" : h > 12 ? (h - 12) + " pm" : h + " am";
-const slotHead = h => h === 12 ? "12PM" : h > 12 ? (h - 12) + "PM" : h + "AM";
+const SLOTNAME = {rise: `<span class="long">Sunrise</span><span class="short">Rise</span>`, "11": "11AM", "14": "2PM", "17": "5PM", set: `<span class="long">Sunset</span><span class="short">Set</span>`};
+const kft = v => v == null ? "—" : v >= 18000 ? "18k+" : (v / 1000).toFixed(1) + "k";
+const slotHead = k => SLOTNAME[k] || k;
+const hShort = h => h === 12 ? "12pm" : h > 12 ? (h - 12) + "pm" : h + "am";
 const dayLong = iso => new Date(iso + "T12:00:00").toLocaleDateString("en-US", {weekday: "short", month: "short", day: "numeric"});
 const dayShort = iso => new Date(iso + "T12:00:00").toLocaleDateString("en-US", {weekday: "short"});
 const dayNum = iso => new Date(iso + "T12:00:00").toLocaleDateString("en-US", {month: "short", day: "numeric"});
@@ -109,10 +120,11 @@ const isoUtah = () => { const n = utahNow(); return `${n.getFullYear()}-${String
 
 let D, sel;
 
-function cell(sl) {
-  if (!sl) return `<td class="nodata">·</td>`;
-  if (sl.lv < 0) return `<td class="dash" title="${sl.dark ? "After sunset" : sl.storm ? "Storm or rain" : "Wind outside the launch limits"}">—</td>`;
-  return `<td class="cellw" title="${NAME[sl.lv]}">${EMO[sl.lv]}${sl.wind ?? ""}${compass(sl.dir)}</td>`;
+function cell(sl, key) {
+  if (!sl) return `<td class="nodata" title="${key === "set" ? "Sun sets before 6 pm, see 5PM" : ""}">·</td>`;
+  const at = key === "rise" || key === "set" ? `<small>${hShort(sl.h)}</small>` : "";
+  if (sl.lv < 0) return `<td class="dash" title="${sl.dark ? "Before sunrise or after sunset" : sl.storm ? "Storm or rain" : "Wind outside the launch limits"}">—${at}</td>`;
+  return `<td class="cellw" title="${NAME[sl.lv]} at ${hShort(sl.h)}">${EMO[sl.lv]}${sl.wind ?? ""}${compass(sl.dir)}${at}</td>`;
 }
 
 function footer() {
@@ -147,7 +159,7 @@ function renderMain() {
   h += `<div class="wrap" style="padding-top:20px"><div class="howto"><div class="label">How to read the table</div>
     <p>Each cell shows a rating, then the wind at launch height in mph and its direction. For example, 👍8W means 8 mph from the west. A dash means the site isn't flyable then: wind outside the launch limits, storms, or before sunrise or after sunset. ☀ under each site is that day's sunrise and sunset there; 🥾 marks hike and fly launches. Each rating builds on the one before it.</p>
     <div class="ladder">
-      <div><b>🤔 Marginal</b>Passes the flyability checks, but soarable height is less than 500 ft over launch. Check the winds aloft.</div>
+      <div><b>🤔 Marginal</b>Passes the flyability checks, but soarable height is less than 500 ft over launch. At sunrise or sunset that usually means a sled ride.</div>
       <div><b>👍 Soarable</b>Soarable height is at least 500 ft over launch, or a ridge site has soaring wind.</div>
       <div><b>🦅 Strong thermals</b>Soarable, and average thermals are 3 m/s or more.</div>
       <div><b>🔥 Top 25% day</b>Strong thermals, and soarable height in the top 25% of this site's days at this time of year.</div>
@@ -162,12 +174,12 @@ function renderMain() {
     const no = list.filter(s => !fly.includes(s));
     h += `<section class="region"><div class="wrap"><div class="rhead"><div class="label">${esc(region)} · ${esc(dayShort(sel))}</div><span>${fly.length} of ${list.length} flyable</span></div>`;
     if (fly.length) {
-      h += `<table class="grid"><tr><th>Site</th><th class="type">Type</th>${D.slots.map(s => `<th>${slotHead(s)}</th>`).join("")}<th style="text-align:right">Tops ft</th></tr>`;
+      h += `<div class="tablewrap"><table class="grid"><tr><th>Site</th><th class="type">Type</th>${D.slots.map(s => `<th>${slotHead(s)}</th>`).join("")}<th style="text-align:right">Tops ft</th></tr>`;
       for (const s of fly) {
         const d = s.days[sel];
-        h += `<tr><td class="site"><a href="#/site/${s.id}">${esc(s.name)} →</a><small>${s.hike ? "🥾 hike & fly · " : ""}${d.sun && d.sun.rise ? "☀ " + d.sun.rise.replace(" am", "a").replace(" pm", "p") + "–" + d.sun.set.replace(" am", "a").replace(" pm", "p") : ""}</small></td><td class="type"><span class="${s.type}">${s.type === "ridge" ? "RIDGE" : "THERMAL"}</span></td>${D.slots.map(sl => cell(d.slots[String(sl)])).join("")}<td class="tops">${ft(d.tops)}${d.bltop ? `<small>BL ${ft(d.bltop)}</small>` : ""}</td></tr>`;
+        h += `<tr><td class="site"><a href="#/site/${s.id}">${esc(s.name)} →</a><small>${s.hike ? "🥾 hike & fly · " : ""}${d.sun && d.sun.rise ? "☀ " + d.sun.rise.replace(" am", "a").replace(" pm", "p") + "–" + d.sun.set.replace(" am", "a").replace(" pm", "p") : ""}</small></td><td class="type"><span class="${s.type}">${s.type === "ridge" ? "RIDGE" : "THERMAL"}</span></td>${D.slots.map(sl => cell(d.slots[sl], sl)).join("")}<td class="tops">${kft(d.tops)}${d.bltop ? `<small>BL ${kft(d.bltop)}</small>` : ""}</td></tr>`;
       }
-      h += `</table>`;
+      h += `</table></div>`;
     }
     if (no.length) h += `<p class="also">${fly.length ? "Also assessed, not flyable:" : "Not flyable:"} ${no.map(s => `<a href="#/site/${s.id}">${esc(s.name)}</a>`).join(" · ")}</p>`;
     h += `</div></section>`;
@@ -195,7 +207,7 @@ function renderSite(id) {
     const sun = day.sun && day.sun.rise ? `<div class="sum">☀ Sunrise ${esc(day.sun.rise)} · sunset ${esc(day.sun.set)} at the launch. Part 103 also allows the 30 minutes before sunrise and after sunset (${esc(day.sun.tw_start)} to ${esc(day.sun.tw_end)}), but only with an anticollision light visible for 3 miles and only in uncontrolled (Class G) airspace.</div>` : "";
     h += `<div class="dayblock"><h3>${esc(dayLong(d))} · ${best >= 0 ? EMO[best] + " " + NAME[best] : "not flyable"}</h3>${sun}<div class="sum">${pct}</div>
       <div class="scroll"><table class="hours"><tr><th>Time</th><th>Rating</th><th>Soarable ft</th><th>Over launch</th><th>Launch wind</th><th>Wind aloft</th><th>Thermals</th><th>BL top ft</th><th>Cu base</th><th>Cloud</th><th>Temp / dew</th></tr>
-      ${hrs.map(r => `<tr class="${D.slots.includes(r.h) ? "slot" : ""}${r.dark ? " dark" : ""}"><td>${hourName(r.h)}</td><td>${r.lv >= 0 ? EMO[r.lv] + " " + NAME[r.lv] : r.dark ? "dark" : r.storm || r.rain ? "⚡ storm or rain" : "— wind out of limits"}</td>
+      ${hrs.map(r => `<tr class="${Object.values(day.slots).some(v => v.h === r.h) ? "slot" : ""}${r.dark ? " dark" : ""}"><td>${hourName(r.h)}</td><td>${r.lv >= 0 ? EMO[r.lv] + " " + NAME[r.lv] : r.dark ? "dark" : r.storm || r.rain ? "⚡ storm or rain" : "— wind out of limits"}</td>
         <td>${ft(r.soar)}</td><td>${r.over == null ? "" : r.over.toLocaleString()}</td><td>${arrow(r.dir)} ${r.wind ?? ""} ${compass(r.dir)}</td><td>${arrow(r.bldir)} ${r.bl ?? ""} ${compass(r.bldir)}</td>
         <td>${r.w == null ? "" : r.w.toFixed(1) + " m/s"}</td><td>${ft(r.bltop)}</td><td>${r.cu ? ft(r.base) : "none"}</td><td>${r.cloud ?? ""}%</td><td>${r.t ?? ""}° / ${r.td ?? ""}°F</td></tr>`).join("")}
       </table></div></div>`;
