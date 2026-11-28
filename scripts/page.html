@@ -51,6 +51,7 @@ table.grid{width:100%;border-collapse:collapse;font-size:13.5px}
 .grid td.type span{font-size:10.5px;font-weight:700;letter-spacing:.06em;padding:3px 7px;border-radius:5px;background:var(--chip);color:var(--link)}
 .grid td.type span.ridge{background:var(--good);color:#18864a}
 .grid td.tops{text-align:right;font-weight:500}
+.grid td.tops small{display:block;font-size:10.5px;color:var(--soft);font-weight:400}
 .grid .dash{color:#b6bfcc}
 .grid .nodata{color:transparent}
 .cellw{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12.5px}
@@ -74,6 +75,8 @@ table.hours{border-collapse:collapse;font-size:12.5px;min-width:760px;width:100%
 .hours tr.slot td:first-child{font-weight:700}
 .hours tr.dark td{color:var(--soft)}
 .arrow{display:inline-block;width:12px;text-align:center}
+.chartbox{border:1px solid var(--line);background:var(--band);border-radius:12px;padding:14px;margin:6px 0 4px}
+.chart{width:100%;height:auto;color:var(--ink)}
 @media (max-width:560px){
   .hero h1{font-size:26px}
   .grid td.type,.grid th.type{display:none}
@@ -147,7 +150,7 @@ function renderMain() {
       <div><b>🔥 Top 25% day</b>Strong thermals, and soarable height in the top 25% of this site's days at this time of year.</div>
       <div><b>💥 Top 5% day</b>Strong thermals, and soarable height in the top 5% of this site's days at this time of year.</div>
     </div>
-    <div class="foot2">Soarable height is where thermals fade to about 1 m/s, capped at cumulus base and at 18,000 ft (Class A). Tops is the day's best soarable height. Tap a site name for its hour-by-hour forecast.</div>
+    <div class="foot2">Soarable height is where thermals fade to about 1 m/s, capped at cumulus base and at 18,000 ft (Class A). Tops is the day's best soarable height, with the boundary layer (BL) top under it. Strong days often let you climb close to the BL top. Tap a site name for its hour-by-hour forecast.</div>
   </div></div>`;
   for (const region of D.regions) {
     const list = D.sites.filter(s => s.region === region);
@@ -159,7 +162,7 @@ function renderMain() {
       h += `<table class="grid"><tr><th>Site</th><th class="type">Type</th>${D.slots.map(s => `<th>${slotHead(s)}</th>`).join("")}<th style="text-align:right">Tops ft</th></tr>`;
       for (const s of fly) {
         const d = s.days[sel];
-        h += `<tr><td class="site"><a href="#/site/${s.id}">${esc(s.name)} →</a></td><td class="type"><span class="${s.type}">${s.type === "ridge" ? "RIDGE" : "THERMAL"}</span></td>${D.slots.map(sl => cell(d.slots[String(sl)])).join("")}<td class="tops">${ft(d.tops)}</td></tr>`;
+        h += `<tr><td class="site"><a href="#/site/${s.id}">${esc(s.name)} →</a></td><td class="type"><span class="${s.type}">${s.type === "ridge" ? "RIDGE" : "THERMAL"}</span></td>${D.slots.map(sl => cell(d.slots[String(sl)])).join("")}<td class="tops">${ft(d.tops)}${d.bltop ? `<small>BL ${ft(d.bltop)}</small>` : ""}</td></tr>`;
       }
       h += `</table>`;
     }
@@ -180,6 +183,7 @@ function renderSite(id) {
     <div id="sitepage"><div class="wrap"><a class="back" href="#">← All sites</a>
     <div class="facts"><span><b>Launches</b> ${lim}</span><span><b>Source</b> ${esc(s.src)}</span>${s.best_time ? `<span><b>Notes</b> ${esc(s.best_time)}</span>` : ""}
     <span><a href="https://www.google.com/maps?q=${s.lat},${s.lon}" target="_blank" rel="noopener">Map</a></span></div>`;
+  h += chart(s);
   for (const d of D.dates) {
     const day = s.days[d], hrs = s.hours[d];
     if (!day || !hrs) continue;
@@ -195,6 +199,27 @@ function renderSite(id) {
   h += `<p class="note">Winds in mph. Launch wind is at launch height; wind aloft is the average through the thermal layer. Thermals is W*, the average thermal strength. Bold times are the ones on the main table.</p></div></div>` + footer();
   document.getElementById("app").innerHTML = h;
   window.scrollTo(0, 0);
+}
+
+function chart(s) {
+  const ds = D.dates.filter(d => s.days[d]);
+  if (!ds.length) return "";
+  const col = lv => lv >= 3 ? "#38bdf8" : lv === 2 ? "#7dd3fc" : lv >= 0 ? "#bae6fd" : "#e2e8f0";
+  const vals = ds.map(d => s.days[d].bar || 0).concat([s.p95 || 0, s.launch_ft || 0]);
+  const top = Math.max(...vals) * 1.08 || 1, W = 560, H = 196, base = 160, bw = Math.min(90, (W - 20) / ds.length - 16);
+  const y = v => base - (v / top) * (base - 14);
+  let svg = `<svg viewBox="0 0 ${W} ${H}" class="chart" role="img" aria-label="Soarable tops by day for ${esc(s.name)}">`;
+  for (const [k, v, c] of [["p75", s.p75, "#94a3b8"], ["p95", s.p95, "#0ea5e9"]]) if (v) svg += `<line x1="0" x2="${W}" y1="${y(v)}" y2="${y(v)}" stroke="${c}" stroke-dasharray="4 3"/><text x="${W - 4}" y="${y(v) - 3}" text-anchor="end" font-size="10" fill="${c}">${k} ${ft(v)} ft</text>`;
+  if (s.launch_ft) svg += `<line x1="0" x2="${W}" y1="${y(s.launch_ft)}" y2="${y(s.launch_ft)}" stroke="#cbd5e1"/><text x="4" y="${y(s.launch_ft) - 3}" font-size="10" fill="#94a3b8">launch</text>`;
+  ds.forEach((d, i) => {
+    const day = s.days[d], x = 14 + i * ((W - 28) / ds.length) + ((W - 28) / ds.length - bw) / 2, v = day.bar || 0;
+    svg += `<rect x="${x}" y="${y(v)}" width="${bw}" height="${base - y(v)}" rx="4" fill="${col(day.bar_lv ?? day.best)}"/>`;
+    svg += `<text x="${x + bw / 2}" y="${y(v) - 4}" text-anchor="middle" font-size="10" font-weight="600" fill="currentColor">${v ? ft(v) : ""}</text>`;
+    svg += `<text x="${x + bw / 2}" y="${base + 18}" text-anchor="middle" font-size="10" fill="#64748b">${esc(dayShort(d))} ${esc(dayNum(d).split(" ")[1])}</text>`;
+  });
+  svg += `</svg>`;
+  return `<div class="chartbox"><div class="label">Soarable tops by day</div>${svg}
+    <div class="note">Bar height is the soarable height in the day's best-rated hour (ft above sea level). Colour is that rating: bright 🔥 or 💥, mid 🦅, pale 👍 or 🤔, grey not flyable. Dashed lines are this site's 75th and 95th percentile days at this time of year, the Top 25% and Top 5% marks.</div></div>`;
 }
 
 function route() {

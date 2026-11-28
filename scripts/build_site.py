@@ -95,10 +95,14 @@ def main():
             all_dates.add(d)
             best_over = max([r["over"] for r in day_rows if r["over"] is not None], default=None)
             tops = max([r["soar"] for r in day_rows if r["soar"] is not None], default=None)
+            bltop = max([r["bltop"] for r in day_rows if r["bltop"] is not None], default=None)
+            best_lv = max(v["lv"] for v in slots.values())
+            best_hr = max(day_rows or list(slots.values()), key=lambda v: (v["lv"], v["soar"] or 0))
+            bar = best_hr["soar"] if best_hr["lv"] >= 0 else tops
             days[d] = {
                 "slots": {k: {"lv": v["lv"], "wind": v["wind"], "dir": v["dir"], "dark": v["dark"], "storm": v["storm"] or v["rain"]} for k, v in slots.items()},
-                "best": max(v["lv"] for v in slots.values()),
-                "tops": tops, "best_over": best_over, "pct": pct_of(best_over, hist) if best_over is not None else None,
+                "best": best_lv,
+                "tops": tops, "bltop": bltop, "bar": bar, "bar_lv": best_hr["lv"], "best_over": best_over, "pct": pct_of(best_over, hist) if best_over is not None else None,
                 "n_hist": int(len(hist)),
             }
             hours[d] = [r for r in rows if not r["dark"] or r["h"] in rate.SLOT_HOURS]
@@ -107,12 +111,21 @@ def main():
                     r14 = [r for r in rows if r["h"] == 14]
                     if r14 and r14[0]["bltop"]:
                         ref.setdefault(d, []).append({"name": name, "ft": r14[0]["bltop"]})
+        launch_ft = s.get("launch_ft") or rate.GRID[sid]["terrain_m"] * rate.M_TO_FT
+        ref_dates = sorted(days)
+        p75 = p95 = None
+        if ref_dates and len(hc):
+            doy0 = date.fromisoformat(ref_dates[0]).timetuple().tm_yday
+            hv = hc[doy_distance(hc["doy"].values, doy0) <= WINDOW_DAYS]["best_soar_above_ft"].dropna().values.astype(float)
+            if len(hv):
+                p75 = int(round(launch_ft + np.percentile(hv, 75)))
+                p95 = int(round(launch_ft + np.percentile(hv, 95)))
         sites_out.append({
             "id": sid, "name": s["name"], "area": s["area"], "region": region_of.get(sid, "Other"), "type": s["type"],
             "best_time": s.get("best", ""), "src": s.get("src", ""), "launch_ft": s.get("launch_ft"),
             "lat": s["lat"], "lon": s["lon"],
             "launches": [{"name": L["name"], "ok": L["ok"], "min": L["min"], "max": L["max"], "ideal": L["ideal_mph"]} for L in s["launches"]],
-            "days": days, "hours": hours,
+            "days": days, "hours": hours, "p75": p75, "p95": p95,
         })
 
     data = {
