@@ -29,7 +29,8 @@
     "max": 18,
     "gust": 5
    }
-  ]
+  ],
+  "hike": false
  },
  {
   "id": "south-side",
@@ -61,7 +62,8 @@
     "max": 18,
     "gust": 5
    }
-  ]
+  ],
+  "hike": false
  },
  {
   "id": "burn-side",
@@ -93,7 +95,8 @@
     "max": 18,
     "gust": 5
    }
-  ]
+  ],
+  "hike": false
  },
  {
   "id": "cherry",
@@ -137,7 +140,8 @@
     "max": 9,
     "gust": 5
    }
-  ]
+  ],
+  "hike": false
  },
  {
   "id": "grandeur",
@@ -181,7 +185,56 @@
     "max": 9,
     "gust": 5
    }
-  ]
+  ],
+  "hike": false
+ },
+ {
+  "id": "grandeur-peak",
+  "name": "Grandeur Peak",
+  "area": "Salt Lake City east bench",
+  "lat": 40.706977,
+  "lon": -111.760251,
+  "launch_ft": 8215,
+  "note": "paraglidingmap.com: 2,504 m, small WSW face with bushes; steeper ESE face on the other side",
+  "type": "thermal",
+  "best": "summit hike and fly; small, bushy WSW launch (hard). Steeper ESE launch on the back",
+  "src": "paraglidingmap.com (SW, W; ESE face possible)",
+  "launches": [
+   {
+    "name": "WSW face",
+    "ok": [
+     202.5,
+     292.5
+    ],
+    "ideal": [
+     235,
+     260
+    ],
+    "min": 0,
+    "ideal_mph": [
+     5,
+     8
+    ],
+    "max": 12,
+    "gust": 5
+   },
+   {
+    "name": "ESE face",
+    "ok": [
+     90,
+     135
+    ],
+    "ideal": null,
+    "min": 0,
+    "ideal_mph": [
+     3,
+     6
+    ],
+    "max": 8,
+    "gust": 5
+   }
+  ],
+  "hike": true
  },
  {
   "id": "the-v",
@@ -225,7 +278,8 @@
     "max": 10,
     "gust": 2
    }
-  ]
+  ],
+  "hike": false
  },
  {
   "id": "francis-peak",
@@ -254,7 +308,8 @@
     "max": 10,
     "gust": 4
    }
-  ]
+  ],
+  "hike": false
  },
  {
   "id": "inspo",
@@ -286,7 +341,8 @@
     "max": 10,
     "gust": 4
    }
-  ]
+  ],
+  "hike": false
  },
  {
   "id": "jupiter",
@@ -315,7 +371,8 @@
     "max": 12,
     "gust": 5
    }
-  ]
+  ],
+  "hike": false
  },
  {
   "id": "horse-heaven",
@@ -362,7 +419,8 @@
     "max": 10,
     "gust": 2
    }
-  ]
+  ],
+  "hike": false
  },
  {
   "id": "monroe-peak",
@@ -394,7 +452,8 @@
     "max": 12,
     "gust": 5
    }
-  ]
+  ],
+  "hike": false
  },
  {
   "id": "junction",
@@ -426,7 +485,8 @@
     "max": 12,
     "gust": 5
    }
-  ]
+  ],
+  "hike": false
  },
  {
   "id": "poverty-ridge",
@@ -458,7 +518,8 @@
     "max": 12,
     "gust": 5
    }
-  ]
+  ],
+  "hike": false
  },
  {
   "id": "cove",
@@ -526,7 +587,8 @@
     "max": 12,
     "gust": 5
    }
-  ]
+  ],
+  "hike": false
  },
  {
   "id": "edna",
@@ -612,7 +674,8 @@
     "max": 12,
     "gust": 5
    }
-  ]
+  ],
+  "hike": false
  },
  {
   "id": "oakley-ridge",
@@ -644,7 +707,8 @@
     "max": 12,
     "gust": 5
    }
-  ]
+  ],
+  "hike": true
  },
  {
   "id": "wire",
@@ -676,7 +740,8 @@
     "max": 12,
     "gust": 5
    }
-  ]
+  ],
+  "hike": true
  },
  {
   "id": "mahogany",
@@ -705,7 +770,8 @@
     "max": 12,
     "gust": 5
    }
-  ]
+  ],
+  "hike": true
  },
  {
   "id": "wales",
@@ -737,7 +803,8 @@
     "max": 12,
     "gust": 5
    }
-  ]
+  ],
+  "hike": false
  },
  {
   "id": "castleton-tower",
@@ -766,7 +833,8 @@
     "max": 12,
     "gust": 5
    }
-  ]
+  ],
+  "hike": false
  },
  {
   "id": "kens-lake",
@@ -798,6 +866,7 @@
     "max": 12,
     "gust": 5
    }
-  ]
+  ],
+  "hike": false
  }
 ]

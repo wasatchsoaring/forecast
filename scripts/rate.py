@@ -22,6 +22,7 @@ MS_TO_MPH = 2.23694
 M_TO_FT = 3.28084
 G, CP, RD = 9.81, 1005.0, 287.0
 CLASS_A_M = 17999 / 3.28084
+SUN_RISE_DEG = -0.833    # sun's upper edge on a sea-level horizon, with refraction: official sunrise and sunset
 SLOT_HOURS = (8, 11, 14, 17)
 SOARABLE_FT = 500        # soarable height at least this far above launch
 STRONG_W = 3.0           # Air School's "strong thermals": average thermals 3 m/s or more
@@ -67,6 +68,18 @@ def hcrit_fraction(wstar):
     need = HCRIT_W / (CORE * np.maximum(np.nan_to_num(wstar, nan=0.0), 1e-6))
     xs, fs = _X[_PK:], _F[_PK:]                  # upper half of the profile, updraft weakening with height
     return np.interp(need, fs[::-1], xs[::-1], left=xs[-1], right=0.0)
+
+
+def sun_times(day, lat, lon):
+    """Official sunrise and sunset (local Mountain time) for a date at a site."""
+    local = pd.date_range(pd.Timestamp(day).tz_localize(MT), periods=24 * 60, freq="min")
+    elev = sun_elevation(pd.Series(local.tz_convert("UTC")), lat, lon)
+    up = elev > SUN_RISE_DEG
+    if not up.any():
+        return None, None
+    i0 = int(np.argmax(up))
+    i1 = len(up) - 1 - int(np.argmax(up[::-1]))
+    return local[i0].to_pydatetime(), local[i1].to_pydatetime()
 
 
 def wind_dir(u, v):
@@ -153,7 +166,7 @@ def hourly(df, site_id):
         ok_any |= ok
         ridge_ok |= ok & (spd >= max(L["min"], L["ideal_mph"][0] - 2))
     out["launch"] = best_launch
-    out["daylight"] = sun_elevation(out["time"], s["lat"], s["lon"]) > 2     # sunrise to sunset, give or take 15 min
+    out["daylight"] = sun_elevation(out["time"], s["lat"], s["lon"]) > SUN_RISE_DEG   # official sunrise to sunset (Part 103)
     flyable = ok_any & ~out["storm"].values & ~out["rain"].values & out["daylight"].values
     out["flyable"] = flyable
 

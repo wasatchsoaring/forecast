@@ -2,7 +2,7 @@
 import json
 import os
 import sys
-from datetime import date, datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 
 import numpy as np
 import pandas as pd
@@ -13,7 +13,7 @@ import rate  # noqa: E402
 WINDOW_DAYS = 21
 REGIONS = [
     ("Point of the Mountain", ["north-side", "south-side"]),
-    ("Salt Lake & Davis", ["burn-side", "grandeur", "wire", "cherry", "the-v", "francis-peak"]),
+    ("Salt Lake & Davis", ["burn-side", "grandeur", "grandeur-peak", "wire", "cherry", "the-v", "francis-peak"]),
     ("Utah County", ["inspo", "mahogany"]),
     ("Park City & Kamas", ["jupiter", "oakley-ridge"]),
     ("Juab & Sanpete", ["horse-heaven", "wales"]),
@@ -42,6 +42,10 @@ def promote(level, soar_above, hist):
     if p is None:
         return level, None
     return (4 if p >= 95 else 3 if p >= 75 else 2), p
+
+
+def clock(dt):
+    return dt.strftime("%-I:%M %p").lower() if dt else None
 
 
 def nz(v, digits=None):
@@ -99,7 +103,11 @@ def main():
             best_lv = max(v["lv"] for v in slots.values())
             best_hr = max(day_rows or list(slots.values()), key=lambda v: (v["lv"], v["soar"] or 0))
             bar = best_hr["soar"] if best_hr["lv"] >= 0 else tops
+            rise, sset = rate.sun_times(d, s["lat"], s["lon"])
             days[d] = {
+                "sun": {"rise": clock(rise), "set": clock(sset),
+                        "tw_start": clock(rise - timedelta(minutes=30)) if rise else None,
+                        "tw_end": clock(sset + timedelta(minutes=30)) if sset else None},
                 "slots": {k: {"lv": v["lv"], "wind": v["wind"], "dir": v["dir"], "dark": v["dark"], "storm": v["storm"] or v["rain"]} for k, v in slots.items()},
                 "best": best_lv,
                 "tops": tops, "bltop": bltop, "bar": bar, "bar_lv": best_hr["lv"], "best_over": best_over, "pct": pct_of(best_over, hist) if best_over is not None else None,
@@ -121,7 +129,7 @@ def main():
                 p75 = int(round(launch_ft + np.percentile(hv, 75)))
                 p95 = int(round(launch_ft + np.percentile(hv, 95)))
         sites_out.append({
-            "id": sid, "name": s["name"], "area": s["area"], "region": region_of.get(sid, "Other"), "type": s["type"],
+            "id": sid, "name": s["name"], "area": s["area"], "region": region_of.get(sid, "Other"), "type": s["type"], "hike": bool(s.get("hike")),
             "best_time": s.get("best", ""), "src": s.get("src", ""), "launch_ft": s.get("launch_ft"),
             "lat": s["lat"], "lon": s["lon"],
             "launches": [{"name": L["name"], "ok": L["ok"], "min": L["min"], "max": L["max"], "ideal": L["ideal_mph"]} for L in s["launches"]],

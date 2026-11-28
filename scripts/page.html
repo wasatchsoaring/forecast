@@ -49,6 +49,7 @@ table.grid{width:100%;border-collapse:collapse;font-size:13.5px}
 .grid th:first-child,.grid td:first-child{text-align:left}
 .grid td{padding:11px 4px;border-bottom:1px solid var(--line);text-align:center;white-space:nowrap;font-variant-numeric:tabular-nums}
 .grid td.site a{color:var(--link);text-decoration:none;font-weight:500}
+.grid td.site small{display:block;font-size:10.5px;color:var(--soft);margin-top:2px}
 .grid td.type span{font-size:10.5px;font-weight:700;letter-spacing:.06em;padding:3px 7px;border-radius:5px;background:var(--chip);color:var(--link)}
 .grid td.type span.ridge{background:var(--good);color:#18864a}
 .grid td.tops{text-align:right;font-weight:500}
@@ -144,7 +145,7 @@ function renderMain() {
     ${ref.map(r => `<div>${esc(r.name)}<b>${ft(r.ft)} <small>ft</small></b></div>`).join("")}</div>
     <div class="note">Above sea level, a proxy for the inversion height.</div></div></div>`;
   h += `<div class="wrap" style="padding-top:20px"><div class="howto"><div class="label">How to read the table</div>
-    <p>Each cell shows a rating, then the wind at launch height in mph and its direction. For example, 👍8W means 8 mph from the west. A dash means the site isn't flyable then: wind outside the launch limits, storms, or after sunset. Each rating builds on the one before it.</p>
+    <p>Each cell shows a rating, then the wind at launch height in mph and its direction. For example, 👍8W means 8 mph from the west. A dash means the site isn't flyable then: wind outside the launch limits, storms, or before sunrise or after sunset. ☀ under each site is that day's sunrise and sunset there; 🥾 marks hike and fly launches. Each rating builds on the one before it.</p>
     <div class="ladder">
       <div><b>🤔 Marginal</b>Passes the flyability checks, but soarable height is less than 500 ft over launch. Check the winds aloft.</div>
       <div><b>👍 Soarable</b>Soarable height is at least 500 ft over launch, or a ridge site has soaring wind.</div>
@@ -164,7 +165,7 @@ function renderMain() {
       h += `<table class="grid"><tr><th>Site</th><th class="type">Type</th>${D.slots.map(s => `<th>${slotHead(s)}</th>`).join("")}<th style="text-align:right">Tops ft</th></tr>`;
       for (const s of fly) {
         const d = s.days[sel];
-        h += `<tr><td class="site"><a href="#/site/${s.id}">${esc(s.name)} →</a></td><td class="type"><span class="${s.type}">${s.type === "ridge" ? "RIDGE" : "THERMAL"}</span></td>${D.slots.map(sl => cell(d.slots[String(sl)])).join("")}<td class="tops">${ft(d.tops)}${d.bltop ? `<small>BL ${ft(d.bltop)}</small>` : ""}</td></tr>`;
+        h += `<tr><td class="site"><a href="#/site/${s.id}">${esc(s.name)} →</a><small>${s.hike ? "🥾 hike & fly · " : ""}${d.sun && d.sun.rise ? "☀ " + d.sun.rise.replace(" am", "a").replace(" pm", "p") + "–" + d.sun.set.replace(" am", "a").replace(" pm", "p") : ""}</small></td><td class="type"><span class="${s.type}">${s.type === "ridge" ? "RIDGE" : "THERMAL"}</span></td>${D.slots.map(sl => cell(d.slots[String(sl)])).join("")}<td class="tops">${ft(d.tops)}${d.bltop ? `<small>BL ${ft(d.bltop)}</small>` : ""}</td></tr>`;
       }
       h += `</table>`;
     }
@@ -181,7 +182,7 @@ function renderSite(id) {
   if (!s) { location.hash = ""; return; }
   const lim = s.launches.map(L => `${esc(L.name)} launch: ${L.ok ? compass(L.ok[0]) + " to " + compass(L.ok[1]) : "any direction"}, ${L.min} to ${L.max} mph`).join(" · ");
   let h = `<header class="hero"><div class="wrap"><div class="kicker">${esc(s.region)}</div><h1>${esc(s.name)}<span>Hourly forecast</span></h1>
-    <div class="upd">${s.type === "ridge" ? "Ridge" : "Thermal"} site${s.launch_ft ? " · launch " + s.launch_ft.toLocaleString() + " ft" : ""}</div></div></header>
+    <div class="upd">${s.type === "ridge" ? "Ridge" : "Thermal"} site${s.hike ? " · 🥾 hike and fly" : ""}${s.launch_ft ? " · launch " + s.launch_ft.toLocaleString() + " ft" : ""}</div></div></header>
     <div id="sitepage"><div class="wrap"><a class="back" href="#">← All sites</a>
     <div class="facts"><span><b>Launches</b> ${lim}</span><span><b>Source</b> ${esc(s.src)}</span>${s.best_time ? `<span><b>Notes</b> ${esc(s.best_time)}</span>` : ""}
     <span><a href="https://www.google.com/maps?q=${s.lat},${s.lon}" target="_blank" rel="noopener">Map</a></span></div>`;
@@ -191,7 +192,8 @@ function renderSite(id) {
     if (!day || !hrs) continue;
     const best = Math.max(...hrs.map(r => r.lv));
     const pct = day.pct != null && day.best_over != null ? `Best soarable height ${ft(day.best_over)} ft over launch, better than ${Math.round(day.pct)}% of ${day.n_hist} history days around this date.` : "";
-    h += `<div class="dayblock"><h3>${esc(dayLong(d))} · ${best >= 0 ? EMO[best] + " " + NAME[best] : "not flyable"}</h3><div class="sum">${pct}</div>
+    const sun = day.sun && day.sun.rise ? `<div class="sum">☀ Sunrise ${esc(day.sun.rise)} · sunset ${esc(day.sun.set)} at the launch. Part 103 also allows the 30 minutes before sunrise and after sunset (${esc(day.sun.tw_start)} to ${esc(day.sun.tw_end)}), but only with an anticollision light visible for 3 miles and only in uncontrolled (Class G) airspace.</div>` : "";
+    h += `<div class="dayblock"><h3>${esc(dayLong(d))} · ${best >= 0 ? EMO[best] + " " + NAME[best] : "not flyable"}</h3>${sun}<div class="sum">${pct}</div>
       <div class="scroll"><table class="hours"><tr><th>Time</th><th>Rating</th><th>Soarable ft</th><th>Over launch</th><th>Launch wind</th><th>Wind aloft</th><th>Thermals</th><th>BL top ft</th><th>Cu base</th><th>Cloud</th><th>Temp / dew</th></tr>
       ${hrs.map(r => `<tr class="${D.slots.includes(r.h) ? "slot" : ""}${r.dark ? " dark" : ""}"><td>${hourName(r.h)}</td><td>${r.lv >= 0 ? EMO[r.lv] + " " + NAME[r.lv] : r.dark ? "dark" : r.storm || r.rain ? "⚡ storm or rain" : "— wind out of limits"}</td>
         <td>${ft(r.soar)}</td><td>${r.over == null ? "" : r.over.toLocaleString()}</td><td>${arrow(r.dir)} ${r.wind ?? ""} ${compass(r.dir)}</td><td>${arrow(r.bldir)} ${r.bl ?? ""} ${compass(r.bldir)}</td>

@@ -1,0 +1,74 @@
+name: add sites
+on:
+  push:
+    branches: [main]
+    paths: ['add_sites.trigger']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: add-sites
+jobs:
+  points:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - run: pip install numpy requests numcodecs pandas pyarrow
+      - run: python scripts/add_sites.py points
+      - name: Save to the repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/gridpoints.json
+          git commit -q -m "Grid points for new sites" || exit 0
+          for i in 1 2 3 4 5 6 7 8 9 10; do git pull -q --rebase && git push -q && exit 0; sleep $((RANDOM % 20 + 5)); done
+          exit 1
+  history:
+    needs: points
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    strategy:
+      fail-fast: false
+      matrix:
+        year: ['2020', '2021', '2022', '2023', '2024', '2025', '2026']
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - run: pip install numpy requests numcodecs pandas pyarrow
+      - run: python scripts/add_sites.py months ${{ matrix.year }}
+      - name: Save to the repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/hrrr
+          git commit -q -m "History for new sites, ${{ matrix.year }}" || exit 0
+          for i in $(seq 1 15); do git pull -q --rebase && git push -q && exit 0; sleep $((RANDOM % 30 + 5)); done
+          exit 1
+  climo:
+    needs: history
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - run: pip install numpy pandas pyarrow
+      - run: python scripts/climo.py
+      - name: Save to the repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/climo.parquet
+          git commit -q -m "Re-rate every history day (new sites)" || exit 0
+          for i in 1 2 3 4 5 6 7 8 9 10; do git pull -q --rebase && git push -q && exit 0; sleep $((RANDOM % 20 + 5)); done
+          exit 1
