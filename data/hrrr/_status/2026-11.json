@@ -1,10 +1,10 @@
 {
- "requests": 85376,
+ "requests": 88624,
  "missing": 0,
  "gap_filled": 0,
  "month": "2026-11",
- "hours": 368,
- "seconds": 144,
+ "hours": 382,
+ "seconds": 261,
  "missing_hours": 0,
- "bytes": 3365282
+ "bytes": 3632177
 }
