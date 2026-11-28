@@ -17,6 +17,7 @@ a{color:inherit}
 .hero h1{margin:10px 0 12px;font-size:30px;line-height:1.15;letter-spacing:-.01em}
 .hero h1 span{color:var(--blue);display:block}
 .hero .date{font-size:16px}
+.hero .beta{font-size:12px;color:#c7d2e0;background:#16263d;border:1px solid #24395a;border-radius:8px;padding:8px 10px;margin:0 0 14px;max-width:560px}
 .hero .flyable{color:var(--blue);font-size:13px;margin-top:4px}
 .hero .upd{color:#8b9ab0;font-size:11.5px;margin-top:6px}
 .band{background:var(--band);border-bottom:1px solid var(--line);padding:16px 20px}
@@ -128,8 +129,9 @@ function renderMain() {
   const run = D.run.newest_run ? D.run.newest_run.slice(11, 13) + "Z" : "";
   const built = new Date(D.built).toLocaleString("en-US", {month: "short", day: "numeric", hour: "numeric", minute: "2-digit", timeZone: "America/Denver"});
   let h = `<header class="hero"><div class="wrap">
-    <div class="kicker">Updated hourly · HRRR 3 km</div>
+    <div class="kicker">Updated hourly · HRRR 3 km · Beta</div>
     <h1>Wasatch<span>Paragliding Forecast</span></h1>
+    <div class="beta">Beta: still being checked against real flights. Some launch limits are estimates. Use it alongside the NWS soaring forecast and live wind, not instead of them.</div>
     <div class="date">${esc(dayLong(sel))}</div>
     <div class="flyable">${flyableCount(sel)} of ${D.sites.length} sites flyable</div>
     <div class="upd">Last updated: ${esc(built)} Utah time · HRRR ${esc(run)} run</div>
