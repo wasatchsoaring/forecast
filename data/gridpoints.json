@@ -145,5 +145,12 @@
   "ix": 554,
   "chunk": "3.3",
   "terrain_m": 1598.4
+ },
+ {
+  "id": "grandeur-peak",
+  "iy": 642,
+  "ix": 500,
+  "chunk": "4.3",
+  "terrain_m": 2140.2
  }
 ]
